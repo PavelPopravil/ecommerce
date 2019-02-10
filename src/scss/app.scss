@@ -42,27 +42,48 @@
 // Общие стили лэйаута
 @import "base/layout/style";
 
+
+// Вспомогательные стили
+@import "base/helpers/style";
+
+
+//================================================================================//
+//=============================== base_components ====================================//
+//================================================================================//
+
+// Общие стили заголовков
+@import "base_components/headers/style";
+
+// Общие стили списков
+@import "base_components/lists/style";
+
+// Общая стилизация тэгов
+@import "base_components/type/style";
+
+// Общая стилизация кнопок
+@import "base_components/buttons/style";
+
 //================================================================================//
 //=============================== bs_core ====================================//
 //================================================================================//
 
 // alerts
-@import "bs_core/alerts/style";
-
-// collapse
-@import "bs_core/collapse/style";
-
-// dropdown
-@import "bs_core/dropdown/style";
-
-// modal
-@import "bs_core/modal/style";
-
-// popover
-@import "bs_core/popover/style";
-
-// tabs
-@import "bs_core/tabs-core/style";
-
-// tooltip
-@import "bs_core/tooltip/style";
+//@import "bs_core/alerts/style";
+//
+//// collapse
+//@import "bs_core/collapse/style";
+//
+//// dropdown
+//@import "bs_core/dropdown/style";
+//
+//// modal
+//@import "bs_core/modal/style";
+//
+//// popover
+//@import "bs_core/popover/style";
+//
+//// tabs
+//@import "bs_core/tabs-core/style";
+//
+//// tooltip
+//@import "bs_core/tooltip/style";

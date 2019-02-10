@@ -16,7 +16,8 @@
     "enzyme-adapter-react-16": "^1.7.1",
     "enzyme-to-json": "^3.3.5",
     "node-sass": "^4.6.1",
-    "react-addons-test-utils": "^15.6.2"
+    "react-addons-test-utils": "^15.6.2",
+    "terser": "^3.14.1"
   },
   "dependencies": {
     "bootstrap": "^4.2.1",
