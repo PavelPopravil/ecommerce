@@ -2,7 +2,12 @@
   "name": "ecommerce",
   "version": "0.1.0",
   "private": true,
-  "git": "https://github.com/PavelPopravil/ecommerce.git",
+  "engines": {
+    "node": "10.15.1",
+    "npm": "6.4.1"
+  },
+  "git": "https://github.com/PavelShishchits/ecommerce.git",
+  "homepage": "https://pavelshishchits.github.io/ecommerce",
   "jest": {
     "setupFiles": [
       "./src/setupTests.js"
@@ -21,16 +26,16 @@
   },
   "dependencies": {
     "bootstrap": "^4.2.1",
+    "events": "^1.1.1",
     "isomorphic-fetch": "^2.2.1",
     "prop-types": "^15.6.0",
-    "react-scripts": "2.1.3",
-    "reactstrap": "^7.1.0",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
+    "react-redux": "^5.0.6",
     "react-router-dom": "^4.2.2",
-    "events": "^1.1.1",
-    "redux": "^3.7.2",
-    "react-redux": "^5.0.6"
+    "react-scripts": "2.1.3",
+    "reactstrap": "^7.1.0",
+    "redux": "^3.7.2"
   },
   "scripts": {
     "start": "react-scripts start",
