@@ -7,7 +7,7 @@
     "npm": "6.4.1"
   },
   "git": "https://github.com/PavelShishchits/ecommerce.git",
-  "homepage": "https://pavelshishchits.github.io/ecommerce",
+  "homepage": "./",
   "jest": {
     "setupFiles": [
       "./src/setupTests.js"
@@ -17,6 +17,7 @@
     }
   },
   "devDependencies": {
+    "css-loader": "^2.1.0",
     "enzyme": "^3.8.0",
     "enzyme-adapter-react-16": "^1.7.1",
     "enzyme-to-json": "^3.3.5",
