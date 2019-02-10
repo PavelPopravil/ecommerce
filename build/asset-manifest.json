@@ -6,9 +6,9 @@
   "static/js/1.4a34e45d.chunk.js.map": "./static/js/1.4a34e45d.chunk.js.map",
   "runtime~main.js": "./static/js/runtime~main.4a686d48.js",
   "runtime~main.js.map": "./static/js/runtime~main.4a686d48.js.map",
-  "static/media/index.scss": "./static/media/Roboto-Bold.f3a02e25.woff2",
+  "static/media/index.scss": "./static/media/Roboto-Regular.9feb0110.woff2",
   "static/css/main.801657ca.chunk.css.map": "./static/css/main.801657ca.chunk.css.map",
   "index.html": "./index.html",
-  "precache-manifest.93d65909bc2e8e69788caf583ecccfef.js": "./precache-manifest.93d65909bc2e8e69788caf583ecccfef.js",
+  "precache-manifest.6c32652cd5ce5cfa4e3831de3da0b4e6.js": "./precache-manifest.6c32652cd5ce5cfa4e3831de3da0b4e6.js",
   "service-worker.js": "./service-worker.js"
 }
