@@ -1,24 +1,33 @@
+html,
+body,
+.site-wrap {
+  height: 100%;
+}
+
 html body {
   background-color: $body-bg-outer-color;
 }
 
-.outer-bg {
+.site-bg {
   min-width: $site-min-width;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
 
   @media (max-width: $grid-breakpoint-max) {
     overflow-x: hidden;
     height: 100%;// iPhone bug with overflow
   }
 
-  .g-wrap & {
+  .site-wrap & {
     max-width: $site-max-width;
     background: $body-bg-color;
     margin: 0 auto;
   }
 }
 
-.g-wrap {
-  overflow: hidden;
+.site-wrap {
+  overflow-x: hidden;
   min-width: $site-min-width;
 
   .modal-open & {
@@ -26,19 +35,24 @@ html body {
   }
 }
 
-.g-main {
+.main-wrap {
+  flex: 1 0 auto;
 
   @media (max-width: $grid-breakpoint-max) {
     padding-top: 49px;
   }
 }
 
-.g-content {
+.footer {
+  flex: 0 0 auto;
+}
+
+.main-content {
   padding-bottom: 44px;
 
   @media (min-width: $screen-lg-min) {
 
-    .g-sidebar + & {
+    .main-sidebar + & {
       padding-left: 30px;
     }
   }
