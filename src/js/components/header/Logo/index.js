@@ -1,4 +1,6 @@
 import React from 'react';
+import {NavLink} from "react-router-dom";
+
 import './style.scss';
 import logo from './img/logo-svg.svg';
 
@@ -8,7 +10,9 @@ class Logo extends React.PureComponent {
 
     return (
       <div className='logo'>
-        <img src={logo} alt="logo"/>
+        <NavLink to={'/'}>
+          <img src={logo} alt="logo"/>
+        </NavLink>
       </div>
     )
   }
