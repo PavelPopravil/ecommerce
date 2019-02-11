@@ -10,11 +10,11 @@ p {
 
 b,
 strong {
-  @include font-family-bold();
+  font-family: $font-b;
 }
 
 i {
-  @include font-family-italic();
+  font-family: $font-i;
 }
 
 .text-lg {

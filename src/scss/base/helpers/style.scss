@@ -1,18 +1,5 @@
 // ================= Text block ===================
 // ================================================
-// Text bold
-.font-bold {
-  @include font-family-bold();
-}
-
-.font-italic {
-  @include font-family-italic();
-}
-
-.font-normal {
-  @include font-family-regular();
-}
-
 
 // Text decoration
 .line-through {

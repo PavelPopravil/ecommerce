@@ -20,3 +20,7 @@
     @content;
   }
 }
+
+@mixin b-shadow() {
+  box-shadow: 0 4px 14.2px 2px rgba(0, 0, 0, 0.13);
+}

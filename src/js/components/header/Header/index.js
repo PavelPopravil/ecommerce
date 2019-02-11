@@ -1,4 +1,7 @@
 import React from 'react';
+import './style.scss';
+import Logo from '../Logo/index';
+import MainMenu from '../MainMenu/index'
 
 class Header extends React.PureComponent {
 
@@ -11,7 +14,8 @@ class Header extends React.PureComponent {
         </div>
         <div className="header__desk">
           <div className="container">
-            header
+            <Logo />
+            <MainMenu />
           </div>
         </div>
 
