@@ -5,12 +5,11 @@
   @include b-shadow;
   background-color: $body-bg-color;
 
-  &__desk {
-    height: 80px;
-  }
-
   .container {
-    padding: 10px 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
     display: flex;
+    align-items: center;
+    min-height: 80px;
   }
 }

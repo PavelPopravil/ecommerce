@@ -1,0 +1,27 @@
+@import "../../../../scss/main/variables";
+
+.main-menu {
+
+  .nav-item {
+
+    &:not(:last-child) {
+      margin-right: 25px;
+    }
+
+    > a {
+      font-family: $font-b;
+      color: $text-color;
+      text-decoration: none;
+      font-size: 16px;
+
+      &:hover,
+      &:focus {
+        color: $link-color;
+      }
+
+      &.active {
+        color: $link-color;
+      }
+    }
+  }
+}

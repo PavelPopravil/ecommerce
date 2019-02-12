@@ -50,8 +50,8 @@ $site-max-width:                    1920px;
 // brands
 $brand-1:                           #3a71c0;
 $brand-1-active:                    #1570ae;
-$brand-2:                           #CF1818;
-$brand-2-active:                    #CF1818;
+$brand-2:                           #005b96;
+$brand-2-active:                    #084d96;
 $brand-3:                           #57a801;
 $brand-3-active:                    #438101;
 
@@ -111,7 +111,7 @@ $input-placeholder-color:           $caption-color;
 $font-family-base:                  $font-r;
 
 $font-size-root:                    10px;
-$font-size-base:                    14px; // Assumes the browser default, typically `16px`
+$font-size-base:                    1.4rem; // Assumes the browser default, typically `16px`
 $font-size-lg:                      2.0rem;
 $font-size-sm:                      1.4rem;
 $font-size-xs:                      1.2rem;
@@ -151,9 +151,9 @@ $head-margin-h6:                    1.5rem 0 0.65rem;
 $paragraph-margin-bottom:           .7em;
 
 // Links
-$link-decoration:                   underline;
-$link-decoration-hover:             underline;
-$transition-default:                all .25s ease;
+$link-decoration:                   none;
+$link-decoration-hover:             none;
+$transition-default:                all .35s ease;
 $transition-link:                   $transition-default;
 
 
