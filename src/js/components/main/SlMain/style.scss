@@ -1,0 +1,82 @@
+@import "../../../../scss/main/variables";
+
+$_sl-main-color:                    #fff;
+
+.sl-main {
+  position: relative;
+  margin: 0 0 30px;
+
+  .wrap {
+    position: relative;
+    width: $site-max-width;
+    left: 50%;
+    transform: translateX(-50%);
+
+    @media (max-width: $screen-xs-max) {
+      width: auto;
+      left: 0;
+      transform: translateX(0);
+      margin: 0 $grid-gutter-width/-2;
+    }
+
+    //&.inited-not {
+    //
+    //  .slide {
+    //
+    //    &:nth-child(1) {
+    //      float: none;
+    //    }
+    //
+    //    &:nth-child(1n+2) {
+    //      display: none;
+    //    }
+    //  }
+    //}
+  }
+
+  .inner {
+    position: relative;
+  }
+
+  .pic-wrap {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+
+    &:before {
+      content: '';
+      z-index: 2;
+      display: block;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background-color: rgba(0, 0, 0, 0.5);
+    }
+  }
+
+  .container {
+    height: 450px;
+    display: flex;
+    align-items: center;
+  }
+
+  .text-wrap {
+    position: relative;
+    z-index: 5;
+    color: $_sl-main-color;
+    padding: 3% 0 4%;
+    max-width: 60%;
+  }
+
+  .m-title {
+    color: $_sl-main-color;
+  }
+
+  .text {
+    color: $_sl-main-color;
+  }
+}

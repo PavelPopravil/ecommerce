@@ -1,4 +1,5 @@
 import React, {Fragment} from 'react';
+import SlMain from '../components/main/SlMain/index'
 
 class PageMain extends React.PureComponent {
 
@@ -6,7 +7,8 @@ class PageMain extends React.PureComponent {
 
     return (
       <Fragment>
-        <h1>Главная страница</h1>
+        <h1 className='hidden'>Главная страница</h1>
+        <SlMain />
       </Fragment>
     )
   }
