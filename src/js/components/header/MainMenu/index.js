@@ -1,10 +1,11 @@
 import React from 'react';
+import Logo from '../Logo/index'
 import {
   Collapse,
   Navbar,
   NavbarToggler,
   Nav,
-  NavItem,
+  NavItem
 } from 'reactstrap';
 
 import './style.scss';
@@ -24,21 +25,23 @@ class MainMenu extends React.Component {
   render() {
 
     return (
-      <nav className="main-menu">
-        <Navbar expand="md">
-          <NavbarToggler onClick={this.toggleMenu} />
-          <Collapse isOpen={this.state.isOpen} navbar>
-            <Nav className="list-reset" navbar>
-              <NavItem>
-                <NavLink to={'/about'} activeClassName='active'>О компании</NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLink to={'/catalog'} activeClassName='active'>Каталог</NavLink>
-              </NavItem>
-            </Nav>
-          </Collapse>
-        </Navbar>
-      </nav>
+      <Navbar className='main-menu' expand="md">
+        <Logo />
+        <NavbarToggler onClick={this.toggleMenu} />
+        <Collapse isOpen={this.state.isOpen} navbar>
+          <Nav className="list-reset" navbar>
+            <NavItem>
+              <NavLink to={'/about'} activeClassName='active'>О компании</NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink to={'/catalog'} activeClassName='active'>Каталог</NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink to={'/catalog'} activeClassName='active'>Новости</NavLink>
+            </NavItem>
+          </Nav>
+        </Collapse>
+      </Navbar>
     );
   };
 }

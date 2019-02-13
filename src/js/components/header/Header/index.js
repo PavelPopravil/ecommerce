@@ -1,6 +1,6 @@
 import React from 'react';
 import './style.scss';
-import Logo from '../Logo/index';
+// import Logo from '../Logo/index';
 import MainMenu from '../MainMenu/index'
 
 class Header extends React.Component {
@@ -11,7 +11,7 @@ class Header extends React.Component {
       <header className='header'>
         <div className="header__inner">
           <div className="container">
-            <Logo />
+            {/*<Logo />*/}
             <MainMenu />
           </div>
         </div>

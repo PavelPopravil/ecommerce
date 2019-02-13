@@ -11,7 +11,7 @@ class SlMain extends React.PureComponent {
 
     var settings = {
       dots: true,
-      dotsClass: 'list-reset',
+      dotsClass: 'list-reset sl-pager',
       arrows: false,
       infinite: true,
       speed: 500,

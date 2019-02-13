@@ -1,0 +1,19 @@
+@import "../../../../scss/main/variables";
+
+.footer {
+
+  &__bottom {
+    background-color: $brand-1;
+    padding: 15px 0 4px;
+    color: #fff;
+  }
+
+  .developed {
+    text-align: right;
+    margin-bottom: 8px;
+
+    @media (max-width: $screen-sm-max) {
+      text-align: left;
+    }
+  }
+}

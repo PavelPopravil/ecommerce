@@ -1,11 +1,23 @@
 @import "../../../../scss/main/variables";
 
 .main-menu {
+  width: 100%;
+
+  .navbar-nav {
+
+    @media (max-width: $screen-sm-max) {
+      padding-top: 10px;
+    }
+  }
 
   .nav-item {
 
     &:not(:last-child) {
-      margin-right: 25px;
+      margin-right: 35px;
+
+      @media (max-width: $screen-sm-max) {
+        margin-right: 0;
+      }
     }
 
     > a {
@@ -13,6 +25,8 @@
       color: $text-color;
       text-decoration: none;
       font-size: 16px;
+      padding: 8px 0;
+      display: block;
 
       &:hover,
       &:focus {
