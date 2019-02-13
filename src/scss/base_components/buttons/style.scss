@@ -22,7 +22,7 @@ button:focus {
   max-width: 100%;
   text-decoration: none;
   border: 1px solid transparent;
-  padding: 1.2rem 2.5rem;
+  padding: 1.5rem 2.5rem;
   font-size: $font-size-base;
   line-height: 1;
   border-radius: $border-radius-base;
@@ -31,6 +31,8 @@ button:focus {
   text-overflow: ellipsis;
   overflow: hidden;
   white-space: nowrap;
+  text-transform: uppercase;
+  min-width: 130px;
 
   // Share hover and focus styles
   @include hover-focus {

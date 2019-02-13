@@ -87,3 +87,33 @@
   border-color:         $brand-3;
   color:                $brand-3;
 }
+
+.btn-accent {
+  background:           $brand-accent;
+  border-color:         $brand-accent;
+  color:                $brand-white;
+
+  @include hover-focus  {
+    background:         darken($brand-accent, 10%);
+    border-color:       darken($brand-accent, 12%);
+  }
+
+  &:active,
+  &.active {
+    background:         darken($brand-accent, 20%);
+    border-color:       darken($brand-accent, 22%);
+  }
+
+  &.disabled,
+  &[disabled] {
+    background:         $disabled-color;
+    border-color:       $disabled-color;
+  }
+}
+
+.btn-third-outline {
+  @extend .btn-accent;
+  background:           none;
+  border-color:         $brand-accent;
+  color:                $brand-accent;
+}

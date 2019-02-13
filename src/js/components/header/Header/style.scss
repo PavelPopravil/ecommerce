@@ -6,11 +6,9 @@
   background-color: $body-bg-color;
 
   .container {
-    padding-top: 10px;
-    padding-bottom: 10px;
+    min-height: 80px;
     display: flex;
     align-items: center;
-    min-height: 80px;
 
     @media (max-width: $screen-xs-max) {
       justify-content: space-between;

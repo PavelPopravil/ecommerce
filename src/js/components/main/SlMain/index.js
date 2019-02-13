@@ -3,7 +3,8 @@ import Slick from 'react-slick';
 import {NavLink} from "react-router-dom";
 import './style.scss';
 import '../SlPager/style.scss';
-import img_01 from './img/sl-main-01.jpg';
+import img_01 from './img/sl-main-01.png';
+import img_02 from './img/sl-main-02.jpeg';
 
 class SlMain extends React.PureComponent {
 
@@ -24,26 +25,26 @@ class SlMain extends React.PureComponent {
         <div className="wrap">
           <Slick {...settings}>
             <div className="inner">
-              <div className="pic-wrap">
-                <img src={img_01} alt='alt' />
-              </div>
               <div className="container">
                 <div className="text-wrap">
-                  <h1 className='m-title'>У нас лучшая техника</h1>
-                  <p className='text lead'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores aspernatur debitis deleniti dicta ducimus eaque, esse et fuga id laborum molestiae natus odio sit ullam vel! At nam quae quam?</p>
-                  <NavLink className='btn btn-primary' to={'/about'}>О комапнии</NavLink>
+                  <div className='h1 m-title'>Новинка!</div>
+                  <p className='text lead'>iMac 27" (2017) 5K Retina Core i5 3.5GHz, Radeon Pro 575 4GB, 8GB, 1TB Fusion Drive - UA</p>
+                  <NavLink className='btn btn-accent' to={'/'}>Купить</NavLink>
+                </div>
+                <div className="pic-wrap">
+                  <img src={img_01} alt="alt" />
                 </div>
               </div>
             </div>
             <div className="inner">
-              <div className="pic-wrap">
-                <img src={img_01} alt='alt' />
-              </div>
               <div className="container">
                 <div className="text-wrap">
-                  <h1 className='m-title'>У нас лучшая техника</h1>
-                  <p className='text lead'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores aspernatur debitis deleniti dicta ducimus eaque, esse et fuga id laborum molestiae natus odio sit ullam vel! At nam quae quam?</p>
-                  <NavLink className='btn btn-primary' to={'/about'}>О комапнии</NavLink>
+                  <h1 className='m-title'>Macbook Pro с любым цветом корпуса!</h1>
+                  <p className='text lead'>Золотой, Серебристый, Серый космос</p>
+                  <NavLink className='btn btn-accent' to={'/'}>Купить</NavLink>
+                </div>
+                <div className="pic-wrap">
+                  <img src={img_02} alt="alt" />
                 </div>
               </div>
             </div>

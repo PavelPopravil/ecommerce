@@ -2,7 +2,7 @@ import React from 'react';
 import {NavLink} from "react-router-dom";
 
 import './style.scss';
-import logo from './img/logo-svg.svg';
+import logo from './img/logo.png';
 
 class Logo extends React.PureComponent {
 
@@ -12,7 +12,6 @@ class Logo extends React.PureComponent {
       <div className='logo'>
         <NavLink className='pic' to={'/'}>
           <img src={logo} alt="logo"/>
-          {/*Логотип*/}
         </NavLink>
       </div>
     )
