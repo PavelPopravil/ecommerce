@@ -6,13 +6,14 @@
   background-color: $body-bg-color;
 
   .container {
-    min-height: 80px;
+    height: 70px;
     display: flex;
     align-items: center;
 
-    @media (max-width: $screen-xs-max) {
+    @media (max-width: $screen-sm-max) {
       justify-content: space-between;
       min-height: 48px;
+      height: auto;
     }
   }
 }
