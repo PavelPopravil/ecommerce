@@ -5,5 +5,9 @@
     display: block;
     max-width: 150px;
     margin-bottom: 5px;
+
+    &.active {
+      pointer-events: none;
+    }
   }
 }

@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from './js/components/header/Header/index';
 import Footer from './js/components/footer/Footer/index';
-import {Route} from "react-router-dom";
+import {Route, Switch} from "react-router-dom";
 
 import PageMain from './js/pages/PageMain';
 import PageAbout from './js/pages/PageAbout';
@@ -18,9 +18,11 @@ class App extends React.Component {
         <div className="main-wrap">
           <div className='container'>
             <main className="main-content">
-              <Route path='/' exact component={PageMain}/>
-              <Route path='/about' component={PageAbout}/>
-              <Route path='/catalog' component={PageCatalog}/>
+              <Switch>
+                <Route path='/' exact component={PageMain}/>
+                <Route path='/about' component={PageAbout}/>
+                <Route path='/catalog' component={PageCatalog}/>
+              </Switch>
             </main>
           </div>
         </div>
