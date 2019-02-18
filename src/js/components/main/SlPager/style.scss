@@ -10,6 +10,14 @@ $_sl-pager-dot-width:                     12px;
   transform: translateX(-50%);
   bottom: 24px;
 
+  @media (max-width: $screen-sm-max) {
+    bottom: 10px;
+  }
+
+  @media (max-width: $screen-xs-max) {
+    bottom: 0;
+  }
+
   ul {
     margin: 0;
   }

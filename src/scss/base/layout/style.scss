@@ -49,6 +49,10 @@ html body {
 
 .main-content {
   padding-bottom: 44px;
+  
+  @media (max-width: $screen-sm-max) {
+    padding-bottom:  25px;
+  }
 
   @media (min-width: $screen-lg-min) {
 
@@ -57,7 +61,7 @@ html body {
     }
   }
 
-  .main & {
-    padding-bottom: 20px;
-  }
+  //.main & {
+  //  padding-bottom: 20px;
+  //}
 }

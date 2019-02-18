@@ -10,6 +10,7 @@ import PageCatalog from './js/pages/PageCatalog';
 class App extends React.Component {
 
   render() {
+
     return (
       <div className="App site-bg">
 
