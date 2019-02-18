@@ -1,10 +1,20 @@
 import React from 'react';
+import {connect} from 'react-redux';
 import './style.scss';
 import CatalogCard from '../CatalogCard/index';
 
 const catalogData = require('./catalogApi.json'); // toDo Переделать на аякс запрос
 
 class CatalogList extends React.PureComponent {
+
+  componentDidMount() {
+    this.fetchData();
+    console.log(this);
+  };
+
+  fetchData = () => {
+
+  };
 
   renderCards = () => {
     console.log(catalogData);
@@ -33,4 +43,8 @@ class CatalogList extends React.PureComponent {
   }
 }
 
-export default CatalogList;
+const mapStateToProps = (state) => {
+  return {};
+};
+
+export default connect(mapStateToProps)(CatalogList);
