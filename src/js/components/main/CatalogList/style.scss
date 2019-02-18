@@ -1,0 +1,13 @@
+@import "../../../../scss/main/variables";
+
+.catalog-list {
+
+  &__title {}
+
+  &__list {}
+
+  &__item {
+    display: flex;
+    margin-bottom: $grid-gutter-width;
+  }
+}

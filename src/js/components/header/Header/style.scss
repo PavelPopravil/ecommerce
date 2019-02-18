@@ -1,8 +1,7 @@
-@import "../../../../scss/main/mixin";
 @import "../../../../scss/main/variables";
 
 .header {
-  @include b-shadow;
+  box-shadow: $b-shadow;
   background-color: $body-bg-color;
 
   .container {
