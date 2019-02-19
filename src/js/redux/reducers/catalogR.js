@@ -26,7 +26,6 @@ export default (state = initialState, action) => {
     case FETCH_DATA_FAILURE:
       return {
         ...state,
-        payload: [],
         errorMsg: action.errorMsg
       };
     default: {

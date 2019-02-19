@@ -1,6 +1,7 @@
 import isoFetch from 'isomorphic-fetch';
 
-export const loadData = (url, method, cbSuccess, cbError) => {
+export default (dispatch, url, method, cbStart, cbSuccess, cbError) => {
+  dispatch(cbStart());
   isoFetch(url, {
     method: method,
     headers: {
@@ -17,12 +18,12 @@ export const loadData = (url, method, cbSuccess, cbError) => {
     })
     .then((data) => {
       try {
-        cbSuccess(data); // передаём полезные данные в fetchSuccess, дальше по цепочке пойдёт успешный пустой промис
+        dispatch(cbSuccess(data)); // передаём полезные данные в fetchSuccess, дальше по цепочке пойдёт успешный пустой промис
       } catch (error) {
-        cbError(error.message); // если что-то пошло не так - дальше по цепочке пойдёт отвергнутый промис
+        dispatch(cbError(error.message)); // если что-то пошло не так - дальше по цепочке пойдёт отвергнутый промис
       }
     })
     .catch((error) => {
-      cbError(error.userMessage || error.message);
+      dispatch(cbError(error.userMessage || error.message));
     });
 };

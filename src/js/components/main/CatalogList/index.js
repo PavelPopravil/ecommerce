@@ -1,28 +1,34 @@
 import React from 'react';
 import {connect} from 'react-redux';
 import './style.scss';
+
 import CatalogCard from '../CatalogCard/index';
+import Preloader from '../../extra/Preloader/index';
 
-import {fetchData} from '../../../redux/actions/catalogA';
-
-// import {fetchDataSuccess} from '../../../redux/actions/catalogA'; // temp
-
-// const catalogData = require('./catalogApi.json'); // toDo Переделать на аякс запрос
+import {fetchCatalog} from '../../../redux/actions/catalogA';
 
 class CatalogList extends React.PureComponent {
 
   componentDidMount() {
-    // console.log(this.props);
-    this.props.dispatch(fetchData());
+    if (!this.props.list.length) {
+      this.props.dispatch(fetchCatalog());
+    }
   };
 
   renderCards = () => {
+    const {isLoad, list, errorMsg} = this.props;
 
-    return this.props.list.map((card) => {
+    const catalogItems = list.map((card) => {
       return <div key={card.id} className={`catalog-list__item ${card.mod === 'big' ? `col-lg-6` : `col-lg-3`} col-md-6 col-12`}>
                 <CatalogCard key={card.id} pic={card.pic} title={card.title} price={card.price}/>
               </div>
     });
+
+    if (errorMsg) {
+      return <div className='col-12'>{`Произошла ошибка ${errorMsg}`}</div>;
+    }
+
+    return !isLoad ? <Preloader /> : catalogItems;
   };
 
   render() {
@@ -43,10 +49,12 @@ class CatalogList extends React.PureComponent {
   }
 }
 
-const mapStateToProps = (state) => {
-  console.log(state);
+const mapStateToProps = (store) => {
+  // console.log(store);
   return {
-    list: state.catalog.payload
+    isLoad: store.catalog.isLoad,
+    list: store.catalog.payload,
+    errorMsg: store.catalog.errorMsg
   };
 };
 
