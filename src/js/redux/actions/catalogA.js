@@ -30,6 +30,47 @@ export const fetchDataFailure = (error) => {
 //   loadData('https://5c6ac5f2d98e3600141cab67.mockapi.io/catalog', 'get', fetchDataSuccess, fetchDataFailure);
 // };
 
+
+// const httpGet = async endPoint => {
+//   try {
+//     const response = await fetch(`${API_ROOT}/${endPoint}`)
+//     if (response.ok) {
+//       const json = await response.json()
+//       return json
+//     } else {
+//       throw new Error(response.status)
+//     }
+//   } catch (err) {
+//     console.warn('httpGet error ', err)
+//   }
+// }
+//
+// export function getNews() {
+//   return (dispatch) => {
+//     dispatch({
+//       type: t.NEWS_GET_REQUEST,
+//     })
+//
+//     // httpGet - функция хелпер
+//     return httpGet(`news`)
+//       .then(res => {
+//         if (checkResponse(res)) {
+//           dispatch(newsSuccess({
+//             type: t.NEWS_GET_SUCCESS,
+//             payload: res.data,
+//           }))
+//         } else {
+//           // не протестировано! (можете взять на домашнее задание)
+//           dispatch(newsFailure(res.message))
+//         }
+//       })
+//       .catch(error => {
+//         // не протестировано
+//         dispatch(newsFailure())
+//       })
+//   }
+// }
+
 export const fetchData = () => async (dispatch) => { // toDo wtf
   dispatch(fetchDataStart());
   isoFetch('https://5c6ac5f2d98e3600141cab67.mockapi.io/catalog', {
