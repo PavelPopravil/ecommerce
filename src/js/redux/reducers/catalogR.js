@@ -5,8 +5,8 @@ import {
 } from '../actions/catalogA';
 
 const initialState = {
-  isLoad: false,
-  payload: [],
+  isLoading: false,
+  data: [],
   errorMsg: null
 };
 
@@ -15,13 +15,13 @@ export default (state = initialState, action) => {
     case FETCH_DATA_START:
       return {
         ...state,
-        isLoad: false,
+        isLoading: true,
       };
     case FETCH_DATA_SUCCESS:
       return {
         ...state,
-        isLoad: true,
-        payload: action.payload
+        isLoading: false,
+        data: action.payload
       };
     case FETCH_DATA_FAILURE:
       return {
