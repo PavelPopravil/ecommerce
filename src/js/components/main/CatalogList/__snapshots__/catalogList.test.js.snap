@@ -1,0 +1,899 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CatalogList render CatalogList fetch data failure renders properly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <CatalogList
+    data={Array []}
+    errorMsg="fetch error"
+    isLoading={false}
+    onFetchCatalog={[Function]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <h2
+          className="catalog-list__title"
+        >
+          Каталог
+        </h2>,
+        <div
+          className="catalog-list__list"
+        >
+          <div
+            className="row"
+          >
+            <div
+              className="col-12 failure-block"
+            >
+              Произошла ошибка fetch error
+            </div>
+          </div>
+        </div>,
+      ],
+      "className": "catalog-list",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Каталог",
+          "className": "catalog-list__title",
+        },
+        "ref": null,
+        "rendered": "Каталог",
+        "type": "h2",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <div
+            className="row"
+          >
+            <div
+              className="col-12 failure-block"
+            >
+              Произошла ошибка fetch error
+            </div>
+          </div>,
+          "className": "catalog-list__list",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <div
+              className="col-12 failure-block"
+            >
+              Произошла ошибка fetch error
+            </div>,
+            "className": "row",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Произошла ошибка fetch error",
+              "className": "col-12 failure-block",
+            },
+            "ref": null,
+            "rendered": "Произошла ошибка fetch error",
+            "type": "div",
+          },
+          "type": "div",
+        },
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h2
+            className="catalog-list__title"
+          >
+            Каталог
+          </h2>,
+          <div
+            className="catalog-list__list"
+          >
+            <div
+              className="row"
+            >
+              <div
+                className="col-12 failure-block"
+              >
+                Произошла ошибка fetch error
+              </div>
+            </div>
+          </div>,
+        ],
+        "className": "catalog-list",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Каталог",
+            "className": "catalog-list__title",
+          },
+          "ref": null,
+          "rendered": "Каталог",
+          "type": "h2",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <div
+              className="row"
+            >
+              <div
+                className="col-12 failure-block"
+              >
+                Произошла ошибка fetch error
+              </div>
+            </div>,
+            "className": "catalog-list__list",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <div
+                className="col-12 failure-block"
+              >
+                Произошла ошибка fetch error
+              </div>,
+              "className": "row",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Произошла ошибка fetch error",
+                "className": "col-12 failure-block",
+              },
+              "ref": null,
+              "rendered": "Произошла ошибка fetch error",
+              "type": "div",
+            },
+            "type": "div",
+          },
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
+
+exports[`CatalogList render CatalogList fetch data start renders properly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <CatalogList
+    data={Array []}
+    errorMsg={null}
+    isLoading={true}
+    onFetchCatalog={[Function]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <h2
+          className="catalog-list__title"
+        >
+          Каталог
+        </h2>,
+        <div
+          className="catalog-list__list"
+        >
+          <div
+            className="row"
+          >
+            <_default />
+          </div>
+        </div>,
+      ],
+      "className": "catalog-list",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Каталог",
+          "className": "catalog-list__title",
+        },
+        "ref": null,
+        "rendered": "Каталог",
+        "type": "h2",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <div
+            className="row"
+          >
+            <_default />
+          </div>,
+          "className": "catalog-list__list",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <_default />,
+            "className": "row",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": "div",
+        },
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h2
+            className="catalog-list__title"
+          >
+            Каталог
+          </h2>,
+          <div
+            className="catalog-list__list"
+          >
+            <div
+              className="row"
+            >
+              <_default />
+            </div>
+          </div>,
+        ],
+        "className": "catalog-list",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Каталог",
+            "className": "catalog-list__title",
+          },
+          "ref": null,
+          "rendered": "Каталог",
+          "type": "h2",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <div
+              className="row"
+            >
+              <_default />
+            </div>,
+            "className": "catalog-list__list",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <_default />,
+              "className": "row",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": "div",
+          },
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
+
+exports[`CatalogList render CatalogList fetch data success renders properly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <CatalogList
+    data={
+      Array [
+        Object {
+          "id": 1,
+          "mod": "big",
+          "pic": "img/catalog_imac.png",
+          "price": "от 1 650 руб",
+          "title": "Mac",
+        },
+      ]
+    }
+    errorMsg={null}
+    isLoading={false}
+    onFetchCatalog={[Function]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <h2
+          className="catalog-list__title"
+        >
+          Каталог
+        </h2>,
+        <div
+          className="catalog-list__list"
+        >
+          <div
+            className="row"
+          >
+            <div
+              className="catalog-list__item col-lg-6 col-md-6 col-12"
+            >
+              <CatalogCard
+                pic="img/catalog_imac.png"
+                price="от 1 650 руб"
+                title="Mac"
+              />
+            </div>
+          </div>
+        </div>,
+      ],
+      "className": "catalog-list",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Каталог",
+          "className": "catalog-list__title",
+        },
+        "ref": null,
+        "rendered": "Каталог",
+        "type": "h2",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <div
+            className="row"
+          >
+            <div
+              className="catalog-list__item col-lg-6 col-md-6 col-12"
+            >
+              <CatalogCard
+                pic="img/catalog_imac.png"
+                price="от 1 650 руб"
+                title="Mac"
+              />
+            </div>
+          </div>,
+          "className": "catalog-list__list",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="catalog-list__item col-lg-6 col-md-6 col-12"
+              >
+                <CatalogCard
+                  pic="img/catalog_imac.png"
+                  price="от 1 650 руб"
+                  title="Mac"
+                />
+              </div>,
+            ],
+            "className": "row",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "1",
+              "nodeType": "host",
+              "props": Object {
+                "children": <CatalogCard
+                  pic="img/catalog_imac.png"
+                  price="от 1 650 руб"
+                  title="Mac"
+                />,
+                "className": "catalog-list__item col-lg-6 col-md-6 col-12",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": "1",
+                "nodeType": "class",
+                "props": Object {
+                  "pic": "img/catalog_imac.png",
+                  "price": "от 1 650 руб",
+                  "title": "Mac",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h2
+            className="catalog-list__title"
+          >
+            Каталог
+          </h2>,
+          <div
+            className="catalog-list__list"
+          >
+            <div
+              className="row"
+            >
+              <div
+                className="catalog-list__item col-lg-6 col-md-6 col-12"
+              >
+                <CatalogCard
+                  pic="img/catalog_imac.png"
+                  price="от 1 650 руб"
+                  title="Mac"
+                />
+              </div>
+            </div>
+          </div>,
+        ],
+        "className": "catalog-list",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Каталог",
+            "className": "catalog-list__title",
+          },
+          "ref": null,
+          "rendered": "Каталог",
+          "type": "h2",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <div
+              className="row"
+            >
+              <div
+                className="catalog-list__item col-lg-6 col-md-6 col-12"
+              >
+                <CatalogCard
+                  pic="img/catalog_imac.png"
+                  price="от 1 650 руб"
+                  title="Mac"
+                />
+              </div>
+            </div>,
+            "className": "catalog-list__list",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <div
+                  className="catalog-list__item col-lg-6 col-md-6 col-12"
+                >
+                  <CatalogCard
+                    pic="img/catalog_imac.png"
+                    price="от 1 650 руб"
+                    title="Mac"
+                  />
+                </div>,
+              ],
+              "className": "row",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": "1",
+                "nodeType": "host",
+                "props": Object {
+                  "children": <CatalogCard
+                    pic="img/catalog_imac.png"
+                    price="от 1 650 руб"
+                    title="Mac"
+                  />,
+                  "className": "catalog-list__item col-lg-6 col-md-6 col-12",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": "1",
+                  "nodeType": "class",
+                  "props": Object {
+                    "pic": "img/catalog_imac.png",
+                    "price": "от 1 650 руб",
+                    "title": "Mac",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": "div",
+              },
+            ],
+            "type": "div",
+          },
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
+
+exports[`CatalogList render CatalogList initial state renders properly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <CatalogList
+    data={Array []}
+    errorMsg={null}
+    isLoading={false}
+    onFetchCatalog={
+      [MockFunction] {
+        "calls": Array [
+          Array [],
+        ],
+        "results": Array [
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+        ],
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <h2
+          className="catalog-list__title"
+        >
+          Каталог
+        </h2>,
+        <div
+          className="catalog-list__list"
+        >
+          <div
+            className="row"
+          />
+        </div>,
+      ],
+      "className": "catalog-list",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Каталог",
+          "className": "catalog-list__title",
+        },
+        "ref": null,
+        "rendered": "Каталог",
+        "type": "h2",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <div
+            className="row"
+          />,
+          "className": "catalog-list__list",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [],
+            "className": "row",
+          },
+          "ref": null,
+          "rendered": Array [],
+          "type": "div",
+        },
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h2
+            className="catalog-list__title"
+          >
+            Каталог
+          </h2>,
+          <div
+            className="catalog-list__list"
+          >
+            <div
+              className="row"
+            />
+          </div>,
+        ],
+        "className": "catalog-list",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Каталог",
+            "className": "catalog-list__title",
+          },
+          "ref": null,
+          "rendered": "Каталог",
+          "type": "h2",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <div
+              className="row"
+            />,
+            "className": "catalog-list__list",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [],
+              "className": "row",
+            },
+            "ref": null,
+            "rendered": Array [],
+            "type": "div",
+          },
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

@@ -26,6 +26,7 @@ export default (state = initialState, action) => {
     case FETCH_DATA_FAILURE:
       return {
         ...state,
+        isLoading: false,
         errorMsg: action.errorMsg
       };
     default: {

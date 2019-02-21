@@ -20,7 +20,6 @@ export const fetchDataSuccess = (data) => {
 export const fetchDataFailure = (error) => {
   return {
     type: FETCH_DATA_FAILURE,
-    payload: null,
     errorMsg: error
   }
 };

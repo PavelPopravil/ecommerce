@@ -1,4 +1,5 @@
 import catalogR from './catalogR';
+
 import {
   FETCH_DATA_START,
   FETCH_DATA_SUCCESS,
@@ -7,13 +8,24 @@ import {
 
 describe('catalog Reducers tests', () => {
 
-  it('FETCH_DATA_START', () => {
+  const initialState = {
+    isLoading: false,
+    data: [],
+    errorMsg: null
+  };
 
-    const initialState = {
-      isLoading: false,
-      data: [],
-      errorMsg: null
+  it('If wrong action passed, reducer should return default state', () => {
+
+    const action = {
+      type: 'dsdsdsdsds'
     };
+
+    expect(catalogR(initialState, action)).toEqual({
+      ...initialState
+    });
+  });
+
+  it('FETCH_DATA_START', () => {
 
     const action = {
       type: FETCH_DATA_START
@@ -29,9 +41,8 @@ describe('catalog Reducers tests', () => {
   it('FETCH_DATA_SUCCESS', () => {
 
     const state = {
-      isLoading: true,
-      data: [],
-      errorMsg: null
+      ...initialState,
+      isLoading: true
     };
 
     const action = {
@@ -49,9 +60,8 @@ describe('catalog Reducers tests', () => {
   it('FETCH_DATA_FAILURE', () => {
 
     const state = {
-      isLoading: true,
-      data: [],
-      errorMsg: null
+      ...initialState,
+      isLoading: true
     };
 
     const action = {
@@ -61,6 +71,7 @@ describe('catalog Reducers tests', () => {
 
     expect(catalogR(state, action)).toEqual({
       ...state,
+      isLoading: false,
       errorMsg: action.errorMsg
     });
   });

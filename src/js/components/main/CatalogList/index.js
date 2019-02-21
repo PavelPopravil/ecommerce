@@ -25,7 +25,7 @@ export class CatalogList extends React.PureComponent {
     });
 
     if (errorMsg) {
-      return <div className='col-12'>{`Произошла ошибка ${errorMsg}`}</div>;
+      return <div className='col-12 failure-block'>{`Произошла ошибка ${errorMsg}`}</div>;
     }
 
     return isLoading ? <Preloader /> : catalogItems;
