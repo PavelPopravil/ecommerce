@@ -467,6 +467,7 @@ ShallowWrapper {
               className="catalog-list__item col-lg-6 col-md-6 col-12"
             >
               <CatalogCard
+                id={1}
                 pic="img/catalog_imac.png"
                 price="от 1 650 руб"
                 title="Mac"
@@ -503,6 +504,7 @@ ShallowWrapper {
               className="catalog-list__item col-lg-6 col-md-6 col-12"
             >
               <CatalogCard
+                id={1}
                 pic="img/catalog_imac.png"
                 price="от 1 650 руб"
                 title="Mac"
@@ -522,6 +524,7 @@ ShallowWrapper {
                 className="catalog-list__item col-lg-6 col-md-6 col-12"
               >
                 <CatalogCard
+                  id={1}
                   pic="img/catalog_imac.png"
                   price="от 1 650 руб"
                   title="Mac"
@@ -538,6 +541,7 @@ ShallowWrapper {
               "nodeType": "host",
               "props": Object {
                 "children": <CatalogCard
+                  id={1}
                   pic="img/catalog_imac.png"
                   price="от 1 650 руб"
                   title="Mac"
@@ -550,6 +554,7 @@ ShallowWrapper {
                 "key": "1",
                 "nodeType": "class",
                 "props": Object {
+                  "id": 1,
                   "pic": "img/catalog_imac.png",
                   "price": "от 1 650 руб",
                   "title": "Mac",
@@ -590,6 +595,7 @@ ShallowWrapper {
                 className="catalog-list__item col-lg-6 col-md-6 col-12"
               >
                 <CatalogCard
+                  id={1}
                   pic="img/catalog_imac.png"
                   price="от 1 650 руб"
                   title="Mac"
@@ -626,6 +632,7 @@ ShallowWrapper {
                 className="catalog-list__item col-lg-6 col-md-6 col-12"
               >
                 <CatalogCard
+                  id={1}
                   pic="img/catalog_imac.png"
                   price="от 1 650 руб"
                   title="Mac"
@@ -645,6 +652,7 @@ ShallowWrapper {
                   className="catalog-list__item col-lg-6 col-md-6 col-12"
                 >
                   <CatalogCard
+                    id={1}
                     pic="img/catalog_imac.png"
                     price="от 1 650 руб"
                     title="Mac"
@@ -661,6 +669,7 @@ ShallowWrapper {
                 "nodeType": "host",
                 "props": Object {
                   "children": <CatalogCard
+                    id={1}
                     pic="img/catalog_imac.png"
                     price="от 1 650 руб"
                     title="Mac"
@@ -673,6 +682,7 @@ ShallowWrapper {
                   "key": "1",
                   "nodeType": "class",
                   "props": Object {
+                    "id": 1,
                     "pic": "img/catalog_imac.png",
                     "price": "от 1 650 руб",
                     "title": "Mac",

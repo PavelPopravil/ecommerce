@@ -1,6 +1,6 @@
 import React, {Fragment} from 'react';
-import SlMain from '../components/main/SlMain/index'
-import CatalogList from '../components/main/CatalogList/index'
+import SlMain from '../components/main/SlMain/index';
+import CatalogList from '../components/main/CatalogList/index';
 
 class PageMain extends React.PureComponent {
 

@@ -1,0 +1,275 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CatalogCard render should render properly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <CatalogCard
+    id={1}
+    pic="catalog_imac.png"
+    price="Цена карточки"
+    title="Заголовок карточки"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": Array [
+        <div
+          className="catalog-card__pic-wrap"
+        >
+          <img
+            alt="Заголовок карточки"
+            className="catalog-card__pic"
+            src="/img/catalog_imac.png"
+          />
+        </div>,
+        <div
+          className="catalog-card__text-wrap"
+        >
+          <div
+            className="h3 catalog-card__title"
+          >
+            Заголовок карточки
+          </div>
+          <div
+            className="catalog-card__price"
+          >
+            Цена карточки
+          </div>
+        </div>,
+      ],
+      "className": "catalog-card",
+      "replace": false,
+      "to": "/product_list/1",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <img
+            alt="Заголовок карточки"
+            className="catalog-card__pic"
+            src="/img/catalog_imac.png"
+          />,
+          "className": "catalog-card__pic-wrap",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "alt": "Заголовок карточки",
+            "className": "catalog-card__pic",
+            "src": "/img/catalog_imac.png",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "img",
+        },
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="h3 catalog-card__title"
+            >
+              Заголовок карточки
+            </div>,
+            <div
+              className="catalog-card__price"
+            >
+              Цена карточки
+            </div>,
+          ],
+          "className": "catalog-card__text-wrap",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Заголовок карточки",
+              "className": "h3 catalog-card__title",
+            },
+            "ref": null,
+            "rendered": "Заголовок карточки",
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Цена карточки",
+              "className": "catalog-card__price",
+            },
+            "ref": null,
+            "rendered": "Цена карточки",
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": Array [
+          <div
+            className="catalog-card__pic-wrap"
+          >
+            <img
+              alt="Заголовок карточки"
+              className="catalog-card__pic"
+              src="/img/catalog_imac.png"
+            />
+          </div>,
+          <div
+            className="catalog-card__text-wrap"
+          >
+            <div
+              className="h3 catalog-card__title"
+            >
+              Заголовок карточки
+            </div>
+            <div
+              className="catalog-card__price"
+            >
+              Цена карточки
+            </div>
+          </div>,
+        ],
+        "className": "catalog-card",
+        "replace": false,
+        "to": "/product_list/1",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <img
+              alt="Заголовок карточки"
+              className="catalog-card__pic"
+              src="/img/catalog_imac.png"
+            />,
+            "className": "catalog-card__pic-wrap",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "alt": "Заголовок карточки",
+              "className": "catalog-card__pic",
+              "src": "/img/catalog_imac.png",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "img",
+          },
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="h3 catalog-card__title"
+              >
+                Заголовок карточки
+              </div>,
+              <div
+                className="catalog-card__price"
+              >
+                Цена карточки
+              </div>,
+            ],
+            "className": "catalog-card__text-wrap",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Заголовок карточки",
+                "className": "h3 catalog-card__title",
+              },
+              "ref": null,
+              "rendered": "Заголовок карточки",
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Цена карточки",
+                "className": "catalog-card__price",
+              },
+              "ref": null,
+              "rendered": "Цена карточки",
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

@@ -1,52 +1,8 @@
 {
-  "catalogList": [
+  "pc": [
     {
       "id": "1",
-      "mod": "big",
-      "pic": "catalog_imac.png",
-      "price": "от 1 650 руб",
-      "title": "Mac"
-    },
-    {
-      "id": "2",
-      "mod": "",
-      "pic": "catalog_ipad.png",
-      "price": "от 1 300 руб",
-      "title": "iPad"
-    },
-    {
-      "id": "3",
-      "mod": "",
-      "pic": "catalog_iphone.png",
-      "price": "от 1 220 руб",
-      "title": "iphone"
-    },
-    {
-      "id": "4",
-      "mod": "",
-      "pic": "catalog_apple-tv.png",
-      "price": "от 1 115 руб",
-      "title": "Apple TV"
-    },
-    {
-      "id": "5",
-      "mod": "",
-      "pic": "catalog_opd.png",
-      "price": "от 350 руб",
-      "title": "iPod"
-    },
-    {
-      "id": "6",
-      "mod": "big",
-      "pic": "catalog_iwatch.png",
-      "price": "от 800 руб",
-      "title": "iWatch"
-    }
-  ],
-
-  "imacs": [
-    {
-      "id": "im1",
+      "catalogId": "1",
       "pic": "imac_1.png",
       "name": "iMac",
       "screenSize": "27\"",
@@ -60,7 +16,8 @@
       "price": "5 200.00"
     },
     {
-      "id": "im2",
+      "id": "2",
+      "catalogId": "1",
       "pic": "imac_2.png",
       "name": "iMac",
       "screenSize": "21,5\"",
@@ -74,7 +31,8 @@
       "price": "3 690.00"
     },
     {
-      "id": "im3",
+      "id": "3",
+      "catalogId": "1",
       "pic": "imac_3.png",
       "name": "iMac",
       "screenSize": "21,5\"",
@@ -88,7 +46,8 @@
       "price": "3 170.00"
     },
     {
-      "id": "im4",
+      "id": "4",
+      "catalogId": "1",
       "pic": "imac_4.png",
       "name": "iMac Pro",
       "screenSize": "27\"",
@@ -102,7 +61,8 @@
       "price": "14 340.00"
     },
     {
-      "id": "im5",
+      "id": "5",
+      "catalogId": "1",
       "pic": "imac_5.png",
       "name": "iMac",
       "screenSize": "27\"",
@@ -116,7 +76,8 @@
       "price": "5 780.00"
     },
     {
-      "id": "im6",
+      "id": "6",
+      "catalogId": "1",
       "pic": "imac_6.png",
       "name": "iMac",
       "screenSize": "27\"",
@@ -130,7 +91,8 @@
       "price": "6 600.00"
     },
     {
-      "id": "im7",
+      "id": "7",
+      "catalogId": "1",
       "pic": "imac_7.png",
       "name": "iMac",
       "screenSize": "21.5\"",
@@ -142,11 +104,10 @@
       "diskSize": "1TB",
       "diskType": "Fusion Drive",
       "price": "4 290.00"
-    }
-  ],
-  "macBookPro": [
+    },
     {
-      "id": "mbp1",
+      "id": "8",
+      "catalogId": "1",
       "pic": "mbp_1.jpeg",
       "name": "MacBook Pro",
       "screenSize": "13\"",
@@ -159,7 +120,8 @@
       "price": "4 290.00"
     },
     {
-      "id": "mbp2",
+      "id": "9",
+      "catalogId": "1",
       "pic": "mbp_2.jpeg",
       "name": "MacBook Pro",
       "screenSize": "13\"",
@@ -172,7 +134,8 @@
       "price": "4 340.00"
     },
     {
-      "id": "mbp3",
+      "id": "10",
+      "catalogId": "1",
       "pic": "mbp_3.png",
       "name": "MacBook Pro",
       "screenSize": "13\"",
@@ -185,7 +148,8 @@
       "price": "5 200.00"
     },
     {
-      "id": "mbp4",
+      "id": "11",
+      "catalogId": "1",
       "pic": "mbp_4.png",
       "name": "MacBook Pro",
       "screenSize": "15\"",
@@ -198,7 +162,8 @@
       "price": "7 920.00"
     },
     {
-      "id": "mbp5",
+      "id": "12",
+      "catalogId": "1",
       "pic": "mbp_5.png",
       "name": "MacBook Pro",
       "screenSize": "13\"",
@@ -211,7 +176,8 @@
       "price": "5 200.00"
     },
     {
-      "id": "mbp6",
+      "id": "13",
+      "catalogId": "1",
       "pic": "mbp_6.png",
       "name": "MacBook Pro",
       "screenSize": "13\"",
@@ -224,7 +190,8 @@
       "price": "5 780.00"
     },
     {
-      "id": "mbp7",
+      "id": "14",
+      "catalogId": "1",
       "pic": "mbp_7.png",
       "name": "MacBook Pro",
       "screenSize": "15\"",
@@ -235,11 +202,10 @@
       "diskSize": "256GB",
       "diskType": "SSD",
       "price": "7 790.00"
-    }
-  ],
-  "macBookAir": [
+    },
     {
-      "id": "mba1",
+      "id": "15",
+      "catalogId": "1",
       "pic": "mba_1.png",
       "name": "MacBook Air",
       "screenSize": "13\"",
@@ -252,7 +218,8 @@
       "price": "3 430.00"
     },
     {
-      "id": "mba2",
+      "id": "16",
+      "catalogId": "1",
       "pic": "mba_2.png",
       "name": "MacBook Air",
       "screenSize": "13\"",
@@ -265,7 +232,8 @@
       "price": "2 400.00"
     },
     {
-      "id": "mba3",
+      "id": "17",
+      "catalogId": "1",
       "pic": "mba_3.png",
       "name": "MacBook Air",
       "screenSize": "13\"",
@@ -278,7 +246,8 @@
       "price": "3 700.00"
     },
     {
-      "id": "mba4",
+      "id": "18",
+      "catalogId": "1",
       "pic": "mba_4.png",
       "name": "MacBook Air",
       "screenSize": "13\"",
@@ -289,11 +258,10 @@
       "diskSize": "128GB",
       "diskType": "SSD",
       "price": "3 700.00"
-    }
-  ],
-  "macBook": [
+    },
     {
-      "id": "mb1",
+      "id": "19",
+      "catalogId": "1",
       "pic": "mb_1.jpeg",
       "name": "MacBook",
       "screenSize": "12\"",
@@ -306,7 +274,8 @@
       "price": "3 710.00"
     },
     {
-      "id": "mb2",
+      "id": "20",
+      "catalogId": "1",
       "pic": "mb_2.jpeg",
       "name": "MacBook",
       "screenSize": "12\"",

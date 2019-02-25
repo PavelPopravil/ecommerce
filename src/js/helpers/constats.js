@@ -1,1 +1,1 @@
-export const API_ROOT = 'https://5c73ca2a826db700140a279d.mockapi.io';
+export const API_ROOT = 'http://5c73e1fc826db700140a27d8.mockapi.io/api';

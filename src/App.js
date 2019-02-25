@@ -6,6 +6,7 @@ import {Route, Switch} from "react-router-dom";
 import PageMain from './js/pages/PageMain';
 import PageAbout from './js/pages/PageAbout';
 import PageCatalog from './js/pages/PageCatalog';
+import PageProductList from './js/pages/PageProductList';
 
 class App extends React.Component {
 
@@ -23,6 +24,7 @@ class App extends React.Component {
                 <Route path='/' exact component={PageMain}/>
                 <Route path='/about' component={PageAbout}/>
                 <Route path='/catalog' component={PageCatalog}/>
+                <Route path='/product_list' component={PageProductList}/>
               </Switch>
             </main>
           </div>
