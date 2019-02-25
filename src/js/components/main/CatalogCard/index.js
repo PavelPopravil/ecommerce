@@ -19,7 +19,7 @@ class CatalogCard extends React.PureComponent {
     return (
       <Link className='catalog-card' to={'/about'}>
         <div className='catalog-card__pic-wrap'>
-          <img className='catalog-card__pic' src={process.env.PUBLIC_URL + pic} alt={title} />
+          <img className='catalog-card__pic' src={`${process.env.PUBLIC_URL}/img/${pic}`} alt={title} />
         </div>
         <div className='catalog-card__text-wrap'>
           <div className="h3 catalog-card__title">{title}</div>

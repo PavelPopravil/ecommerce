@@ -1,4 +1,5 @@
 import fetchData from '../../helpers/fetchData';
+import {API_ROOT} from "../../helpers/constats";
 
 export const FETCH_DATA_START = 'FETCH_DATA_START';
 export const FETCH_DATA_SUCCESS = 'FETCH_DATA_SUCCESS';
@@ -25,5 +26,5 @@ export const fetchDataFailure = (error) => {
 };
 
 export const fetchCatalog = () =>  async (dispatch) => {
-  fetchData(dispatch, 'https://5c6ac5f2d98e3600141cab67.mockapi.io/catalog', 'get', fetchDataStart, fetchDataSuccess, fetchDataFailure);
+  fetchData(dispatch, `${API_ROOT}/catalog`, 'get', fetchDataStart, fetchDataSuccess, fetchDataFailure);
 };

@@ -1,0 +1,1 @@
+export const API_ROOT = 'https://5c73ca2a826db700140a279d.mockapi.io';

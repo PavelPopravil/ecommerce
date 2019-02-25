@@ -5,8 +5,6 @@ import {CatalogList} from './index';
 import CatalogCard from '../CatalogCard/index';
 import Preloader from '../../extra/Preloader/index';
 
-// const catalogData = require('./catalogApi.json');
-
 describe('CatalogList render', () => {
 
   const props = {
@@ -28,7 +26,7 @@ describe('CatalogList render', () => {
     const catalogContainer = shallow(<CatalogList {...newProps} />);
 
     it('renders properly', () => {
-      expect(catalogContainer).toMatchSnapshot()
+      expect(catalogContainer).toMatchSnapshot();
     });
 
     it('should recive function from redux and call it once', () => {
