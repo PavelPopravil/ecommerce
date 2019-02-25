@@ -5,42 +5,48 @@
       "mod": "big",
       "pic": "catalog_imac.png",
       "price": "от 1 650 руб",
-      "title": "Mac"
+      "title": "Mac",
+      "path": "mac"
     },
     {
       "id": "2",
       "mod": "",
       "pic": "catalog_ipad.png",
       "price": "от 1 300 руб",
-      "title": "iPad"
+      "title": "iPad",
+      "path": "ipad"
     },
     {
       "id": "3",
       "mod": "",
       "pic": "catalog_iphone.png",
       "price": "от 1 220 руб",
-      "title": "iphone"
+      "title": "iPhone",
+      "path": "iphone"
     },
     {
       "id": "4",
       "mod": "",
       "pic": "catalog_apple-tv.png",
       "price": "от 1 115 руб",
-      "title": "Apple TV"
+      "title": "Apple TV",
+      "path": "apple_tv"
     },
     {
       "id": "5",
       "mod": "",
-      "pic": "catalog_opd.png",
+      "pic": "catalog_ipod.png",
       "price": "от 350 руб",
-      "title": "iPod"
+      "title": "iPod",
+      "path": "ipod"
     },
     {
       "id": "6",
       "mod": "big",
       "pic": "catalog_iwatch.png",
       "price": "от 800 руб",
-      "title": "iWatch"
+      "title": "iWatch",
+      "path": "iwatch"
     }
   ],
 

@@ -20,7 +20,7 @@ export class CatalogList extends React.PureComponent {
 
     const catalogItems = data.map((card) => {
       return <div key={card.id} className={`catalog-list__item ${card.mod === 'big' ? `col-lg-6` : `col-lg-3`} col-md-6 col-12`}>
-                <CatalogCard key={card.id} id={card.id} pic={card.pic} title={card.title} price={card.price}/>
+                <CatalogCard key={card.id} path={card.path} pic={card.pic} title={card.title} price={card.price}/>
               </div>
     });
 

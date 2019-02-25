@@ -7,7 +7,7 @@ import './style.scss';
 class CatalogCard extends React.PureComponent {
 
   static propTypes = {
-    id: PropTypes.number.isRequired,
+    path: PropTypes.string.isRequired,
     pic: PropTypes.string.isRequired,
     title: PropTypes.string.isRequired,
     price: PropTypes.string.isRequired
@@ -15,10 +15,10 @@ class CatalogCard extends React.PureComponent {
 
   render() {
     console.log('render CatalogCard');
-    const {pic, title, price, id} = this.props;
+    const {pic, title, price, path} = this.props;
 
     return (
-      <Link className='catalog-card' to={`/product_list/${id}`}>
+      <Link className='catalog-card' to={`/product_list/${path}`}>
         <div className='catalog-card__pic-wrap'>
           <img className='catalog-card__pic' src={`${process.env.PUBLIC_URL}/img/${pic}`} alt={title} />
         </div>

@@ -6,7 +6,7 @@ import CatalogCard from './index';
 describe('CatalogCard render', () => {
 
   const props = {
-    id: 1,
+    path: 'mac',
     pic: 'catalog_imac.png',
     title: 'Заголовок карточки',
     price: 'Цена карточки'
