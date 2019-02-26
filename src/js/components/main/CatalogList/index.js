@@ -32,7 +32,6 @@ export class CatalogList extends React.PureComponent {
   };
 
   render() {
-    console.log('render CatalogList');
 
     return (
       <div className='catalog-list'>

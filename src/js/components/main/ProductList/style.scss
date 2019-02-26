@@ -1,0 +1,15 @@
+@import "../../../../scss/main/variables";
+
+.prod-list {
+
+  &__item {
+    display: flex;
+    margin-bottom: $grid-gutter-width;
+
+    @media (max-width: $screen-sm-max) {
+      max-width: 350px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+}

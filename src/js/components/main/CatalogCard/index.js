@@ -14,11 +14,10 @@ class CatalogCard extends React.PureComponent {
   };
 
   render() {
-    console.log('render CatalogCard');
     const {pic, title, price, path} = this.props;
 
     return (
-      <Link className='catalog-card' to={`/product_list/${path}`}>
+      <Link className='catalog-card' to={`/catalog/${path}`}>
         <div className='catalog-card__pic-wrap'>
           <img className='catalog-card__pic' src={`${process.env.PUBLIC_URL}/img/${pic}`} alt={title} />
         </div>

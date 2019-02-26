@@ -7,10 +7,10 @@ class PageMain extends React.PureComponent {
 
     return (
       <Fragment>
-        <h1>Список товаров</h1>
+        <h1>{this.props.match.params.section}</h1>
         <div className='row'>
-          <div className="col-12 col-md-4">Sidebar</div>
-          <div className="col-12 col-md-8">
+          <div className="col-12 col-lg-3">Sidebar</div>
+          <div className="col-12 col-lg-9">
             <ProductList/>
           </div>
         </div>

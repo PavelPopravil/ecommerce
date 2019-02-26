@@ -1,26 +1,26 @@
 import fetchData from '../../helpers/fetchData';
 import {API_ROOT} from "../../helpers/constats";
 
-export const FETCH_DATA_START = 'FETCH_DATA_START';
-export const FETCH_DATA_SUCCESS = 'FETCH_DATA_SUCCESS';
-export const FETCH_DATA_FAILURE = 'FETCH_DATA_FAILURE';
+export const FETCH_CATALOG_START = 'FETCH_CATALOG_START';
+export const FETCH_CATALOG_SUCCESS = 'FETCH_CATALOG_SUCCESS';
+export const FETCH_CATALOG_FAILURE = 'FETCH_CATALOG_FAILURE';
 
 export const fetchDataStart = () => {
   return {
-    type: FETCH_DATA_START
+    type: FETCH_CATALOG_START
   }
 };
 
 export const fetchDataSuccess = (data) => {
   return {
-    type: FETCH_DATA_SUCCESS,
+    type: FETCH_CATALOG_SUCCESS,
     payload: data
   }
 };
 
 export const fetchDataFailure = (error) => {
   return {
-    type: FETCH_DATA_FAILURE,
+    type: FETCH_CATALOG_FAILURE,
     errorMsg: error
   }
 };

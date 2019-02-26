@@ -1,8 +1,8 @@
 import {
-  FETCH_CATALOG_START,
-  FETCH_CATALOG_SUCCESS,
-  FETCH_CATALOG_FAILURE
-} from '../actions/catalogA';
+  FETCH_PRODLIST_START,
+  FETCH_PRODLIST_SUCCESS,
+  FETCH_PRODLIST_FAILURE
+} from "../actions/prodListA";
 
 const initialState = {
   isLoading: false,
@@ -12,25 +12,24 @@ const initialState = {
 
 export default (state = initialState, action) => {
   switch (action.type) {
-    case FETCH_CATALOG_START:
+    case FETCH_PRODLIST_START:
       return {
         ...state,
-        isLoading: true,
+        isLoading: true
       };
-    case FETCH_CATALOG_SUCCESS:
+    case FETCH_PRODLIST_SUCCESS:
       return {
         ...state,
         isLoading: false,
         data: action.payload
       };
-    case FETCH_CATALOG_FAILURE:
+    case FETCH_PRODLIST_FAILURE:
       return {
         ...state,
         isLoading: false,
         errorMsg: action.errorMsg
       };
-    default: {
+    default:
       return state;
-    }
   }
-};
+}

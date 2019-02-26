@@ -1,0 +1,62 @@
+@import "../../../../scss/main/variables";
+
+.prod-card {
+  flex: 1;
+  max-width: 100%;
+  padding: 25px 20px;
+  box-shadow: $b-shadow;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+
+  &:hover,
+  &:focus {
+    box-shadow: $b-shadow-hover;
+  }
+
+  &__inner {
+    color: $text-color;
+    text-decoration: none;
+
+    &:hover,
+    &:focus {
+      text-decoration: none;
+    }
+  }
+
+  &__pic-wrap {
+    height: 180px;
+    margin-bottom: 15px;
+  }
+
+  &__pic {
+    margin: 0 auto;
+    max-height: 100%;
+  }
+
+  &__title {
+    margin-top: 0;
+  }
+
+  &__descr {
+    margin-bottom: 10px;
+  }
+
+  &__price {
+    font-size: 16px;
+    color: $link-color;
+    font-family: $font-m;
+    margin-bottom: 15px;
+  }
+
+  &__footer {
+    margin-top:  auto;
+  }
+
+  &__btn-wrap {
+
+    .btn {
+      width: 100%;
+    }
+  }
+}

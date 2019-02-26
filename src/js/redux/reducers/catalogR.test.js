@@ -1,9 +1,9 @@
 import catalogR from './catalogR';
 
 import {
-  FETCH_DATA_START,
-  FETCH_DATA_SUCCESS,
-  FETCH_DATA_FAILURE
+  FETCH_CATALOG_START,
+  FETCH_CATALOG_SUCCESS,
+  FETCH_CATALOG_FAILURE
 } from '../actions/catalogA';
 
 describe('catalog Reducers tests', () => {
@@ -25,10 +25,10 @@ describe('catalog Reducers tests', () => {
     });
   });
 
-  it('FETCH_DATA_START', () => {
+  it('FETCH_CATALOG_START', () => {
 
     const action = {
-      type: FETCH_DATA_START
+      type: FETCH_CATALOG_START
     };
 
     expect(catalogR(initialState, action)).toEqual({
@@ -38,7 +38,7 @@ describe('catalog Reducers tests', () => {
 
   });
 
-  it('FETCH_DATA_SUCCESS', () => {
+  it('FETCH_CATALOG_SUCCESS', () => {
 
     const state = {
       ...initialState,
@@ -46,7 +46,7 @@ describe('catalog Reducers tests', () => {
     };
 
     const action = {
-      type: FETCH_DATA_SUCCESS,
+      type: FETCH_CATALOG_SUCCESS,
       payload: [1, 2, 3]
     };
 
@@ -57,7 +57,7 @@ describe('catalog Reducers tests', () => {
     });
   });
 
-  it('FETCH_DATA_FAILURE', () => {
+  it('FETCH_CATALOG_FAILURE', () => {
 
     const state = {
       ...initialState,
@@ -65,7 +65,7 @@ describe('catalog Reducers tests', () => {
     };
 
     const action = {
-      type: FETCH_DATA_FAILURE,
+      type: FETCH_CATALOG_FAILURE,
       errorMsg: 'Error!'
     };
 
