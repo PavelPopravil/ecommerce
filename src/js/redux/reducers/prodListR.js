@@ -1,7 +1,8 @@
 import {
   FETCH_PRODLIST_START,
   FETCH_PRODLIST_SUCCESS,
-  FETCH_PRODLIST_FAILURE
+  FETCH_PRODLIST_FAILURE,
+  // SET_ACTIVE_CATALOG,
 } from "../actions/prodListA";
 
 const initialState = {
@@ -10,7 +11,7 @@ const initialState = {
   errorMsg: null
 };
 
-export default (state = initialState, action) => {
+export const prodListR = (state = initialState, action) => {
   switch (action.type) {
     case FETCH_PRODLIST_START:
       return {
@@ -32,4 +33,14 @@ export default (state = initialState, action) => {
     default:
       return state;
   }
-}
+};
+
+// export const mew = (state = null, action) => {
+//   console.log(action.path);
+//   switch (action.type) {
+//     case SET_ACTIVE_CATALOG:
+//       return action.path;
+//     default:
+//       return state;
+//   }
+// };

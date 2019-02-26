@@ -1,0 +1,34 @@
+{
+  "iphone": [
+    {
+      "id": "1",
+      "pic": "iphone_1.jpeg",
+      "name": "iPhone 7",
+      "price": "1 210.00",
+      "properties": {
+        "diskSize": "32GB",
+        "color": "black"
+      }
+    },
+    {
+      "id": "2",
+      "pic": "iphone_2.jpeg",
+      "name": "iPhone 7",
+      "price": "1 210.00",
+      "properties": {
+        "diskSize": "32GB",
+        "color": "silver"
+      }
+    },
+    {
+      "id": "3",
+      "pic": "iphone_3.jpeg",
+      "name": "iPhone 7",
+      "price": "1 210.00",
+      "properties": {
+        "diskSize": "32GB",
+        "color": "gold"
+      }
+    }
+  ]
+}

@@ -156,6 +156,156 @@
         "diskSize": "256GB",
         "diskType": "SSD"
       }
+    },
+    {
+      "id": "11",
+      "pic": "mbp_4.png",
+      "name": "MacBook Pro",
+      "price": "7 920.00",
+      "properties": {
+        "screenSize": "15\"",
+        "release": "2018",
+        "processor": "Core i7 2.6GHz",
+        "videoCard": "Radeon Pro 560X",
+        "coreMem": "16GB",
+        "diskSize": "512GB",
+        "diskType": "SSD"
+      }
+    },
+    {
+      "id": "12",
+      "pic": "mbp_5.png",
+      "name": "MacBook Pro",
+      "price": "5 200.00",
+      "properties": {
+        "screenSize": "13\"",
+        "release": "2018",
+        "processor": "Core i5 2.3GHz",
+        "videoCard": "Iris Graphics 655",
+        "coreMem": "8GB",
+        "diskSize": "256GB",
+        "diskType": "SSD"
+      }
+    },
+    {
+      "id": "13",
+      "pic": "mbp_6.png",
+      "name": "MacBook Pro",
+      "price": "5 780.00",
+      "properties": {
+        "screenSize": "13\"",
+        "release": "2018",
+        "processor": "Core i5 2.3GHz",
+        "videoCard": "Iris Graphics 655",
+        "coreMem": "8GB",
+        "diskSize": "512GB",
+        "diskType": "SSD"
+      }
+    },
+    {
+      "id": "14",
+      "pic": "mbp_7.png",
+      "name": "MacBook Pro",
+      "price": "7 790.00",
+      "properties": {
+        "screenSize": "15\"",
+        "release": "2018",
+        "processor": "Core i7 2.2GHz",
+        "videoCard": "Radeon Pro 555X",
+        "coreMem": "16GB",
+        "diskSize": "256GB",
+        "diskType": "SSD"
+      }
+    },
+    {
+      "id": "15",
+      "pic": "mba_1.png",
+      "name": "MacBook Air",
+      "price": "3 430.00",
+      "properties": {
+        "screenSize": "13\"",
+        "release": "2017",
+        "processor": "Core i5 2.0GHz",
+        "videoCard": "Intel HD Graphics 6000",
+        "coreMem": "8GB",
+        "diskSize": "256GB",
+        "diskType": "SSD"
+      }
+    },
+    {
+      "id": "16",
+      "pic": "mba_2.png",
+      "name": "MacBook Air",
+      "price": "2 400.00",
+      "properties": {
+        "screenSize": "13\"",
+        "release": "2017",
+        "processor": "Core i5 2.0GHz",
+        "videoCard": "Intel HD Graphics 6000",
+        "coreMem": "8GB",
+        "diskSize": "128GB",
+        "diskType": "SSD"
+      }
+    },
+    {
+      "id": "17",
+      "pic": "mba_3.png",
+      "name": "MacBook Air",
+      "price": "3 700.00",
+      "properties": {
+        "screenSize": "13\"",
+        "release": "2018",
+        "processor": "Core i5 2.4GHz",
+        "videoCard": "Intel UHD 617",
+        "coreMem": "8GB",
+        "diskSize": "128GB",
+        "diskType": "SSD"
+      }
+    },
+    {
+      "id": "18",
+      "pic": "mba_4.png",
+      "name": "MacBook Air",
+      "price": "3 700.00",
+      "properties": {
+        "screenSize": "13\"",
+        "release": "2018",
+        "processor": "Core i5 3.4GHz",
+        "videoCard": "Intel UHD 617",
+        "coreMem": "8GB",
+        "diskSize": "128GB",
+        "diskType": "SSD"
+      }
+    },
+    {
+      "id": "19",
+      "pic": "mb_1.jpeg",
+      "name": "MacBook",
+      "price": "3 710.00",
+      "properties": {
+        "screenSize": "12\"",
+        "release": "2017",
+        "processor": "Core i3 1.2GHz",
+        "videoCard": "Intel HD 615",
+        "coreMem": "8GB",
+        "diskSize": "256GB",
+        "diskType": "SSD"
+      }
+    },
+    {
+      "id": "20",
+      "pic": "mb_2.jpeg",
+      "name": "MacBook",
+      "price": "3 710.00",
+      "properties": {
+        "screenSize": "12\"",
+        "release": "2017",
+        "processor": "Core i5 1.3GHz",
+        "videoCard": "Intel HD 615",
+        "coreMem": "8GB",
+        "diskSize": "512GB",
+        "diskType": "SSD"
+      }
     }
   ]
 }

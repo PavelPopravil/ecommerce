@@ -1,6 +1,9 @@
 import React from 'react';
+import Proptypes from 'prop-types';
 import {connect} from 'react-redux';
+
 import {fetchProdList} from '../../../redux/actions/prodListA';
+
 import Preloader from '../../extra/Preloader/index';
 import ProductCard from '../ProductCard/index';
 
@@ -8,8 +11,13 @@ import './style.scss';
 
 class ProductList extends React.PureComponent {
 
+  static proptypes = {
+    path: Proptypes.string.isRequired
+  };
+
   componentDidMount() {
-    this.props.onFetchProductList();
+    console.log(this.props.path);
+    this.props.onFetchProductList(this.props.path);
   }
 
   renderProductList = () => {
@@ -55,8 +63,8 @@ const mapStateToProps = (store) => {
 
 const mapDispatchToProps = (dispatch) => {
   return {
-    onFetchProductList() {
-      dispatch(fetchProdList());
+    onFetchProductList(path) {
+      dispatch(fetchProdList(path));
     }
   }
 };
