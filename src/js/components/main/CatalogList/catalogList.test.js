@@ -71,6 +71,7 @@ describe('CatalogList render', () => {
           mod: "big",
           id: 1,
           pic: "img/catalog_imac.png",
+          path: 'mac',
           title: "Mac",
           price: "от 1 650 руб"
         }

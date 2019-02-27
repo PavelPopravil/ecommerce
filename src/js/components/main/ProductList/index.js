@@ -16,8 +16,9 @@ class ProductList extends React.PureComponent {
   };
 
   componentDidMount() {
-    console.log(this.props.path);
-    this.props.onFetchProductList(this.props.path);
+    if (!this.props.data.length) {
+      this.props.onFetchProductList(this.props.path);
+    }
   }
 
   renderProductList = () => {
@@ -53,11 +54,15 @@ class ProductList extends React.PureComponent {
   }
 }
 
-const mapStateToProps = (store) => {
+const mapStateToProps = (store, ownProps) => {
+  const currProducts = store.prodList[ownProps.path];
+  if (!currProducts) {
+    return {}
+  }
   return {
-    isLoading: store.prodList.isLoading,
-    data: store.prodList.data,
-    errorMsg: store.prodList.errorMsg
+    isLoading: currProducts.isLoading,
+    data: currProducts.data,
+    errorMsg: currProducts.errorMsg
   }
 };
 
