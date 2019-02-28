@@ -16,12 +16,15 @@ class ProductList extends React.PureComponent {
   };
 
   componentDidMount() {
-    if (!this.props.data.length) {
-      this.props.onFetchProductList(this.props.path);
-    }
+    this.props.onFetchProductList(this.props.path);
+
+    // if (!this.props.data.length) {
+    //   this.props.onFetchProductList(this.props.path);
+    // }
   }
 
   renderProductList = () => {
+    console.log(this.props);
     const {isLoading, data, errorMsg} = this.props;
 
     const prodList = data.map((card) => {
@@ -45,7 +48,7 @@ class ProductList extends React.PureComponent {
         <div className="prod-list__list">
           <div className="row">
             {
-              this.renderProductList()
+              // this.renderProductList()
             }
           </div>
         </div>
@@ -55,14 +58,14 @@ class ProductList extends React.PureComponent {
 }
 
 const mapStateToProps = (store, ownProps) => {
-  const currProducts = store.prodList[ownProps.path];
-  if (!currProducts) {
-    return {}
-  }
+  const currentCatalog = store.prodList[ownProps.path];
+  // console.log(store.prodList);
   return {
-    isLoading: currProducts.isLoading,
-    data: currProducts.data,
-    errorMsg: currProducts.errorMsg
+    // isLoading: currentCatalog.isLoading,
+    // data: currentCatalog.ids.map((id) => {
+    //   return currentCatalog.byId[id];
+    // }),
+    // errorMsg: currentCatalog.errorMsg
   }
 };
 

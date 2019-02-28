@@ -1,7 +1,7 @@
 import isoFetch from 'isomorphic-fetch';
 
-export default (dispatch, url, method, cbStart, cbSuccess, cbError) => {
-  dispatch(cbStart());
+export default (dispatch, url, method, cbStart, cbSuccess, cbError, parentId) => {
+  dispatch(cbStart(parentId));
   isoFetch(url, {
     method: method,
     headers: {
@@ -18,12 +18,12 @@ export default (dispatch, url, method, cbStart, cbSuccess, cbError) => {
     })
     .then((data) => {
       try {
-        dispatch(cbSuccess(data)); // передаём полезные данные в fetchSuccess, дальше по цепочке пойдёт успешный пустой промис
+        dispatch(cbSuccess(data, parentId)); // передаём полезные данные в fetchSuccess, дальше по цепочке пойдёт успешный пустой промис
       } catch (error) {
-        dispatch(cbError(error.message)); // если что-то пошло не так - дальше по цепочке пойдёт отвергнутый промис
+        dispatch(cbError(error.message, parentId)); // если что-то пошло не так - дальше по цепочке пойдёт отвергнутый промис
       }
     })
     .catch((error) => {
-      dispatch(cbError(error.userMessage || error.message));
+      dispatch(cbError(error.userMessage || error.message, parentId));
     });
 };

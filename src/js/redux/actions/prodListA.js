@@ -4,32 +4,37 @@ import {API_ROOT} from '../../helpers/constats';
 export const FETCH_PRODLIST_START = 'FETCH_PRODLIST_START';
 export const FETCH_PRODLIST_SUCCESS = 'FETCH_PRODLIST_SUCCESS';
 export const FETCH_PRODLIST_FAILURE = 'FETCH_PRODLIST_FAILURE';
-export const SET_ACTIVE_CATALOG = 'SET_ACTIVE_CATALOG';
+// export const SET_ACTIVE_CATALOG = 'SET_ACTIVE_CATALOG';
 
-export const fetchDataStart = () => {
+export const fetchDataStart = (catalogId) => {
   return {
-    type: FETCH_PRODLIST_START
+    type: FETCH_PRODLIST_START,
+    payload: {
+      catalogId
+    }
   }
 };
 
-export const fetchDataSuccess = (data) => {
+export const fetchDataSuccess = (data, catalogId) => {
   return {
     type: FETCH_PRODLIST_SUCCESS,
-    payload: data
+    payload: {
+      catalogId,
+      data
+    }
   }
 };
 
-export const fetchDataFailure = (error) => {
+export const fetchDataFailure = (error, catalogId) => {
   return {
     type: FETCH_PRODLIST_FAILURE,
+    payload: {
+      catalogId
+    },
     errorMsg: error
   }
 };
 
 export const fetchProdList = (path) => async (dispatch) => {
-  dispatch({
-    type: SET_ACTIVE_CATALOG,
-    path
-  });
-  fetchData(dispatch, `${API_ROOT}/${path}`, 'get', fetchDataStart, fetchDataSuccess, fetchDataFailure);
+  fetchData(dispatch, `${API_ROOT}/${path}`, 'get', fetchDataStart, fetchDataSuccess, fetchDataFailure, path);
 };
