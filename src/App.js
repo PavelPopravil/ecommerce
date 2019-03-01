@@ -25,7 +25,7 @@ class App extends React.Component {
                 <Route path='/' exact component={PageMain}/>
                 <Route path='/about' component={PageAbout}/>
                 <Route path='/catalog' exact component={PageCatalog}/>
-                <Route path='/catalog/:section' component={PageProductList}/>
+                <Route path='/catalog/:section' exact component={PageProductList}/>
                 <Route path='/catalog/:section/:id' component={PageSingleProduct}/>
               </Switch>
             </main>

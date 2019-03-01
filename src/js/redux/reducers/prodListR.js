@@ -2,36 +2,48 @@ import {
   FETCH_PRODLIST_START,
   FETCH_PRODLIST_SUCCESS,
   FETCH_PRODLIST_FAILURE,
+  SET_ACTIVE_CATALOG
 } from '../actions/prodListA';
 
 import {arrayToObject} from '../../helpers/selector';
 
 const initialState = {
-  isLoading: false,
-  errorMsg: null,
+  currentCatalog: null,
   mac: {
     ids: [],
-    byId: {}
+    byId: {},
+    isLoading: false,
+    errorMsg: null,
   },
   ipad: {
     ids: [],
-    byId: {}
+    byId: {},
+    isLoading: false,
+    errorMsg: null,
   },
   iphone: {
     ids: [],
-    byId: {}
+    byId: {},
+    isLoading: false,
+    errorMsg: null,
   },
   apple_tv: {
     ids: [],
-    byId: {}
+    byId: {},
+    isLoading: false,
+    errorMsg: null,
   },
   ipod: {
     ids: [],
-    byId: {}
+    byId: {},
+    isLoading: false,
+    errorMsg: null,
   },
   iwatch: {
     ids: [],
-    byId: {}
+    byId: {},
+    isLoading: false,
+    errorMsg: null,
   }
 };
 
@@ -40,17 +52,25 @@ export const prodListR = (state = initialState, action) => {
   const {payload} = action;
 
   switch (action.type) {
+    case SET_ACTIVE_CATALOG:
+      return {
+        ...state,
+        currentCatalog: action.path
+      };
     case FETCH_PRODLIST_START:
       return {
         ...state,
-        isLoading: true
+        [state.currentCatalog]: {
+          ...state[state.currentCatalog],
+          isLoading: true
+        }
       };
     case FETCH_PRODLIST_SUCCESS:
       return {
         ...state,
-        isLoading: false,
-        [payload.catalogId]: {
-          ...state[payload.catalogId],
+        [state.currentCatalog]: {
+          ...state[state.currentCatalog],
+          isLoading: false,
           ids: payload.data.map((item) => item.id),
           byId: arrayToObject(payload.data, 'id')
         }
@@ -58,8 +78,11 @@ export const prodListR = (state = initialState, action) => {
     case FETCH_PRODLIST_FAILURE:
       return {
         ...state,
-        isLoading: false,
-        errorMsg: action.errorMsg
+        [state.currentCatalog]: {
+          ...state[state.currentCatalog],
+          isLoading: false,
+          errorMsg: action.errorMsg
+        }
       };
     default:
       return state;

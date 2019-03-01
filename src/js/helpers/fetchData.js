@@ -18,7 +18,7 @@ export default (dispatch, url, method, cbStart, cbSuccess, cbError, parentId) =>
     })
     .then((data) => {
       try {
-        dispatch(cbSuccess(data, parentId)); // передаём полезные данные в fetchSuccess, дальше по цепочке пойдёт успешный пустой промис
+        dispatch(cbSuccess(data)); // передаём полезные данные в fetchSuccess, дальше по цепочке пойдёт успешный пустой промис
       } catch (error) {
         dispatch(cbError(error.message)); // если что-то пошло не так - дальше по цепочке пойдёт отвергнутый промис
       }

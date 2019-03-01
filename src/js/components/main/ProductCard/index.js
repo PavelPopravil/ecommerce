@@ -12,7 +12,8 @@ class ProdCard extends React.PureComponent {
       name: PropTypes.string.isRequired,
       price: PropTypes.string.isRequired,
       properties: PropTypes.object.isRequired
-    }).isRequired
+    }).isRequired,
+    path: PropTypes.string.isRequired
   };
 
   renderCardProperties = (properties) => {
@@ -22,12 +23,12 @@ class ProdCard extends React.PureComponent {
   };
 
   render() {
-
-    const {pic, name, price, properties} = this.props.card;
+    const {path, card} = this.props;
+    const {pic, name, price, properties, id} = card;
 
     return (
       <div className='prod-card'>
-        <Link to={`/`} className='prod-card__inner'>
+        <Link to={`/catalog/${path}/${id}`} className='prod-card__inner'>
           <div className="prod-card__pic-wrap">
             <img className='prod-card__pic' src={`${process.env.PUBLIC_URL}/img/${pic}`} alt={name} />
           </div>

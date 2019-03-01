@@ -1,9 +1,10 @@
 import {combineReducers} from 'redux';
 import catalogR from './catalogR';
-import {prodListR, catalogListR} from './prodListR';
+import {prodListR} from './prodListR';
+import productR from './productR';
 
 export default combineReducers({
   catalog: catalogR,
   prodList: prodListR,
-  // catalogList: catalogListR
+  productPage: productR
 });
