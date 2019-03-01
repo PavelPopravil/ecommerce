@@ -24,7 +24,7 @@ class ProductList extends React.PureComponent {
   }
 
   renderProductList = () => {
-    console.log(this.props);
+
     const {isLoading, data, errorMsg} = this.props;
 
     const prodList = data.map((card) => {
@@ -48,7 +48,7 @@ class ProductList extends React.PureComponent {
         <div className="prod-list__list">
           <div className="row">
             {
-              // this.renderProductList()
+              this.renderProductList()
             }
           </div>
         </div>
@@ -59,13 +59,12 @@ class ProductList extends React.PureComponent {
 
 const mapStateToProps = (store, ownProps) => {
   const currentCatalog = store.prodList[ownProps.path];
-  // console.log(store.prodList);
   return {
-    // isLoading: currentCatalog.isLoading,
-    // data: currentCatalog.ids.map((id) => {
-    //   return currentCatalog.byId[id];
-    // }),
-    // errorMsg: currentCatalog.errorMsg
+    isLoading: store.prodList.isLoading,
+    data: currentCatalog.ids.map((id) => {
+      return currentCatalog.byId[id];
+    }),
+    errorMsg: store.prodList.errorMsg
   }
 };
 

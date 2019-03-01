@@ -7,6 +7,7 @@ import PageMain from './js/pages/PageMain';
 import PageAbout from './js/pages/PageAbout';
 import PageCatalog from './js/pages/PageCatalog';
 import PageProductList from './js/pages/PageProductList';
+import PageSingleProduct from './js/pages/PageSingleProduct';
 
 class App extends React.Component {
 
@@ -25,6 +26,7 @@ class App extends React.Component {
                 <Route path='/about' component={PageAbout}/>
                 <Route path='/catalog' exact component={PageCatalog}/>
                 <Route path='/catalog/:section' component={PageProductList}/>
+                <Route path='/catalog/:section/:id' component={PageSingleProduct}/>
               </Switch>
             </main>
           </div>

@@ -6,12 +6,9 @@ export const FETCH_PRODLIST_SUCCESS = 'FETCH_PRODLIST_SUCCESS';
 export const FETCH_PRODLIST_FAILURE = 'FETCH_PRODLIST_FAILURE';
 // export const SET_ACTIVE_CATALOG = 'SET_ACTIVE_CATALOG';
 
-export const fetchDataStart = (catalogId) => {
+export const fetchDataStart = () => {
   return {
-    type: FETCH_PRODLIST_START,
-    payload: {
-      catalogId
-    }
+    type: FETCH_PRODLIST_START
   }
 };
 
@@ -28,9 +25,6 @@ export const fetchDataSuccess = (data, catalogId) => {
 export const fetchDataFailure = (error, catalogId) => {
   return {
     type: FETCH_PRODLIST_FAILURE,
-    payload: {
-      catalogId
-    },
     errorMsg: error
   }
 };
