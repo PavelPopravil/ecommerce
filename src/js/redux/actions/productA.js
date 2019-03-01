@@ -11,11 +11,11 @@ export const fetchDataStart = () => {
   }
 };
 
-export const fetchDataSuccess = (id) => {
+export const fetchDataSuccess = (product) => {
   return {
     type: FETCH_PRODUCT_SUCCESS,
     payload: {
-      id
+      product
     }
   }
 };

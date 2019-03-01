@@ -1,8 +1,8 @@
 import React, {Fragment} from 'react';
 import {connect} from 'react-redux';
 import {fetchProduct} from '../redux/actions/productA';
-
-// import Preloader from '../components/extra/Preloader/index';
+import Preloader from '../components/extra/Preloader/index';
+import SingleProduct from '../components/main/SingleProduct/index';
 
 class Page extends React.PureComponent {
 
@@ -14,14 +14,25 @@ class Page extends React.PureComponent {
     }
   }
 
+  renderContent = () => {
+    const {isLoading, errorMsg, product} = this.props;
+
+    if (errorMsg) {
+      return <div className='error'>{`Произошла ошибка ${errorMsg}`}</div>
+    }
+
+    return isLoading ? <Preloader /> : product ? <SingleProduct data={product} /> : null;
+  };
+
   render() {
 
     return (
       <Fragment>
-        <h1>{this.props.match.params.id}</h1>
         <div className='row'>
           <div className="col-12">
-            content
+            {
+              this.renderContent()
+            }
           </div>
         </div>
       </Fragment>
@@ -33,7 +44,9 @@ const mapStateToProps = (store, ownProps) => {
   const currentCatalog = store.prodList[ownProps.match.params.section];
 
   return {
-    product: currentCatalog.byId[ownProps.match.params.id]
+    isLoading: store.productPage.isLoading,
+    errorMsg: store.productPage.errorMsg,
+    product: currentCatalog.byId[ownProps.match.params.id] || store.productPage.product
   }
 };
 

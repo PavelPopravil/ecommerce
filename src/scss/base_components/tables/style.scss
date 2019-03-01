@@ -2,6 +2,7 @@
 // Tables
 // --------------------------------------------------
 
+
 table {
   border-collapse: collapse; // Prevent double borders
 }
@@ -17,47 +18,60 @@ th {
   table {
     max-width: 100%;
     width: 100%;
-    background-color: transparent;
+    background-color: $body-bg-color;
     margin-bottom: 32px;
 
     td,
     th {
       border-left: 1px solid transparent; //Firefox fix for right displaying tables
       border-right: 1px solid transparent; //Firefox fix for right displaying tables
-    }
+      padding: 18px 20px;
 
-    // Line across the table
-    tr {
+      @media (max-width: $screen-md-max) {
+        padding-left: 12px;
+        padding-right: 12px;
 
-    }
+        &:first-child {
+          padding-left: 20px;
+        }
 
-    // The header of the table
-    thead {
-      //border-bottom: 2px solid $border-color-base;
+        &:last-child {
+          padding-right: 20px;
+        }
+      }
+
+      @media (max-width: $screen-xs-max) {
+
+        &:first-child {
+          padding-left: 15px;
+        }
+
+        &:last-child {
+          padding-right: 15px;
+        }
+      }
     }
 
     // The cell of header table
     th {
-      padding: 9px 11px 12px;
       text-align: left;
       color: $headings-color;
       font-size: 15px;
       line-height: (19/15);
-      @include font-family-bold();
-      background: #f4f6f9;
+      font-family: $font-m;
+      background: #d2e6f3;
+      font-weight: normal;
+      padding-top: 15px;
+      padding-bottom: 15px;
     }
 
     // The body of table
     tbody {
       // Line in the body of table
       tr {
-        font-size: 13px;
-        line-height: (18/13);
-        border-bottom: 1px solid $border-color-base;
 
-        @include hover-focus() {
-          background: #f9f9f9;
-          transition: all 0.15s;
+        &:not(:last-child) {
+          border-bottom: 1px solid $border-color-base;
         }
       }
     }
@@ -65,14 +79,15 @@ th {
     // Cell in the body of table
     td {
       vertical-align: top;
-      padding: 25px 11px 33px;
     }
   }
 }
 
 .table-responsive {
+  box-shadow: 0 8px 19.2px 0 rgba(0, 0, 0, 0.13);
   overflow-x: auto;
   min-height: 0.01%; // Workaround for IE9 bug (see https://github.com/twbs/bootstrap/issues/14837)
+  margin-bottom: 32px;
 
   @media (max-width: $screen-sm-max) {
     width: 100%;
@@ -97,5 +112,19 @@ th {
         }
       }
     }
+  }
+}
+
+.table-wrapper,
+.table-adaptive {
+  box-shadow: 0 5px 40px 0 rgba(0, 0, 0, 0.1);
+  margin-bottom: 32px;
+
+  @media (max-width: $screen-sm-max) {
+    margin-bottom: 20px;
+  }
+
+  table {
+    margin-bottom: 0;
   }
 }

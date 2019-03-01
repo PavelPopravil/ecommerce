@@ -16,7 +16,7 @@ class PageMain extends React.PureComponent {
     const {isLoading, data, errorMsg} = this.props;
 
     if (errorMsg) {
-      return <div className='col-12 failure-block'>{`Произошла ошибка ${errorMsg}`}</div>;
+      return <div className='error'>{`Произошла ошибка ${errorMsg}`}</div>;
     }
 
     return isLoading ? <Preloader /> : <ProductList path={section} data={data}/>;

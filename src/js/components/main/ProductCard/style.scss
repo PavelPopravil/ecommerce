@@ -8,6 +8,7 @@
   text-decoration: none;
   display: flex;
   flex-direction: column;
+  transition: $transition-default;
 
   &:hover,
   &:focus {

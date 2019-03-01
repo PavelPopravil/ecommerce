@@ -6,11 +6,12 @@ import {
 
 const initialState = {
   isLoading: false,
-  id: null,
+  product: null,
   errorMsg: null
 };
 
 export default (state = initialState, action) => {
+  const {payload} = action;
   switch (action.type) {
     case FETCH_PRODUCT_START:
       return {
@@ -21,7 +22,7 @@ export default (state = initialState, action) => {
       return {
         ...state,
         isLoading: false,
-        id: action.payload.id
+        product: payload.product
       };
     case FETCH_PRODUCT_FAILURE:
       return {
