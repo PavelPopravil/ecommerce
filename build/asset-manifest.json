@@ -1,17 +1,17 @@
 {
   "main.css": "./static/css/main.75253187.chunk.css",
-  "main.js": "./static/js/main.05e980c4.chunk.js",
-  "main.js.map": "./static/js/main.05e980c4.chunk.js.map",
-  "static/js/1.c8260a45.chunk.js": "./static/js/1.c8260a45.chunk.js",
-  "static/js/1.c8260a45.chunk.js.map": "./static/js/1.c8260a45.chunk.js.map",
+  "main.js": "./static/js/main.693252ef.chunk.js",
+  "main.js.map": "./static/js/main.693252ef.chunk.js.map",
+  "static/js/1.27395b20.chunk.js": "./static/js/1.27395b20.chunk.js",
+  "static/js/1.27395b20.chunk.js.map": "./static/js/1.27395b20.chunk.js.map",
   "runtime~main.js": "./static/js/runtime~main.4a686d48.js",
   "runtime~main.js.map": "./static/js/runtime~main.4a686d48.js.map",
-  "static/media/index.scss": "./static/media/Roboto-Light.10ad0f86.woff",
+  "static/media/index.scss": "./static/media/Roboto-Medium.9a3bf7ac.woff",
   "static/media/logo.png": "./static/media/logo.fff62182.png",
   "static/media/sl-main-02.jpeg": "./static/media/sl-main-02.0a0c50e1.jpeg",
   "static/media/sl-main-01.png": "./static/media/sl-main-01.22543c32.png",
   "static/css/main.75253187.chunk.css.map": "./static/css/main.75253187.chunk.css.map",
   "index.html": "./index.html",
-  "precache-manifest.f82412be7be17433297267cafc6f310c.js": "./precache-manifest.f82412be7be17433297267cafc6f310c.js",
+  "precache-manifest.4b6cdf140a57497a0c860c825deab779.js": "./precache-manifest.4b6cdf140a57497a0c860c825deab779.js",
   "service-worker.js": "./service-worker.js"
 }
