@@ -1,4 +1,4 @@
-export const API_ROOT = 'http://5c73e1fc826db700140a27d8.mockapi.io/api';
+export const API_ROOT = 'https://5c73e1fc826db700140a27d8.mockapi.io/api';
 
 export const PropMap = {
   screenSize: 'Размер экрана',
