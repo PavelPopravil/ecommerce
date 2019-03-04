@@ -72,7 +72,7 @@ const mapStateToProps = (store, ownProps) => {
 
   return {
     isLoading: currentProdlist.isLoading,
-    data: filterList(data, store.prodFilter[currentCatalog]), //toDo выводить сообщение о том что нет товаров по фильтру
+    data: filterList(data, currentProdlist.filter), //toDo выводить сообщение о том что нет товаров по фильтру
     errorMsg: currentProdlist.errorMsg,
   }
 };

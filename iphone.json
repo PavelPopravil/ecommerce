@@ -29,6 +29,486 @@
         "diskSize": "32GB",
         "color": "gold"
       }
+    },
+    {
+      "id": "4",
+      "pic": "iphone_4.jpeg",
+      "name": "iPhone 7",
+      "price": "1 210.00",
+      "properties": {
+        "diskSize": "32GB",
+        "color": "pink"
+      }
+    },
+    {
+      "id": "5",
+      "pic": "iphone_2.jpeg",
+      "name": "iPhone 7",
+      "price": "1 620.00",
+      "properties": {
+        "diskSize": "128GB",
+        "color": "silver"
+      }
+    },
+    {
+      "id": "6",
+      "pic": "iphone_3.jpeg",
+      "name": "iPhone 7",
+      "price": "1 620.00",
+      "properties": {
+        "diskSize": "128GB",
+        "color": "gold"
+      }
+    },
+    {
+      "id": "7",
+      "pic": "iphone_4.jpeg",
+      "name": "iPhone 7",
+      "price": "1 620.00",
+      "properties": {
+        "diskSize": "128GB",
+        "color": "pink"
+      }
+    },
+    {
+      "id": "8",
+      "pic": "iphone_5.jpeg",
+      "name": "iPhone 7",
+      "price": "1 620.00",
+      "properties": {
+        "diskSize": "128GB",
+        "color": "black onyx"
+      }
+    },
+    {
+      "id": "8",
+      "pic": "iphone_2.jpeg",
+      "name": "iPhone 7 Plus",
+      "price": "1 360.00",
+      "properties": {
+        "diskSize": "32GB",
+        "color": "silver"
+      }
+    },
+    {
+      "id": "9",
+      "pic": "iphone_3.jpeg",
+      "name": "iPhone 7 Plus",
+      "price": "1 360.00",
+      "properties": {
+        "diskSize": "32GB",
+        "color": "gold"
+      }
+    },
+    {
+      "id": "10",
+      "pic": "iphone_4.jpeg",
+      "name": "iPhone 7 Plus",
+      "price": "1 360.00",
+      "properties": {
+        "diskSize": "32GB",
+        "color": "pink"
+      }
+    },
+    {
+      "id": "11",
+      "pic": "iphone_1.jpeg",
+      "name": "iPhone 7 Plus",
+      "price": "1 950.00",
+      "properties": {
+        "diskSize": "128GB",
+        "color": "black"
+      }
+    },
+    {
+      "id": "12",
+      "pic": "iphone_2.jpeg",
+      "name": "iPhone 7 Plus",
+      "price": "1 950.00",
+      "properties": {
+        "diskSize": "128GB",
+        "color": "silver"
+      }
+    },
+    {
+      "id": "13",
+      "pic": "iphone_3.jpeg",
+      "name": "iPhone 7 Plus",
+      "price": "1 950.00",
+      "properties": {
+        "diskSize": "128GB",
+        "color": "gold"
+      }
+    },
+    {
+      "id": "14",
+      "pic": "iphone_4.jpeg",
+      "name": "iPhone 7 Plus",
+      "price": "1 950.00",
+      "properties": {
+        "diskSize": "128GB",
+        "color": "pink"
+      }
+    },
+    {
+      "id": "15",
+      "pic": "iphone_5.jpeg",
+      "name": "iPhone 7 Plus",
+      "price": "1 950.00",
+      "properties": {
+        "diskSize": "128GB",
+        "color": "black onyx"
+      }
+    },
+    {
+      "id": "16",
+      "pic": "iphone_6.jpeg",
+      "name": "iPhone 8 Plus",
+      "price": "2 520.00",
+      "properties": {
+        "diskSize": "256GB",
+        "color": "gray"
+      }
+    },
+    {
+      "id": "17",
+      "pic": "iphone_7.jpeg",
+      "name": "iPhone 8 Plus",
+      "price": "2 520.00",
+      "properties": {
+        "diskSize": "256GB",
+        "color": "silver"
+      }
+    },
+    {
+      "id": "18",
+      "pic": "iphone_6.jpeg",
+      "name": "iPhone 8",
+      "price": "1 740.00",
+      "properties": {
+        "diskSize": "64GB",
+        "color": "gray"
+      }
+    },
+    {
+      "id": "19",
+      "pic": "iphone_7.jpeg",
+      "name": "iPhone 8",
+      "price": "2 230.00",
+      "properties": {
+        "diskSize": "256GB",
+        "color": "silver"
+      }
+    },
+    {
+      "id": "20",
+      "pic": "iphone_8.jpeg",
+      "name": "iPhone X",
+      "price": "2 400.00",
+      "properties": {
+        "diskSize": "64GB",
+        "color": "gray"
+      }
+    },
+    {
+      "id": "21",
+      "pic": "iphone_8.jpeg",
+      "name": "iPhone X",
+      "price": "2 830.00",
+      "properties": {
+        "diskSize": "256GB",
+        "color": "gray"
+      }
+    },
+    {
+      "id": "22",
+      "pic": "iphone_9.jpeg",
+      "name": "iPhone X",
+      "price": "2 830.00",
+      "properties": {
+        "diskSize": "256GB",
+        "color": "silver"
+      }
+    },
+    {
+      "id": "23",
+      "pic": "iphone_10.png",
+      "name": "iPhone 8",
+      "price": "1 740.00",
+      "properties": {
+        "diskSize": "64GB",
+        "color": "red"
+      }
+    },
+    {
+      "id": "24",
+      "pic": "iphone_11.png",
+      "name": "iPhone XR",
+      "price": "2 180.00",
+      "properties": {
+        "diskSize": "64GB",
+        "color": "red"
+      }
+    },
+    {
+      "id": "25",
+      "pic": "iphone_12.png",
+      "name": "iPhone XR",
+      "price": "2 180.00",
+      "properties": {
+        "diskSize": "64GB",
+        "color": "yellow"
+      }
+    },
+    {
+      "id": "26",
+      "pic": "iphone_13.png",
+      "name": "iPhone XR",
+      "price": "2 180.00",
+      "properties": {
+        "diskSize": "64GB",
+        "color": "corral"
+      }
+    },
+    {
+      "id": "27",
+      "pic": "iphone_14.png",
+      "name": "iPhone XR",
+      "price": "2 350.00",
+      "properties": {
+        "diskSize": "128GB",
+        "color": "black"
+      }
+    },
+    {
+      "id": "28",
+      "pic": "iphone_15.png",
+      "name": "iPhone XR",
+      "price": "2 350.00",
+      "properties": {
+        "diskSize": "128GB",
+        "color": "white"
+      }
+    },
+    {
+      "id": "29",
+      "pic": "iphone_14.png",
+      "name": "iPhone XR",
+      "price": "2 600.00",
+      "properties": {
+        "diskSize": "256GB",
+        "color": "black"
+      }
+    },
+    {
+      "id": "30",
+      "pic": "iphone_15.png",
+      "name": "iPhone XR",
+      "price": "2 600.00",
+      "properties": {
+        "diskSize": "256GB",
+        "color": "white"
+      }
+    },
+    {
+      "id": "31",
+      "pic": "iphone_11.png",
+      "name": "iPhone XR",
+      "price": "2 600.00",
+      "properties": {
+        "diskSize": "256GB",
+        "color": "red"
+      }
+    },
+    {
+      "id": "32",
+      "pic": "iphone_12.png",
+      "name": "iPhone XR",
+      "price": "2 600.00",
+      "properties": {
+        "diskSize": "256GB",
+        "color": "yellow"
+      }
+    },
+    {
+      "id": "33",
+      "pic": "iphone_13.png",
+      "name": "iPhone XR",
+      "price": "2 600.00",
+      "properties": {
+        "diskSize": "256GB",
+        "color": "corral"
+      }
+    },
+    {
+      "id": "34",
+      "pic": "iphone_16.png",
+      "name": "iPhone XR",
+      "price": "2 600.00",
+      "properties": {
+        "diskSize": "256GB",
+        "color": "blue"
+      }
+    },
+    {
+      "id": "35",
+      "pic": "iphone_1.jpeg",
+      "name": "iPhone 7",
+      "price": "1 620.00",
+      "properties": {
+        "diskSize": "128GB",
+        "color": "black"
+      }
+    },
+    {
+      "id": "36",
+      "pic": "iphone_1.jpeg",
+      "name": "iPhone 7 Plus",
+      "price": "1 360.00",
+      "properties": {
+        "diskSize": "32GB",
+        "color": "black"
+      }
+    },
+    {
+      "id": "37",
+      "pic": "iphone_15.png",
+      "name": "iPhone XR",
+      "price": "2 180.00",
+      "properties": {
+        "diskSize": "64GB",
+        "color": "white"
+      }
+    },
+    {
+      "id": "38",
+      "pic": "iphone_9.jpeg",
+      "name": "iPhone X",
+      "price": "2 400.00",
+      "properties": {
+        "diskSize": "64GB",
+        "color": "silver"
+      }
+    },
+    {
+      "id": "39",
+      "pic": "iphone_12.png",
+      "name": "iPhone XR",
+      "price": "2 350.00",
+      "properties": {
+        "diskSize": "128GB",
+        "color": "yellow"
+      }
+    },
+    {
+      "id": "40",
+      "pic": "iphone_6.jpeg",
+      "name": "iPhone 8 Plus",
+      "price": "2 000.00",
+      "properties": {
+        "diskSize": "64GB",
+        "color": "gray"
+      }
+    },
+    {
+      "id": "41",
+      "pic": "iphone_17.jpeg",
+      "name": "iPhone 8 Plus",
+      "price": "2 000.00",
+      "properties": {
+        "diskSize": "64GB",
+        "color": "gold"
+      }
+    },
+    {
+      "id": "42",
+      "pic": "iphone_17.jpeg",
+      "name": "iPhone 8 Plus",
+      "price": "2 520.00",
+      "properties": {
+        "diskSize": "256GB",
+        "color": "gold"
+      }
+    },
+    {
+      "id": "43",
+      "pic": "iphone_7.jpeg",
+      "name": "iPhone 8",
+      "price": "1 740.00",
+      "properties": {
+        "diskSize": "64GB",
+        "color": "silver"
+      }
+    },
+    {
+      "id": "44",
+      "pic": "iphone_3.jpeg",
+      "name": "iPhone 8",
+      "price": "1 740.00",
+      "properties": {
+        "diskSize": "64GB",
+        "color": "gold"
+      }
+    },
+    {
+      "id": "45",
+      "pic": "iphone_6.jpeg",
+      "name": "iPhone 8",
+      "price": "2 230.00",
+      "properties": {
+        "diskSize": "256GB",
+        "color": "gray"
+      }
+    },
+    {
+      "id": "46",
+      "pic": "iphone_3.jpeg",
+      "name": "iPhone 8",
+      "price": "2 230.00",
+      "properties": {
+        "diskSize": "256GB",
+        "color": "gold"
+      }
+    },
+    {
+      "id": "47",
+      "pic": "iphone_11.png",
+      "name": "iPhone XR",
+      "price": "2 350.00",
+      "properties": {
+        "diskSize": "128GB",
+        "color": "red"
+      }
+    },
+    {
+      "id": "48",
+      "pic": "iphone_14.png",
+      "name": "iPhone XR",
+      "price": "2 180.00",
+      "properties": {
+        "diskSize": "64GB",
+        "color": "black"
+      }
+    },
+    {
+      "id": "49",
+      "pic": "iphone_16.png",
+      "name": "iPhone XR",
+      "price": "2 180.00",
+      "properties": {
+        "diskSize": "64GB",
+        "color": "blue"
+      }
+    },
+    {
+      "id": "50",
+      "pic": "iphone_13.png",
+      "name": "iPhone XR",
+      "price": "2 350.00",
+      "properties": {
+        "diskSize": "128GB",
+        "color": "corral"
+      }
     }
   ]
 }

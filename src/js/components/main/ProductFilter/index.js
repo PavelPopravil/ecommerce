@@ -2,7 +2,7 @@ import React from 'react';
 import Proptypes from 'prop-types';
 import {connect} from 'react-redux';
 import {PropMap} from '../../../helpers/constats';
-import {setProdFilter} from '../../../redux/actions/prodFilterA';
+import {setProdFilter} from '../../../redux/actions/prodListA';
 
 class ProductFilter extends React.PureComponent {
 
@@ -28,7 +28,7 @@ class ProductFilter extends React.PureComponent {
     this.props.setProdFilter(map);
   };
 
-  renderCheckbox = (option, optGroup) => {
+  renderCheckbox = (option, optGroup) => { // toDo Выделять активные чекбоксы в зависимсоти от состояние филтра
     return <div className='checkbox' key={option}>
             <label>
               <input type="checkbox" name={optGroup} value={option} onChange={this.onCheckboxChange} />
