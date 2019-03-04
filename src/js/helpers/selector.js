@@ -5,3 +5,4 @@ export const arrayToObject = (arr, key) => {
   }
   return obj;
 };
+

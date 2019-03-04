@@ -7,7 +7,7 @@ import {
 
 import {arrayToObject} from '../../helpers/selector';
 
-const initialState = {
+export const initialState = {
   currentCatalog: null,
   mac: {
     ids: [],

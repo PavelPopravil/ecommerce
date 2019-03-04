@@ -11,3 +11,52 @@ export const PropMap = {
   diskType: 'Тип накопителя',
   color: 'Цвет корпуса'
 };
+
+export const CatalogMap = {
+  mac: {
+    name: 'Mac',
+    filter: [
+      {
+        name: 'screenSize',
+        options: ["27\"", "21,5\"", "15\"", "13\"", "12\""]
+      },
+      {
+        name: 'diskSize',
+        options: ['2TB', '1TB', '512GB', '256GB', '128GB']
+      },
+      {
+        name: 'coreMem',
+        options: ['32GB', '16GB', '8GB']
+      }
+    ]
+  },
+  ipad: {
+    name: 'iPad',
+    filter: []
+  },
+  iphone: {
+    name: 'iPhone',
+    filter: [
+      {
+        name: 'diskSize',
+        options: ['32GB', '16GB']
+      },
+      {
+        name: 'color',
+        options: ['black', 'silver', 'gold']
+      }
+    ]
+  },
+  apple_tv: {
+    name: 'Apple TV',
+    filter: []
+  },
+  ipod: {
+    name: 'iPod',
+    filter: []
+  },
+  iwatch: {
+    name: 'iWatch',
+    filter: []
+  }
+};
