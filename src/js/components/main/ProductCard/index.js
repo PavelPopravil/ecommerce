@@ -11,7 +11,7 @@ class ProdCard extends React.PureComponent {
       pic: PropTypes.string.isRequired,
       name: PropTypes.string.isRequired,
       price: PropTypes.string.isRequired,
-      properties: PropTypes.object.isRequired
+      properties: PropTypes.object.isRequired,
     }).isRequired,
     path: PropTypes.string.isRequired
   };
