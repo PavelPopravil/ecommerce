@@ -31,9 +31,6 @@ class MainMenu extends React.Component {
         <Collapse isOpen={this.state.isOpen} navbar>
           <Nav className="list-reset" navbar>
             <NavItem>
-              <NavLink to={'/about'} activeClassName='active'>О компании</NavLink>
-            </NavItem>
-            <NavItem>
               <NavLink to={'/catalog'} activeClassName='active'>Каталог</NavLink>
             </NavItem>
           </Nav>

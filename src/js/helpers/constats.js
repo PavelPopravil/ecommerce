@@ -39,7 +39,7 @@ export const CatalogMap = {
     filter: [
       {
         name: 'diskSize',
-        options: ['256GB', '128GB', '64GB', '32GB', '16GB']
+        options: ['256GB', '128GB', '64GB', '32GB']
       },
       {
         name: 'color',

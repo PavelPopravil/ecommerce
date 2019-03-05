@@ -102,7 +102,7 @@
       "name": "iMac",
       "price": "4 290.00",
       "properties": {
-        "screenSize": "21.5\"",
+        "screenSize": "21,5\"",
         "release": "2017",
         "screenResolution": "4K Retina",
         "processor": "Core i5 3.4GHz",

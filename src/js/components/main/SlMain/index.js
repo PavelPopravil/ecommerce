@@ -1,6 +1,5 @@
 import React from 'react';
 import Slick from 'react-slick';
-import {NavLink} from "react-router-dom";
 import './style.scss';
 import '../SlPager/style.scss';
 import img_01 from './img/sl-main-01.png';
@@ -30,7 +29,6 @@ class SlMain extends React.PureComponent {
                 <div className="text-wrap">
                   <div className='h1 m-title'>Новинка!</div>
                   <p className='text lead'>iMac 27" (2017) 5K Retina Core i5 3.5GHz, Radeon Pro 575 4GB, 8GB, 1TB Fusion Drive - UA</p>
-                  <NavLink className='btn btn-accent' to={'/'}>Купить</NavLink>
                 </div>
                 <div className="pic-wrap">
                   <img src={img_01} alt="alt" />
@@ -42,7 +40,6 @@ class SlMain extends React.PureComponent {
                 <div className="text-wrap">
                   <h1 className='m-title'>Macbook Pro с любым цветом корпуса!</h1>
                   <p className='text lead'>Золотой, Серебристый, Серый космос</p>
-                  <NavLink className='btn btn-accent' to={'/'}>Купить</NavLink>
                 </div>
                 <div className="pic-wrap">
                   <img src={img_02} alt="alt" />

@@ -81,16 +81,6 @@
       }
     },
     {
-      "id": "8",
-      "pic": "iphone_2.jpeg",
-      "name": "iPhone 7 Plus",
-      "price": "1 360.00",
-      "properties": {
-        "diskSize": "32GB",
-        "color": "silver"
-      }
-    },
-    {
       "id": "9",
       "pic": "iphone_3.jpeg",
       "name": "iPhone 7 Plus",

@@ -364,16 +364,6 @@ progress {
   color: #595959;
 }
 
-.help-block {
-  display: block; // account for any element using help-block
-  margin-top: 8px;
-  margin-bottom: 0;
-  color: #989898; // lighten the text some for contrast
-  @include font-family-italic();
-  font-size: 13px;
-  line-height: (13/11);
-}
-
 // Form validation
 @mixin form-control-validation($text-color: #555, $border-color: #ccc, $background-color: #f5f5f5) {
 
@@ -401,4 +391,46 @@ progress {
 
 .has-error {
   @include form-control-validation($state-danger-text, $state-danger-text, $state-danger-bg);
+}
+
+.checkbox {
+
+  &:not(:last-child) {
+    margin-bottom: 10px;
+  }
+
+  label {
+    display: inline-flex;
+    flex-wrap: wrap;
+    cursor: pointer;
+    margin-bottom: 0;
+    user-select: none;
+  }
+
+  .cb-input {
+    position: absolute;
+    border: 0;
+    clip: rect(0 0 0 0);
+    width: 0;
+    height: 0;
+    padding: 0;
+
+    &:checked + .cb-icon {
+      border-color: $brand-1;
+      background-color: $brand-1 ;
+      background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zOnN2Zz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciICAgICB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjEzcHgiIGhlaWdodD0iMTBweCIgICAgIHZpZXdCb3g9IjAgMCAxMyAxMCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMTMgMTA7IiB4bWw6c3BhY2U9InByZXNlcnZlIj48c3R5bGUgdHlwZT0idGV4dC9jc3MiPi5zdDB7ZmlsbDojRkZGRkZGO308L3N0eWxlPiAgICA8Zz48dGl0bGU+TGF5ZXIgMTwvdGl0bGU+ICAgICAgICA8cGF0aCBpZD0ic3ZnXzEiIGNsYXNzPSJzdDAiIGQ9Ik0xMi42LDJMNC43LDkuOWwtMi0xLjlsMCwwTDAsNS4ybDEuOC0xLjhsMi43LDIuN0wxMC42LDBDMTAuNiwwLDEyLjYsMiwxMi42LDJ6Ii8+PC9nPjwvc3ZnPg==);
+      background-repeat: no-repeat;
+      background-position: 50% 50%;
+    }
+  }
+
+  .cb-icon {
+    display: block;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #e5e5e5;
+    border-radius: $border-radius-base;
+    margin-right: 10px;
+    background-color: #f6f8f9;
+  }
 }

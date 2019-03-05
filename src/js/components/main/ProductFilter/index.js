@@ -3,18 +3,25 @@ import Proptypes from 'prop-types';
 import {connect} from 'react-redux';
 import {PropMap} from '../../../helpers/constats';
 import {setProdFilter} from '../../../redux/actions/prodListA';
+import './style.scss';
+
+import {Collapse} from 'reactstrap';
 
 class ProductFilter extends React.PureComponent {
 
   static proptypes = {
-    options: Proptypes.array.isRequired
+    options: Proptypes.array.isRequired,
+    path: Proptypes.array.isRequired
   };
 
-  propMap = {};
+  state = {
+    isOpen: false,
+    collapseText: 'Показать фильтры',
+  };
 
   onCheckboxChange = (e) => {
     const {value, name, checked} = e.target;
-    const map = this.propMap;
+    const map = this.props.checkboxes || {};
 
     if (checked) {
       map[name] = map[name] ? [...map[name], value] : [value];
@@ -28,10 +35,19 @@ class ProductFilter extends React.PureComponent {
     this.props.setProdFilter(map);
   };
 
-  renderCheckbox = (option, optGroup) => { // toDo Выделять активные чекбоксы в зависимсоти от состояние филтра
+  renderCheckbox = (option, optGroup) => {
+
+    const {checkboxes} = this.props;
+    let isChecked = false;
+    if (checkboxes && checkboxes[optGroup]) {
+      isChecked = checkboxes[optGroup].includes(option);
+    }
+
     return <div className='checkbox' key={option}>
             <label>
-              <input type="checkbox" name={optGroup} value={option} onChange={this.onCheckboxChange} />
+              <input className='cb-input' type="checkbox" name={optGroup} defaultChecked={isChecked} value={option} onChange={this.onCheckboxChange} />
+              <span className='cb-icon'>
+              </span>
               <span>{option}</span>
             </label>
            </div>;
@@ -52,24 +68,43 @@ class ProductFilter extends React.PureComponent {
     });
   };
 
+  toggleCollapse = () => {
+    const {isOpen} = this.state;
+    this.setState({isOpen: !isOpen, collapseText: isOpen ? 'Показать фильтры' : 'Скрыть фильтры'});
+  };
+
   render() {
+
+    const {isOpen, collapseText} = this.state;
 
     return(
       <div className='p-filter'>
         <div className="p-filter__inner">
-          <div className="p-filter__list">
-            {
-              this.renderFilters()
-            }
-          </div>
+          <h4 onClick={this.toggleCollapse} className={`p-filter__collapse-link ${!isOpen ? `collapsed` : ``}`}>{collapseText}</h4>
+          <Collapse className='p-filter__collapse' isOpen={isOpen}>
+            <div className="p-filter__list">
+              {
+                this.renderFilters()
+              }
+            </div>
+          </Collapse>
         </div>
       </div>
     )
   }
 }
 
+const mapStateToProps = (store, ownProps) => {
+  const currentCatalog = ownProps.path;
+  const currentProdlist = store.prodList[currentCatalog];
+
+  return {
+    checkboxes: currentProdlist.filter
+  }
+};
+
 const MapDispatchToProps = {
   setProdFilter
 };
 
-export default connect(null, MapDispatchToProps)(ProductFilter);
+export default connect(mapStateToProps, MapDispatchToProps)(ProductFilter);

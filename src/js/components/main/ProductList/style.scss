@@ -13,3 +13,10 @@
     }
   }
 }
+
+.error {
+  box-shadow: $b-shadow;
+  background-color: $body-bg-color;
+  padding: 30px 25px 25px;
+  font-size: $font-size-h4;
+}

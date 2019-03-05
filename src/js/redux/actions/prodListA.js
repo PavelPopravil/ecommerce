@@ -36,10 +36,13 @@ export const fetchDataFailure = (error) => {
   }
 };
 
-export const fetchProdList = (path) => async (dispatch) => {
-  dispatch({
+export const setActiveCatalog = (path) => {
+  return {
     type: SET_ACTIVE_CATALOG,
     path
-  });
+  }
+};
+
+export const fetchProdList = (path) => async (dispatch) => {
   fetchData(dispatch, `${API_ROOT}/${path}`, 'get', fetchDataStart, fetchDataSuccess, fetchDataFailure);
 };

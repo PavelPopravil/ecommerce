@@ -3,14 +3,16 @@ import ProductFilter from '../components/main/ProductFilter';
 import ProductList from '../components/main/ProductList/index';
 import Preloader from '../components/extra/Preloader/index';
 import {connect} from 'react-redux';
-import {fetchProdList} from "../redux/actions/prodListA";
+import {fetchProdList, setActiveCatalog} from '../redux/actions/prodListA';
 import {CatalogMap} from '../helpers/constats';
+import {filterList} from '../helpers/selector';
 
 class PageMain extends React.PureComponent {
 
   componentDidMount() {
+    this.props.setActiveCatalog(this.props.match.params.section);
     if (!this.props.data.length) {
-      this.props.onFetchProductList(this.props.match.params.section);
+      this.props.fetchProdList(this.props.match.params.section);
     }
   }
 
@@ -21,7 +23,7 @@ class PageMain extends React.PureComponent {
       return <div className='error'>{`Произошла ошибка ${errorMsg}`}</div>;
     }
 
-    return isLoading ? <Preloader /> : <ProductList path={section} data={data}/>;
+    return isLoading ? <Preloader /> : data.length ? <ProductList path={section} data={data}/> : <div className='error'>Извините, нет товаров подходящих по фильрации</div>;
   };
 
   render() {
@@ -45,23 +47,6 @@ class PageMain extends React.PureComponent {
   }
 }
 
-const filterList = (arr, options) => {
-
-  if (options) {
-    const optArr = Object.keys(options);
-
-    return arr.filter((item) => {
-
-      const optionsArray = optArr.map((option) => {
-        return options[option].includes(item.properties[option]); // toDo переписать на регулярку || сравнить критерии филтрации по айди а не по строке
-      });
-
-      return optionsArray.every((opt) => opt);
-    });
-  }
-  return arr;
-};
-
 const mapStateToProps = (store, ownProps) => {
   const currentCatalog = ownProps.match.params.section;
   const currentProdlist = store.prodList[currentCatalog];
@@ -72,17 +57,14 @@ const mapStateToProps = (store, ownProps) => {
 
   return {
     isLoading: currentProdlist.isLoading,
-    data: filterList(data, currentProdlist.filter), //toDo выводить сообщение о том что нет товаров по фильтру
+    data: filterList(data, currentProdlist.filter),
     errorMsg: currentProdlist.errorMsg,
   }
 };
 
-const mapDispatchToProps = (dispatch) => {
-  return {
-    onFetchProductList(path) {
-      dispatch(fetchProdList(path));
-    }
-  }
+const mapDispatchToProps = {
+  setActiveCatalog,
+  fetchProdList
 };
 
 export default connect(mapStateToProps, mapDispatchToProps)(PageMain);

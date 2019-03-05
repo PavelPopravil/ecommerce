@@ -18,20 +18,6 @@ $_sl-main-color:                    #fff;
       transform: translateX(0);
       margin: 0 $grid-gutter-width/-2;
     }
-
-    //&.inited-not {
-    //
-    //  .slide {
-    //
-    //    &:nth-child(1) {
-    //      float: none;
-    //    }
-    //
-    //    &:nth-child(1n+2) {
-    //      display: none;
-    //    }
-    //  }
-    //}
   }
 
   .inner {
