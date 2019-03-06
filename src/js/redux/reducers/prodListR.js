@@ -27,24 +27,6 @@ export const initialState = {
     byId: {},
     isLoading: false,
     errorMsg: null,
-  },
-  apple_tv: {
-    ids: [],
-    byId: {},
-    isLoading: false,
-    errorMsg: null,
-  },
-  ipod: {
-    ids: [],
-    byId: {},
-    isLoading: false,
-    errorMsg: null,
-  },
-  iwatch: {
-    ids: [],
-    byId: {},
-    isLoading: false,
-    errorMsg: null,
   }
 };
 

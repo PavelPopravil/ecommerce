@@ -3,25 +3,38 @@ import {
   REMOVE_FROM_BASKET
 } from '../actions/basketA';
 
-const initialState = {};
+const initialState = {
+  counter: 0,
+  products: {}
+};
 
 export default (state = initialState, action) => {
   const {path, productId} = action;
+
   switch (action.type) {
     case ADD_TO_BASKET:
       return {
         ...state,
-        [path]: state[path] ? [...state[path], productId] : [productId]
+        counter: ++state.counter,
+        products: {
+          ...state.products,
+          [path]: state.products[path] ? [...state.products[path], productId] : [productId]
+        }
       };
     case REMOVE_FROM_BASKET: {
 
-      state[path] = state[path].filter((id) => id !== productId);
-      if (!state[path].length) {
-        delete state[path];
+      const products = {...state.products};
+      products[path] = products[path].filter((id) => id !== productId);
+      if (!products[path].length) {
+        delete products[path];
       }
 
       return {
-        ...state
+        ...state,
+        products: {
+          ...products
+        },
+        counter: state.counter <= 0 ? state.counter : --state.counter,
       }
     }
     default: {

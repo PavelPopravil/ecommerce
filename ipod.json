@@ -1,0 +1,70 @@
+{
+  "ipod": [
+    {
+      "id": "1",
+      "pic": "ipod_1.jpeg",
+      "catalogPath": "ipod",
+      "name": "iPod touch",
+      "price": "620.00",
+      "properties": {
+        "diskSize": "32GB",
+        "color": "silver"
+      }
+    },
+    {
+      "id": "2",
+      "pic": "ipod_2.jpeg",
+      "catalogPath": "ipod",
+      "name": "iPod touch",
+      "price": "620.00",
+      "properties": {
+        "diskSize": "32GB",
+        "color": "blue"
+      }
+    },
+    {
+      "id": "3",
+      "pic": "ipod_3.jpeg",
+      "catalogPath": "ipod",
+      "name": "iPod touch",
+      "price": "620.00",
+      "properties": {
+        "diskSize": "32GB",
+        "color": "pink"
+      }
+    },
+    {
+      "id": "3",
+      "pic": "ipod_3.jpeg",
+      "catalogPath": "ipod",
+      "name": "iPod touch",
+      "price": "930.00",
+      "properties": {
+        "diskSize": "128GB",
+        "color": "pink"
+      }
+    },
+    {
+      "id": "4",
+      "pic": "ipod_2.jpeg",
+      "catalogPath": "ipod",
+      "name": "iPod touch",
+      "price": "930.00",
+      "properties": {
+        "diskSize": "128GB",
+        "color": "blue"
+      }
+    },
+    {
+      "id": "5",
+      "pic": "ipod_1.jpeg",
+      "catalogPath": "ipod",
+      "name": "iPod touch",
+      "price": "930.00",
+      "properties": {
+        "diskSize": "128GB",
+        "color": "silver"
+      }
+    }
+  ]
+}

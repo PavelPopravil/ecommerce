@@ -16,9 +16,9 @@ class Page extends React.PureComponent {
   }
 
   setProductInBasketState = (id) => {
-    const {basket} = this.props;
+    const {basketProd} = this.props;
     const path = this.props.match.params.section;
-    return basket[path] && basket[path].length ? basket[path].includes(id) : false;
+    return basketProd[path] && basketProd[path].length ? basketProd[path].includes(id) : false;
   };
 
   renderContent = () => {
@@ -54,7 +54,7 @@ const mapStateToProps = (store, ownProps) => {
     isLoading: store.productPage.isLoading,
     errorMsg: store.productPage.errorMsg,
     product: currentCatalog.byId[ownProps.match.params.id] || store.productPage.product,
-    basket: store.basket
+    basketProd: store.basket.products
   }
 };
 

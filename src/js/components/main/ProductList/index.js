@@ -15,8 +15,8 @@ class ProductList extends React.PureComponent {
   };
 
   setProductInBasketState = (id) => {
-    const {basket, path} = this.props;
-    return basket[path] && basket[path].length ? basket[path].includes(id) : false;
+    const {basketProd, path} = this.props;
+    return basketProd[path] && basketProd[path].length ? basketProd[path].includes(id) : false;
   };
 
   renderProductList = () => {
@@ -47,7 +47,7 @@ class ProductList extends React.PureComponent {
 
 const mapStateToProps = (store) => {
     return {
-      basket: store.basket
+      basketProd: store.basket.products
     }
 };
 

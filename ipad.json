@@ -1,0 +1,76 @@
+{
+  "ipad": [
+    {
+      "id": "1",
+      "pic": "ipad_1.png",
+      "catalogPath": "ipad",
+      "name": "iPad Pro 11",
+      "price": "2 730.00",
+      "properties": {
+        "diskSize": "256GB",
+        "color": "silver",
+        "wifiModule": "Wi-Fi"
+      }
+    },
+    {
+      "id": "2",
+      "pic": "ipad_1.png",
+      "catalogPath": "ipad",
+      "name": "iPad Pro 11",
+      "price": "3 000.00",
+      "properties": {
+        "diskSize": "64GB",
+        "color": "silver",
+        "wifiModule": "Wi-Fi + Cellular"
+      }
+    },
+    {
+      "id": "3",
+      "pic": "ipad_1.png",
+      "catalogPath": "ipad",
+      "name": "iPad Pro 11",
+      "price": "3 230.00",
+      "properties": {
+        "diskSize": "256GB",
+        "color": "silver",
+        "wifiModule": "Wi-Fi + Cellular"
+      }
+    },
+    {
+      "id": "4",
+      "pic": "ipad_2.png",
+      "catalogPath": "ipad",
+      "name": "iPad Pro 10.5",
+      "price": "3 280.00",
+      "properties": {
+        "diskSize": "512GB",
+        "color": "silver",
+        "wifiModule": "Wi-Fi + Cellular"
+      }
+    },
+    {
+      "id": "5",
+      "pic": "ipad_4.png",
+      "catalogPath": "ipad",
+      "name": "iPad mini 4",
+      "price": "1 190.00",
+      "properties": {
+        "diskSize": "128GB",
+        "color": "gold",
+        "wifiModule": "Wi-Fi"
+      }
+    },
+    {
+      "id": "6",
+      "pic": "ipad_5.png",
+      "catalogPath": "ipad",
+      "name": "iPad Pro 10.5",
+      "price": "1 890.00",
+      "properties": {
+        "diskSize": "64GB",
+        "color": "gold",
+        "wifiModule": "Wi-Fi"
+      }
+    }
+  ]
+}

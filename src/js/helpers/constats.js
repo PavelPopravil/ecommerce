@@ -9,7 +9,8 @@ export const PropMap = {
   coreMem: 'Оперативная память',
   diskSize: 'Размер накопителя',
   diskType: 'Тип накопителя',
-  color: 'Цвет корпуса'
+  color: 'Цвет корпуса',
+  wifiModule: 'Wi-Fi модуль'
 };
 
 export const CatalogMap = {
@@ -32,7 +33,20 @@ export const CatalogMap = {
   },
   ipad: {
     name: 'iPad',
-    filter: []
+    filter: [
+      {
+        name: 'diskSize',
+        options: ['512GB', '256GB', '128GB', '64GB']
+      },
+      {
+        name: 'color',
+        options: ['silver', 'gold']
+      },
+      {
+        name: 'wifiModule',
+        options: ['Wi-Fi', 'Wi-Fi + Cellular']
+      }
+    ]
   },
   iphone: {
     name: 'iPhone',
@@ -46,17 +60,5 @@ export const CatalogMap = {
         options: ['black', 'silver', 'gold', 'pink', 'black onyx', 'red', 'yellow', 'corral', 'white', 'blue']
       }
     ]
-  },
-  apple_tv: {
-    name: 'Apple TV',
-    filter: []
-  },
-  ipod: {
-    name: 'iPod',
-    filter: []
-  },
-  iwatch: {
-    name: 'iWatch',
-    filter: []
   }
 };
