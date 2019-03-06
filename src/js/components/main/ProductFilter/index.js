@@ -53,7 +53,7 @@ class ProductFilter extends React.PureComponent {
            </div>;
   };
 
-  renderFilters = () => {
+  renderFilters = () => { //toDo Сделать фильтрацию по категории товара (iphone 7, iphone 8)
     const {options} = this.props;
     return options.map((filter) => {
 

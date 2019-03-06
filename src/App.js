@@ -4,7 +4,7 @@ import Footer from './js/components/footer/Footer/index';
 import {Route, Switch} from "react-router-dom";
 
 import PageMain from './js/pages/PageMain';
-import PageAbout from './js/pages/PageAbout';
+import PageBasket from './js/pages/PageBasket';
 import PageCatalog from './js/pages/PageCatalog';
 import PageProductList from './js/pages/PageProductList';
 import PageSingleProduct from './js/pages/PageSingleProduct';
@@ -23,10 +23,10 @@ class App extends React.Component {
             <main className="main-content">
               <Switch>
                 <Route path='/' exact component={PageMain}/>
-                <Route path='/about' component={PageAbout}/>
                 <Route path='/catalog' exact component={PageCatalog}/>
                 <Route path='/catalog/:section' exact component={PageProductList}/>
                 <Route path='/catalog/:section/:id' component={PageSingleProduct}/>
+                <Route path='/basket' component={PageBasket}/>
               </Switch>
             </main>
           </div>

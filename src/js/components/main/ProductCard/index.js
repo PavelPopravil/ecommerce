@@ -1,7 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import {connect} from 'react-redux';
 import './style.scss';
 import {Link} from "react-router-dom";
+import {addProdToBasket, removeProdFromBasket} from '../../../redux/actions/basketA';
 
 class ProdCard extends React.PureComponent {
 
@@ -13,7 +15,8 @@ class ProdCard extends React.PureComponent {
       price: PropTypes.string.isRequired,
       properties: PropTypes.object.isRequired,
     }).isRequired,
-    path: PropTypes.string.isRequired
+    path: PropTypes.string.isRequired,
+    inBasket: PropTypes.bool.isRequired
   };
 
   renderCardProperties = (properties) => {
@@ -22,12 +25,19 @@ class ProdCard extends React.PureComponent {
     });
   };
 
+  onBasketBtnClick = () => {
+    const {path, card, inBasket} = this.props;
+    inBasket ? this.props.removeProdFromBasket(path, card.id) : this.props.addProdToBasket(path, card.id);
+  };
+
   render() {
-    const {path, card} = this.props;
+    const {path, card, inBasket} = this.props;
     const {pic, name, price, properties, id} = card;
 
+    console.log('render Product Card');
+
     return (
-      <div className='prod-card'>
+      <div className={`prod-card ${inBasket ? 'in-basket' : ''}`}>
         <Link to={`/catalog/${path}/${id}`} className='prod-card__inner'>
           <div className="prod-card__pic-wrap">
             <img className='prod-card__pic' src={`${process.env.PUBLIC_URL}/img/${pic}`} alt={name} />
@@ -44,7 +54,7 @@ class ProdCard extends React.PureComponent {
         </Link>
         <div className="prod-card__footer">
           <div className="prod-card__btn-wrap">
-            <a className='btn btn-primary' href='/'>В корзину</a>
+            <button className='btn btn-primary' type='button' onClick={this.onBasketBtnClick}>{inBasket ? 'Убрать из корзины' : 'Добавить в корзину'}</button>
           </div>
         </div>
       </div>
@@ -52,4 +62,9 @@ class ProdCard extends React.PureComponent {
   }
 }
 
-export default ProdCard;
+const MapDispatchToProps = {
+  addProdToBasket,
+  removeProdFromBasket
+};
+
+export default connect(null, MapDispatchToProps)(ProdCard);

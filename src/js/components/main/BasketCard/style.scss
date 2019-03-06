@@ -1,0 +1,33 @@
+@import "../../../../scss/main/variables";
+
+.basket-p {
+
+  &__cell {
+
+  }
+
+  &__pic-wrap {
+    max-width: 100px;
+    max-height: 100px;
+  }
+
+  &__name {
+    margin-top: 0;
+  }
+
+  &__price {
+    color: $link-color;
+    font-family: $font-m;
+  }
+
+  &__remove-btn {
+    border: 0;
+    padding: 0 8px 8px;
+    background: transparent;
+    transition: $transition-default;
+
+    &:hover {
+      opacity: .5;
+    }
+  }
+}

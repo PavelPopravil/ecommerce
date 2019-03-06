@@ -13,7 +13,11 @@ class SingleProduct extends React.PureComponent {
       name: Proptypes.string.isRequired,
       price: Proptypes.string.isRequired,
       properties: Proptypes.object.isRequired
-    }).isRequired
+    }).isRequired,
+    inBasket: Proptypes.bool.isRequired,
+    onProdAdd: Proptypes.func.isRequired,
+    onProdRemove: Proptypes.func.isRequired,
+    path: Proptypes.string.isRequired
   };
 
   renderProperties = () => {
@@ -27,9 +31,15 @@ class SingleProduct extends React.PureComponent {
     });
   };
 
+  onBasketBtnClick = () => {
+    const {path, data, inBasket} = this.props;
+    inBasket ? this.props.onProdRemove(path, data.id) : this.props.onProdAdd(path, data.id);
+  };
+
   render() {
 
     const {pic, name, price} = this.props.data;
+    const {inBasket} = this.props;
 
     return (
       <div className='product'>
@@ -52,7 +62,7 @@ class SingleProduct extends React.PureComponent {
           <div className="product__b-price">
             <h3 className='product__price'>{price} BYN</h3>
             <div className="product__btn-wrap">
-              <button className='btn btn-primary'>В корзину</button>
+              <button className='btn btn-primary' onClick={this.onBasketBtnClick}>{inBasket ? 'Убрать из корзины' : 'Добавить в корзину'}</button>
             </div>
           </div>
         </div>

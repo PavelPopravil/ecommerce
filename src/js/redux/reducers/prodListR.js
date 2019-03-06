@@ -3,7 +3,7 @@ import {
   FETCH_PRODLIST_SUCCESS,
   FETCH_PRODLIST_FAILURE,
   SET_ACTIVE_CATALOG,
-  SET_PRODLIST_FILTER
+  SET_PRODLIST_FILTER,
 } from '../actions/prodListA';
 
 import {arrayToObject} from '../../helpers/selector';

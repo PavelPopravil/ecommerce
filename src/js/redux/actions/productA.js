@@ -30,3 +30,4 @@ export const fetchDataFailure = (error) => {
 export const fetchProduct = (path, id) => async (dispatch) => {
   fetchData(dispatch, `${API_ROOT}/${path}/${id}`, 'get', fetchDataStart, fetchDataSuccess, fetchDataFailure);
 };
+

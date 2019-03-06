@@ -10,9 +10,10 @@ import {filterList} from '../helpers/selector';
 class PageMain extends React.PureComponent {
 
   componentDidMount() {
-    this.props.setActiveCatalog(this.props.match.params.section);
+    const currentCatalog = this.props.match.params.section;
+    this.props.setActiveCatalog(currentCatalog);
     if (!this.props.data.length) {
-      this.props.fetchProdList(this.props.match.params.section);
+      this.props.fetchProdList(currentCatalog);
     }
   }
 

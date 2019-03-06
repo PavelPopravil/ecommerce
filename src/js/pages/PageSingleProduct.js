@@ -3,6 +3,7 @@ import {connect} from 'react-redux';
 import {fetchProduct} from '../redux/actions/productA';
 import Preloader from '../components/extra/Preloader/index';
 import SingleProduct from '../components/main/SingleProduct/index';
+import {addProdToBasket, removeProdFromBasket} from '../redux/actions/basketA';
 
 class Page extends React.PureComponent {
 
@@ -14,6 +15,12 @@ class Page extends React.PureComponent {
     }
   }
 
+  setProductInBasketState = (id) => {
+    const {basket} = this.props;
+    const path = this.props.match.params.section;
+    return basket[path] && basket[path].length ? basket[path].includes(id) : false;
+  };
+
   renderContent = () => {
     const {isLoading, errorMsg, product} = this.props;
 
@@ -21,7 +28,7 @@ class Page extends React.PureComponent {
       return <div className='error'>{`Произошла ошибка ${errorMsg}`}</div>
     }
 
-    return isLoading ? <Preloader /> : product ? <SingleProduct data={product} /> : null;
+    return isLoading ? <Preloader /> : product ? <SingleProduct path={this.props.match.params.section} onProdAdd={this.props.addProdToBasket} onProdRemove={this.props.removeProdFromBasket} inBasket={this.setProductInBasketState(product.id)} data={product} /> : null;
   };
 
   render() {
@@ -46,12 +53,15 @@ const mapStateToProps = (store, ownProps) => {
   return {
     isLoading: store.productPage.isLoading,
     errorMsg: store.productPage.errorMsg,
-    product: currentCatalog.byId[ownProps.match.params.id] || store.productPage.product
+    product: currentCatalog.byId[ownProps.match.params.id] || store.productPage.product,
+    basket: store.basket
   }
 };
 
 const mapDispatchToProps = {
-  fetchProduct
+  fetchProduct,
+  addProdToBasket,
+  removeProdFromBasket
 };
 
 export default connect(mapStateToProps, mapDispatchToProps)(Page);
