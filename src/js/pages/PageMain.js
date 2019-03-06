@@ -10,6 +10,7 @@ class PageMain extends React.PureComponent {
       <Fragment>
         <h1 className='hidden'>Главная страница</h1>
         <SlMain />
+        <h2 className="catalog-list__title">Каталог</h2>
         <CatalogList />
       </Fragment>
     )

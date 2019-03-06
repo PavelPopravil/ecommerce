@@ -4,6 +4,7 @@ import './style.scss';
 import close from './img/close.svg';
 import {connect} from 'react-redux';
 import {removeProdFromBasket} from '../../../redux/actions/basketA';
+import InputNumber from 'rc-input-number';
 
 class BasterCard extends React.PureComponent {
 
@@ -21,6 +22,15 @@ class BasterCard extends React.PureComponent {
     return Object.keys(properties).map((item, i) => {
       return <span key={i}>{properties[item]}{i !== Object.keys(properties).length - 1 ? ', ' : ''}</span>
     });
+  };
+
+  onRemoveBtnClick = () => {
+    const {catalogPath, id} = this.props.product;
+    this.props.removeProdFromBasket(catalogPath, id);
+  };
+
+  onQuantChange = () => {
+    console.log('mew');
   };
 
   render() {
@@ -41,7 +51,10 @@ class BasterCard extends React.PureComponent {
           }
         </td>
         <td className="basket-p__cell quant">
-          mew
+          <InputNumber
+            min={0}
+            max={10}
+          />
         </td>
         <td className="basket-p__cell price">
           <div className="basket-p__price">
@@ -49,7 +62,7 @@ class BasterCard extends React.PureComponent {
           </div>
         </td>
         <td className="basket-p__cell controls">
-          <button className='basket-p__remove-btn'>
+          <button className='basket-p__remove-btn' onClick={this.onRemoveBtnClick}>
             <img src={close} alt="close" />
           </button>
         </td>

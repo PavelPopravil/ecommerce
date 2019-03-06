@@ -16,8 +16,7 @@ class SingleProduct extends React.PureComponent {
     }).isRequired,
     inBasket: Proptypes.bool.isRequired,
     onProdAdd: Proptypes.func.isRequired,
-    onProdRemove: Proptypes.func.isRequired,
-    path: Proptypes.string.isRequired
+    onProdRemove: Proptypes.func.isRequired
   };
 
   renderProperties = () => {
@@ -32,8 +31,8 @@ class SingleProduct extends React.PureComponent {
   };
 
   onBasketBtnClick = () => {
-    const {path, data, inBasket} = this.props;
-    inBasket ? this.props.onProdRemove(path, data.id) : this.props.onProdAdd(path, data.id);
+    const {data, inBasket} = this.props;
+    inBasket ? this.props.onProdRemove(data.catalogPath, data.id) : this.props.onProdAdd(data.catalogPath, data.id);
   };
 
   render() {

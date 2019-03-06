@@ -3,6 +3,7 @@
     {
       "id": "1",
       "pic": "imac_1.png",
+      "catalogPath": "mac",
       "name": "iMac",
       "price": "5 200.00",
       "properties": {
@@ -19,6 +20,7 @@
     {
       "id": "2",
       "pic": "imac_2.png",
+      "catalogPath": "mac",
       "name": "iMac",
       "price": "3 690.00",
       "properties": {
@@ -35,6 +37,7 @@
     {
       "id": "3",
       "pic": "imac_3.png",
+      "catalogPath": "mac",
       "name": "iMac",
       "price": "3 170.00",
       "properties": {
@@ -51,6 +54,7 @@
     {
       "id": "4",
       "pic": "imac_4.png",
+      "catalogPath": "mac",
       "name": "iMac Pro",
       "price": "14 340.00",
       "properties": {
@@ -67,6 +71,7 @@
     {
       "id": "5",
       "pic": "imac_5.png",
+      "catalogPath": "mac",
       "name": "iMac",
       "price": "5 780.00",
       "properties": {
@@ -83,6 +88,7 @@
     {
       "id": "6",
       "pic": "imac_6.png",
+      "catalogPath": "mac",
       "name": "iMac",
       "price": "6 600.00",
       "properties": {
@@ -99,6 +105,7 @@
     {
       "id": "7",
       "pic": "imac_6.png",
+      "catalogPath": "mac",
       "name": "iMac",
       "price": "4 290.00",
       "properties": {
@@ -115,6 +122,7 @@
     {
       "id": "8",
       "pic": "mbp_1.jpeg",
+      "catalogPath": "mac",
       "name": "MacBook Pro",
       "price": "4 290.00",
       "properties": {
@@ -130,6 +138,7 @@
     {
       "id": "9",
       "pic": "mbp_2.jpeg",
+      "catalogPath": "mac",
       "name": "MacBook Pro",
       "price": "4 340.00",
       "properties": {
@@ -145,6 +154,7 @@
     {
       "id": "10",
       "pic": "mbp_3.png",
+      "catalogPath": "mac",
       "name": "MacBook Pro",
       "price": "5 200.00",
       "properties": {
@@ -160,6 +170,7 @@
     {
       "id": "11",
       "pic": "mbp_4.png",
+      "catalogPath": "mac",
       "name": "MacBook Pro",
       "price": "7 920.00",
       "properties": {
@@ -175,6 +186,7 @@
     {
       "id": "12",
       "pic": "mbp_5.png",
+      "catalogPath": "mac",
       "name": "MacBook Pro",
       "price": "5 200.00",
       "properties": {
@@ -190,6 +202,7 @@
     {
       "id": "13",
       "pic": "mbp_6.png",
+      "catalogPath": "mac",
       "name": "MacBook Pro",
       "price": "5 780.00",
       "properties": {
@@ -205,6 +218,7 @@
     {
       "id": "14",
       "pic": "mbp_7.png",
+      "catalogPath": "mac",
       "name": "MacBook Pro",
       "price": "7 790.00",
       "properties": {
@@ -220,6 +234,7 @@
     {
       "id": "15",
       "pic": "mba_1.png",
+      "catalogPath": "mac",
       "name": "MacBook Air",
       "price": "3 430.00",
       "properties": {
@@ -235,6 +250,7 @@
     {
       "id": "16",
       "pic": "mba_2.png",
+      "catalogPath": "mac",
       "name": "MacBook Air",
       "price": "2 400.00",
       "properties": {
@@ -250,6 +266,7 @@
     {
       "id": "17",
       "pic": "mba_3.png",
+      "catalogPath": "mac",
       "name": "MacBook Air",
       "price": "3 700.00",
       "properties": {
@@ -265,6 +282,7 @@
     {
       "id": "18",
       "pic": "mba_4.png",
+      "catalogPath": "mac",
       "name": "MacBook Air",
       "price": "3 700.00",
       "properties": {
@@ -280,6 +298,7 @@
     {
       "id": "19",
       "pic": "mb_1.jpeg",
+      "catalogPath": "mac",
       "name": "MacBook",
       "price": "3 710.00",
       "properties": {
@@ -295,6 +314,7 @@
     {
       "id": "20",
       "pic": "mb_2.jpeg",
+      "catalogPath": "mac",
       "name": "MacBook",
       "price": "3 710.00",
       "properties": {

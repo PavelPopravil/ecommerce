@@ -3,6 +3,7 @@
     {
       "id": "1",
       "pic": "iphone_1.jpeg",
+      "catalogPath": "iphone",
       "name": "iPhone 7",
       "price": "1 210.00",
       "properties": {
@@ -13,6 +14,7 @@
     {
       "id": "2",
       "pic": "iphone_2.jpeg",
+      "catalogPath": "iphone",
       "name": "iPhone 7",
       "price": "1 210.00",
       "properties": {
@@ -23,6 +25,7 @@
     {
       "id": "3",
       "pic": "iphone_3.jpeg",
+      "catalogPath": "iphone",
       "name": "iPhone 7",
       "price": "1 210.00",
       "properties": {
@@ -33,6 +36,7 @@
     {
       "id": "4",
       "pic": "iphone_4.jpeg",
+      "catalogPath": "iphone",
       "name": "iPhone 7",
       "price": "1 210.00",
       "properties": {
@@ -43,6 +47,7 @@
     {
       "id": "5",
       "pic": "iphone_2.jpeg",
+      "catalogPath": "iphone",
       "name": "iPhone 7",
       "price": "1 620.00",
       "properties": {
@@ -53,6 +58,7 @@
     {
       "id": "6",
       "pic": "iphone_3.jpeg",
+      "catalogPath": "iphone",
       "name": "iPhone 7",
       "price": "1 620.00",
       "properties": {
@@ -63,6 +69,7 @@
     {
       "id": "7",
       "pic": "iphone_4.jpeg",
+      "catalogPath": "iphone",
       "name": "iPhone 7",
       "price": "1 620.00",
       "properties": {
@@ -73,6 +80,7 @@
     {
       "id": "8",
       "pic": "iphone_5.jpeg",
+      "catalogPath": "iphone",
       "name": "iPhone 7",
       "price": "1 620.00",
       "properties": {
@@ -83,6 +91,7 @@
     {
       "id": "9",
       "pic": "iphone_3.jpeg",
+      "catalogPath": "iphone",
       "name": "iPhone 7 Plus",
       "price": "1 360.00",
       "properties": {
@@ -93,6 +102,7 @@
     {
       "id": "10",
       "pic": "iphone_4.jpeg",
+      "catalogPath": "iphone",
       "name": "iPhone 7 Plus",
       "price": "1 360.00",
       "properties": {
@@ -103,6 +113,7 @@
     {
       "id": "11",
       "pic": "iphone_1.jpeg",
+      "catalogPath": "iphone",
       "name": "iPhone 7 Plus",
       "price": "1 950.00",
       "properties": {
@@ -113,6 +124,7 @@
     {
       "id": "12",
       "pic": "iphone_2.jpeg",
+      "catalogPath": "iphone",
       "name": "iPhone 7 Plus",
       "price": "1 950.00",
       "properties": {
@@ -123,6 +135,7 @@
     {
       "id": "13",
       "pic": "iphone_3.jpeg",
+      "catalogPath": "iphone",
       "name": "iPhone 7 Plus",
       "price": "1 950.00",
       "properties": {
@@ -133,6 +146,7 @@
     {
       "id": "14",
       "pic": "iphone_4.jpeg",
+      "catalogPath": "iphone",
       "name": "iPhone 7 Plus",
       "price": "1 950.00",
       "properties": {
@@ -143,6 +157,7 @@
     {
       "id": "15",
       "pic": "iphone_5.jpeg",
+      "catalogPath": "iphone",
       "name": "iPhone 7 Plus",
       "price": "1 950.00",
       "properties": {
@@ -153,6 +168,7 @@
     {
       "id": "16",
       "pic": "iphone_6.jpeg",
+      "catalogPath": "iphone",
       "name": "iPhone 8 Plus",
       "price": "2 520.00",
       "properties": {
@@ -163,6 +179,7 @@
     {
       "id": "17",
       "pic": "iphone_7.jpeg",
+      "catalogPath": "iphone",
       "name": "iPhone 8 Plus",
       "price": "2 520.00",
       "properties": {
@@ -173,6 +190,7 @@
     {
       "id": "18",
       "pic": "iphone_6.jpeg",
+      "catalogPath": "iphone",
       "name": "iPhone 8",
       "price": "1 740.00",
       "properties": {
@@ -183,6 +201,7 @@
     {
       "id": "19",
       "pic": "iphone_7.jpeg",
+      "catalogPath": "iphone",
       "name": "iPhone 8",
       "price": "2 230.00",
       "properties": {
@@ -193,6 +212,7 @@
     {
       "id": "20",
       "pic": "iphone_8.jpeg",
+      "catalogPath": "iphone",
       "name": "iPhone X",
       "price": "2 400.00",
       "properties": {
@@ -203,6 +223,7 @@
     {
       "id": "21",
       "pic": "iphone_8.jpeg",
+      "catalogPath": "iphone",
       "name": "iPhone X",
       "price": "2 830.00",
       "properties": {
@@ -213,6 +234,7 @@
     {
       "id": "22",
       "pic": "iphone_9.jpeg",
+      "catalogPath": "iphone",
       "name": "iPhone X",
       "price": "2 830.00",
       "properties": {
@@ -223,6 +245,7 @@
     {
       "id": "23",
       "pic": "iphone_10.png",
+      "catalogPath": "iphone",
       "name": "iPhone 8",
       "price": "1 740.00",
       "properties": {
@@ -233,6 +256,7 @@
     {
       "id": "24",
       "pic": "iphone_11.png",
+      "catalogPath": "iphone",
       "name": "iPhone XR",
       "price": "2 180.00",
       "properties": {
@@ -243,6 +267,7 @@
     {
       "id": "25",
       "pic": "iphone_12.png",
+      "catalogPath": "iphone",
       "name": "iPhone XR",
       "price": "2 180.00",
       "properties": {
@@ -253,6 +278,7 @@
     {
       "id": "26",
       "pic": "iphone_13.png",
+      "catalogPath": "iphone",
       "name": "iPhone XR",
       "price": "2 180.00",
       "properties": {
@@ -263,6 +289,7 @@
     {
       "id": "27",
       "pic": "iphone_14.png",
+      "catalogPath": "iphone",
       "name": "iPhone XR",
       "price": "2 350.00",
       "properties": {
@@ -273,6 +300,7 @@
     {
       "id": "28",
       "pic": "iphone_15.png",
+      "catalogPath": "iphone",
       "name": "iPhone XR",
       "price": "2 350.00",
       "properties": {
@@ -283,6 +311,7 @@
     {
       "id": "29",
       "pic": "iphone_14.png",
+      "catalogPath": "iphone",
       "name": "iPhone XR",
       "price": "2 600.00",
       "properties": {
@@ -293,6 +322,7 @@
     {
       "id": "30",
       "pic": "iphone_15.png",
+      "catalogPath": "iphone",
       "name": "iPhone XR",
       "price": "2 600.00",
       "properties": {
@@ -303,6 +333,7 @@
     {
       "id": "31",
       "pic": "iphone_11.png",
+      "catalogPath": "iphone",
       "name": "iPhone XR",
       "price": "2 600.00",
       "properties": {
@@ -313,6 +344,7 @@
     {
       "id": "32",
       "pic": "iphone_12.png",
+      "catalogPath": "iphone",
       "name": "iPhone XR",
       "price": "2 600.00",
       "properties": {
@@ -323,6 +355,7 @@
     {
       "id": "33",
       "pic": "iphone_13.png",
+      "catalogPath": "iphone",
       "name": "iPhone XR",
       "price": "2 600.00",
       "properties": {
@@ -333,6 +366,7 @@
     {
       "id": "34",
       "pic": "iphone_16.png",
+      "catalogPath": "iphone",
       "name": "iPhone XR",
       "price": "2 600.00",
       "properties": {
@@ -343,6 +377,7 @@
     {
       "id": "35",
       "pic": "iphone_1.jpeg",
+      "catalogPath": "iphone",
       "name": "iPhone 7",
       "price": "1 620.00",
       "properties": {
@@ -353,6 +388,7 @@
     {
       "id": "36",
       "pic": "iphone_1.jpeg",
+      "catalogPath": "iphone",
       "name": "iPhone 7 Plus",
       "price": "1 360.00",
       "properties": {
@@ -363,6 +399,7 @@
     {
       "id": "37",
       "pic": "iphone_15.png",
+      "catalogPath": "iphone",
       "name": "iPhone XR",
       "price": "2 180.00",
       "properties": {
@@ -373,6 +410,7 @@
     {
       "id": "38",
       "pic": "iphone_9.jpeg",
+      "catalogPath": "iphone",
       "name": "iPhone X",
       "price": "2 400.00",
       "properties": {
@@ -383,6 +421,7 @@
     {
       "id": "39",
       "pic": "iphone_12.png",
+      "catalogPath": "iphone",
       "name": "iPhone XR",
       "price": "2 350.00",
       "properties": {
@@ -393,6 +432,7 @@
     {
       "id": "40",
       "pic": "iphone_6.jpeg",
+      "catalogPath": "iphone",
       "name": "iPhone 8 Plus",
       "price": "2 000.00",
       "properties": {
@@ -403,6 +443,7 @@
     {
       "id": "41",
       "pic": "iphone_17.jpeg",
+      "catalogPath": "iphone",
       "name": "iPhone 8 Plus",
       "price": "2 000.00",
       "properties": {
@@ -413,6 +454,7 @@
     {
       "id": "42",
       "pic": "iphone_17.jpeg",
+      "catalogPath": "iphone",
       "name": "iPhone 8 Plus",
       "price": "2 520.00",
       "properties": {
@@ -423,6 +465,7 @@
     {
       "id": "43",
       "pic": "iphone_7.jpeg",
+      "catalogPath": "iphone",
       "name": "iPhone 8",
       "price": "1 740.00",
       "properties": {
@@ -433,6 +476,7 @@
     {
       "id": "44",
       "pic": "iphone_3.jpeg",
+      "catalogPath": "iphone",
       "name": "iPhone 8",
       "price": "1 740.00",
       "properties": {
@@ -443,6 +487,7 @@
     {
       "id": "45",
       "pic": "iphone_6.jpeg",
+      "catalogPath": "iphone",
       "name": "iPhone 8",
       "price": "2 230.00",
       "properties": {
@@ -453,6 +498,7 @@
     {
       "id": "46",
       "pic": "iphone_3.jpeg",
+      "catalogPath": "iphone",
       "name": "iPhone 8",
       "price": "2 230.00",
       "properties": {
@@ -463,6 +509,7 @@
     {
       "id": "47",
       "pic": "iphone_11.png",
+      "catalogPath": "iphone",
       "name": "iPhone XR",
       "price": "2 350.00",
       "properties": {
@@ -473,6 +520,7 @@
     {
       "id": "48",
       "pic": "iphone_14.png",
+      "catalogPath": "iphone",
       "name": "iPhone XR",
       "price": "2 180.00",
       "properties": {
@@ -483,6 +531,7 @@
     {
       "id": "49",
       "pic": "iphone_16.png",
+      "catalogPath": "iphone",
       "name": "iPhone XR",
       "price": "2 180.00",
       "properties": {
@@ -493,6 +542,7 @@
     {
       "id": "50",
       "pic": "iphone_13.png",
+      "catalogPath": "iphone",
       "name": "iPhone XR",
       "price": "2 350.00",
       "properties": {

@@ -3,7 +3,13 @@
 .basket-p {
 
   &__cell {
-
+    
+    &.controls {
+      
+      @media (min-width: $screen-md-min) {
+        width: 40px;
+      }
+    }
   }
 
   &__pic-wrap {
@@ -16,13 +22,19 @@
   }
 
   &__price {
+    white-space: nowrap;
     color: $link-color;
     font-family: $font-m;
   }
 
   &__remove-btn {
     border: 0;
-    padding: 0 8px 8px;
+    padding: 0;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
     background: transparent;
     transition: $transition-default;
 

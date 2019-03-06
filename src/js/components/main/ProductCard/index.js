@@ -26,8 +26,8 @@ class ProdCard extends React.PureComponent {
   };
 
   onBasketBtnClick = () => {
-    const {path, card, inBasket} = this.props;
-    inBasket ? this.props.removeProdFromBasket(path, card.id) : this.props.addProdToBasket(path, card.id);
+    const {card, inBasket} = this.props;
+    inBasket ? this.props.removeProdFromBasket(card.catalogPath, card.id) : this.props.addProdToBasket(card.catalogPath, card.id);
   };
 
   render() {

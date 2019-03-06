@@ -7,6 +7,7 @@ class PageCatalog extends React.PureComponent {
 
     return (
       <Fragment>
+        <h1>Каталог</h1>
         <CatalogList />
       </Fragment>
     )

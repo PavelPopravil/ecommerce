@@ -35,7 +35,6 @@ export class CatalogList extends React.PureComponent {
 
     return (
       <div className='catalog-list'>
-        <h2 className="catalog-list__title">Каталог</h2>
         <div className="catalog-list__list">
           <div className="row">
             {

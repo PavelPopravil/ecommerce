@@ -28,7 +28,7 @@ class Page extends React.PureComponent {
       return <div className='error'>{`Произошла ошибка ${errorMsg}`}</div>
     }
 
-    return isLoading ? <Preloader /> : product ? <SingleProduct path={this.props.match.params.section} onProdAdd={this.props.addProdToBasket} onProdRemove={this.props.removeProdFromBasket} inBasket={this.setProductInBasketState(product.id)} data={product} /> : null;
+    return isLoading ? <Preloader /> : product ? <SingleProduct onProdAdd={this.props.addProdToBasket} onProdRemove={this.props.removeProdFromBasket} inBasket={this.setProductInBasketState(product.id)} data={product} /> : null;
   };
 
   render() {
