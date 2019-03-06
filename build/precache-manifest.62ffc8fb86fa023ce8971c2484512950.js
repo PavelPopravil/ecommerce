@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "f3a02e2578bee50e620e515912278bc9",
-    "url": "./static/media/Roboto-Bold.f3a02e25.woff2"
+    "revision": "9feb0110b6dff9ee2b9ebd17f7a1aee6",
+    "url": "./static/media/Roboto-Regular.9feb0110.woff2"
   },
   {
-    "revision": "d232869361b405a5a1ef",
-    "url": "./static/css/main.1de4594e.chunk.css"
+    "revision": "a6c72bdad04ac4fab2ab",
+    "url": "./static/css/main.bc6e5221.chunk.css"
   },
   {
-    "revision": "671f681d726633275564",
-    "url": "./static/js/1.671f681d.chunk.js"
+    "revision": "f8a2f838eff4036dc97a",
+    "url": "./static/js/1.f8a2f838.chunk.js"
   },
   {
     "revision": "4a686d48d5a089750c49",
@@ -28,16 +28,20 @@ self.__precacheManifest = [
     "url": "./static/media/sl-main-02.0a0c50e1.jpeg"
   },
   {
+    "revision": "404d864c3e397eef9891d11012ea8e9f",
+    "url": "./static/media/close.404d864c.svg"
+  },
+  {
     "revision": "ed4b08d2702fa26acc324ef1e89ae837",
     "url": "./static/media/Roboto-Light.ed4b08d2.woff2"
   },
   {
-    "revision": "9feb0110b6dff9ee2b9ebd17f7a1aee6",
-    "url": "./static/media/Roboto-Regular.9feb0110.woff2"
+    "revision": "a6c72bdad04ac4fab2ab",
+    "url": "./static/js/main.a6c72bda.chunk.js"
   },
   {
-    "revision": "d232869361b405a5a1ef",
-    "url": "./static/js/main.d2328693.chunk.js"
+    "revision": "f3a02e2578bee50e620e515912278bc9",
+    "url": "./static/media/Roboto-Bold.f3a02e25.woff2"
   },
   {
     "revision": "ad4e08740474893c8f08df87268544ce",
@@ -56,10 +60,6 @@ self.__precacheManifest = [
     "url": "./static/media/Roboto-Bold.08cb8f79.woff"
   },
   {
-    "revision": "fd5970128586cba8e7ed994f134ec176",
-    "url": "./static/media/Roboto-Italic.fd597012.woff"
-  },
-  {
     "revision": "10ad0f861c0c5807734017c341940649",
     "url": "./static/media/Roboto-Light.10ad0f86.woff"
   },
@@ -68,7 +68,11 @@ self.__precacheManifest = [
     "url": "./static/media/Roboto-Medium.9a3bf7ac.woff"
   },
   {
-    "revision": "ff128a7e2c1800391eaf5cdd1b83a401",
+    "revision": "fd5970128586cba8e7ed994f134ec176",
+    "url": "./static/media/Roboto-Italic.fd597012.woff"
+  },
+  {
+    "revision": "d69257a271b208b1d1877c740a76dbe0",
     "url": "./index.html"
   }
 ];
