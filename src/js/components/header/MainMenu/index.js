@@ -33,9 +33,6 @@ class MainMenu extends React.Component {
             <NavItem>
               <NavLink to={'/catalog'} activeClassName='active'>Каталог</NavLink>
             </NavItem>
-            <NavItem>
-              <NavLink to={'/basket'} activeClassName='active'>Корзина</NavLink>
-            </NavItem>
           </Nav>
         </Collapse>
       </Navbar>

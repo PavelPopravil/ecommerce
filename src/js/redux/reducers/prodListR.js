@@ -67,7 +67,7 @@ export const prodListR = (state = initialState, action) => {
           errorMsg: action.errorMsg
         }
       };
-    case SET_PRODLIST_FILTER:
+    case SET_PRODLIST_FILTER: //toDo вынести фильтр в отдель редусер??? path передавать как prodlist.currectCatalog
       return {
         ...state,
         [state.currentCatalog]: {

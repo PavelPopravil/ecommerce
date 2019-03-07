@@ -41,9 +41,10 @@ html body {
 
 .main-wrap {
   flex: 1 0 auto;
+  padding-top: 70px;
 
-  @media (max-width: $grid-breakpoint-max) {
-    //padding-top: 49px;
+  @media (max-width: $screen-sm-max) {
+    padding-top: 58px;
   }
 }
 

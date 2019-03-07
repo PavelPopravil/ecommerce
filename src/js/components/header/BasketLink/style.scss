@@ -1,0 +1,60 @@
+@import "../../../../scss/main/variables";
+
+.basket-link {
+  position: relative;
+  color: $text-color;
+
+  @media (min-width: $screen-md-min) {
+    margin-right: 20px;
+  }
+
+  @media (max-width: $screen-sm-max) {
+    position: absolute;
+    right: 62px;
+    top: 15px;
+  }
+
+  &:hover,
+  &.active {
+    color: $link-color;
+
+    .basket-link__icon {
+      path {
+        transition: $transition-default;
+        fill: $link-color;
+      }
+    }
+
+    .basket-link__counter {
+      color: $link-color;
+      border-color: $link-color;
+    }
+  }
+
+  &__counter {
+    position: absolute;
+    top: -8px;
+    right: -19px;
+    font-size: 12px;
+    min-width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    border-radius: 50%;
+    border: 1px solid $text-color;
+    transition: $transition-default;
+    opacity: 0;
+
+    &.show {
+      opacity: 1;
+    }
+
+    @media (min-width: $screen-md-min) {
+      right: -23px;
+    }
+
+    > span {
+      margin-left: -1px;
+    }
+  }
+}
