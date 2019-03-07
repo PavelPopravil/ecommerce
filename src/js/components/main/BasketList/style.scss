@@ -1,0 +1,17 @@
+.basket {
+
+  &__footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  &__price {
+    margin: 0 0 10px;
+  }
+
+  &__btn-wrap {
+    margin: 0 0 10px 25px;
+  }
+}

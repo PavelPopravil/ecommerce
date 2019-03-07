@@ -10,7 +10,7 @@ class CatalogCard extends React.PureComponent {
     path: PropTypes.string.isRequired,
     pic: PropTypes.string.isRequired,
     title: PropTypes.string.isRequired,
-    price: PropTypes.string.isRequired
+    price: PropTypes.number.isRequired
   };
 
   render() {
@@ -23,7 +23,7 @@ class CatalogCard extends React.PureComponent {
         </div>
         <div className='catalog-card__text-wrap'>
           <div className="h3 catalog-card__title">{title}</div>
-          <div className="catalog-card__price">{price}</div>
+          <div className="catalog-card__price">от {price} BYN</div>
         </div>
       </Link>
     )

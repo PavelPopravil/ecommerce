@@ -4,16 +4,15 @@ import './style.scss';
 import close from './img/close.svg';
 import {connect} from 'react-redux';
 import {removeProdFromBasket} from '../../../redux/actions/basketA';
-import InputNumber from 'rc-input-number';
 
-class BasterCard extends React.PureComponent {
+class BasketCard extends React.PureComponent {
 
   static proptypes = {
     product: Proptypes.shape({
       id: Proptypes.string.isRequired,
       pic: Proptypes.string.isRequired,
       name: Proptypes.string.isRequired,
-      price: Proptypes.string.isRequired,
+      price: Proptypes.number.isRequired,
       properties: Proptypes.object.isRequired,
     }).isRequired,
   };
@@ -25,8 +24,8 @@ class BasterCard extends React.PureComponent {
   };
 
   onRemoveBtnClick = () => {
-    const {catalogPath, id} = this.props.product;
-    this.props.removeProdFromBasket(catalogPath, id);
+    const {product} = this.props;
+    this.props.removeProdFromBasket(product);
   };
 
   onQuantChange = () => {
@@ -50,12 +49,6 @@ class BasterCard extends React.PureComponent {
             this.renderProdcutProperties(properties)
           }
         </td>
-        <td className="basket-p__cell quant">
-          <InputNumber
-            min={0}
-            max={10}
-          />
-        </td>
         <td className="basket-p__cell price">
           <div className="basket-p__price">
             {price} BYN
@@ -75,4 +68,4 @@ const MapDispatchToProps = {
   removeProdFromBasket
 };
 
-export default connect(null, MapDispatchToProps)(BasterCard);
+export default connect(null, MapDispatchToProps)(BasketCard);

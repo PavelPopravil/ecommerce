@@ -2,23 +2,75 @@
 
 .basket-p {
 
+  @media (max-width: $screen-sm-max) {
+    display: block;
+    position: relative;
+    padding: 20px 15px;
+  }
+
   &__cell {
-    
-    &.controls {
-      
-      @media (min-width: $screen-md-min) {
-        width: 40px;
+
+    @media (max-width: $screen-sm-max) {
+
+      .App & {
+        padding: 0;
+
+        &:first-child {
+          padding-left: 0;
+        }
+
+        &:last-child {
+          padding-right: 0;
+        }
       }
+    }
+
+    &.controls {
+      width: 40px;
+
+      @media (max-width: $screen-sm-max) {
+        position: absolute;
+        right: 15px;
+        top: 15px;
+        width: auto;
+      }
+    }
+
+    &.pic {
+      width: 150px;
+      @media (max-width: $screen-sm-max) {
+        margin-bottom: 10px;
+      }
+    }
+
+    &.name {
+
+      @media (max-width: $screen-sm-max) {
+        margin-bottom: 10px;
+      }
+    }
+
+    @media (max-width: $screen-sm-max) {
+      display: block;
     }
   }
 
   &__pic-wrap {
     max-width: 100px;
     max-height: 100px;
+
+    @media (max-width: $screen-sm-max) {
+      max-width: 150px;
+      max-height: 150px;
+    }
   }
 
   &__name {
-    margin-top: 0;
+    margin-top: -3px;
+
+    @media (max-width: $screen-sm-max) {
+      margin-top: 0;
+    }
   }
 
   &__price {

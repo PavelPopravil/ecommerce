@@ -11,7 +11,7 @@ class SingleProduct extends React.PureComponent {
       id: Proptypes.string.isRequired,
       pic: Proptypes.string.isRequired,
       name: Proptypes.string.isRequired,
-      price: Proptypes.string.isRequired,
+      price: Proptypes.number.isRequired,
       properties: Proptypes.object.isRequired
     }).isRequired,
     inBasket: Proptypes.bool.isRequired,
@@ -32,7 +32,7 @@ class SingleProduct extends React.PureComponent {
 
   onBasketBtnClick = () => {
     const {data, inBasket} = this.props;
-    inBasket ? this.props.onProdRemove(data.catalogPath, data.id) : this.props.onProdAdd(data.catalogPath, data.id);
+    inBasket ? this.props.onProdRemove(data) : this.props.onProdAdd(data);
   };
 
   render() {

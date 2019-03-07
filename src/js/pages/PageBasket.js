@@ -55,7 +55,7 @@ class PageBasket extends React.PureComponent {
     if (!data) {
       return <div className='error'>Корзина пуста</div>; //toDo error вынести в extra компонент
     } else {
-      return <BasketList data={data}/>;
+      return <BasketList totalPrice={this.props.basket.totalPrice} data={data}/>;
     }
   };
 

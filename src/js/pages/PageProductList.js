@@ -12,7 +12,7 @@ class PageMain extends React.PureComponent {
   componentDidMount() {
     const currentCatalog = this.props.match.params.section;
     this.props.setActiveCatalog(currentCatalog);
-    if (!this.props.data.length) {
+    if (this.props.data.length <= 1) {
       this.props.fetchProdList(currentCatalog);
     }
   }

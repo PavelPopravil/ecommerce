@@ -53,7 +53,7 @@ const mapStateToProps = (store, ownProps) => {
   return {
     isLoading: store.productPage.isLoading,
     errorMsg: store.productPage.errorMsg,
-    product: currentCatalog.byId[ownProps.match.params.id] || store.productPage.product,
+    product: currentCatalog.byId[store.productPage.id],
     basketProd: store.basket.products
   }
 };

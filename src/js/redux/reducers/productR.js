@@ -6,7 +6,7 @@ import {
 
 const initialState = {
   isLoading: false,
-  product: null,
+  id: null,
   errorMsg: null
 };
 
@@ -22,7 +22,7 @@ export default (state = initialState, action) => {
       return {
         ...state,
         isLoading: false,
-        product: payload.product
+        id: payload.product.id
       };
     case FETCH_PRODUCT_FAILURE:
       return {

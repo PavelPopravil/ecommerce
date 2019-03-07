@@ -1,18 +1,16 @@
 export const ADD_TO_BASKET = 'ADD_TO_BASKET';
 export const REMOVE_FROM_BASKET = 'REMOVE_FROM_BASKET';
 
-export const addProdToBasket = (path, productId) => {
+export const addProdToBasket = (product) => {
   return {
     type: ADD_TO_BASKET,
-    path,
-    productId
+    product
   }
 };
 
-export const removeProdFromBasket = (path, productId) => {
+export const removeProdFromBasket = (product) => {
   return {
     type: REMOVE_FROM_BASKET,
-    path,
-    productId
+    product
   }
 };

@@ -5,7 +5,7 @@
       "pic": "iphone_1.jpeg",
       "catalogPath": "iphone",
       "name": "iPhone 7",
-      "price": "1 210.00",
+      "price": 1210,
       "properties": {
         "diskSize": "32GB",
         "color": "black"
@@ -16,7 +16,7 @@
       "pic": "iphone_2.jpeg",
       "catalogPath": "iphone",
       "name": "iPhone 7",
-      "price": "1 210.00",
+      "price": 1210,
       "properties": {
         "diskSize": "32GB",
         "color": "silver"
@@ -27,7 +27,7 @@
       "pic": "iphone_3.jpeg",
       "catalogPath": "iphone",
       "name": "iPhone 7",
-      "price": "1 210.00",
+      "price": 1210,
       "properties": {
         "diskSize": "32GB",
         "color": "gold"
@@ -38,7 +38,7 @@
       "pic": "iphone_4.jpeg",
       "catalogPath": "iphone",
       "name": "iPhone 7",
-      "price": "1 210.00",
+      "price": 1210,
       "properties": {
         "diskSize": "32GB",
         "color": "pink"
@@ -49,7 +49,7 @@
       "pic": "iphone_2.jpeg",
       "catalogPath": "iphone",
       "name": "iPhone 7",
-      "price": "1 620.00",
+      "price": 1620,
       "properties": {
         "diskSize": "128GB",
         "color": "silver"
@@ -60,7 +60,7 @@
       "pic": "iphone_3.jpeg",
       "catalogPath": "iphone",
       "name": "iPhone 7",
-      "price": "1 620.00",
+      "price": 1620,
       "properties": {
         "diskSize": "128GB",
         "color": "gold"
@@ -71,7 +71,7 @@
       "pic": "iphone_4.jpeg",
       "catalogPath": "iphone",
       "name": "iPhone 7",
-      "price": "1 620.00",
+      "price": 1620,
       "properties": {
         "diskSize": "128GB",
         "color": "pink"
@@ -82,7 +82,7 @@
       "pic": "iphone_5.jpeg",
       "catalogPath": "iphone",
       "name": "iPhone 7",
-      "price": "1 620.00",
+      "price": 1620,
       "properties": {
         "diskSize": "128GB",
         "color": "black onyx"
@@ -93,7 +93,7 @@
       "pic": "iphone_3.jpeg",
       "catalogPath": "iphone",
       "name": "iPhone 7 Plus",
-      "price": "1 360.00",
+      "price": 1360,
       "properties": {
         "diskSize": "32GB",
         "color": "gold"
@@ -104,7 +104,7 @@
       "pic": "iphone_4.jpeg",
       "catalogPath": "iphone",
       "name": "iPhone 7 Plus",
-      "price": "1 360.00",
+      "price": 1360,
       "properties": {
         "diskSize": "32GB",
         "color": "pink"
@@ -115,7 +115,7 @@
       "pic": "iphone_1.jpeg",
       "catalogPath": "iphone",
       "name": "iPhone 7 Plus",
-      "price": "1 950.00",
+      "price": 1950,
       "properties": {
         "diskSize": "128GB",
         "color": "black"
@@ -126,7 +126,7 @@
       "pic": "iphone_2.jpeg",
       "catalogPath": "iphone",
       "name": "iPhone 7 Plus",
-      "price": "1 950.00",
+      "price": 1950,
       "properties": {
         "diskSize": "128GB",
         "color": "silver"
@@ -137,7 +137,7 @@
       "pic": "iphone_3.jpeg",
       "catalogPath": "iphone",
       "name": "iPhone 7 Plus",
-      "price": "1 950.00",
+      "price": 1950,
       "properties": {
         "diskSize": "128GB",
         "color": "gold"
@@ -148,7 +148,7 @@
       "pic": "iphone_4.jpeg",
       "catalogPath": "iphone",
       "name": "iPhone 7 Plus",
-      "price": "1 950.00",
+      "price": 1950,
       "properties": {
         "diskSize": "128GB",
         "color": "pink"
@@ -159,7 +159,7 @@
       "pic": "iphone_5.jpeg",
       "catalogPath": "iphone",
       "name": "iPhone 7 Plus",
-      "price": "1 950.00",
+      "price": 1950,
       "properties": {
         "diskSize": "128GB",
         "color": "black onyx"
@@ -170,7 +170,7 @@
       "pic": "iphone_6.jpeg",
       "catalogPath": "iphone",
       "name": "iPhone 8 Plus",
-      "price": "2 520.00",
+      "price": 2520,
       "properties": {
         "diskSize": "256GB",
         "color": "gray"
@@ -181,7 +181,7 @@
       "pic": "iphone_7.jpeg",
       "catalogPath": "iphone",
       "name": "iPhone 8 Plus",
-      "price": "2 520.00",
+      "price": 2520,
       "properties": {
         "diskSize": "256GB",
         "color": "silver"
@@ -192,7 +192,7 @@
       "pic": "iphone_6.jpeg",
       "catalogPath": "iphone",
       "name": "iPhone 8",
-      "price": "1 740.00",
+      "price": 1740,
       "properties": {
         "diskSize": "64GB",
         "color": "gray"
@@ -203,7 +203,7 @@
       "pic": "iphone_7.jpeg",
       "catalogPath": "iphone",
       "name": "iPhone 8",
-      "price": "2 230.00",
+      "price": 2230,
       "properties": {
         "diskSize": "256GB",
         "color": "silver"
@@ -214,7 +214,7 @@
       "pic": "iphone_8.jpeg",
       "catalogPath": "iphone",
       "name": "iPhone X",
-      "price": "2 400.00",
+      "price": 2400,
       "properties": {
         "diskSize": "64GB",
         "color": "gray"
@@ -225,7 +225,7 @@
       "pic": "iphone_8.jpeg",
       "catalogPath": "iphone",
       "name": "iPhone X",
-      "price": "2 830.00",
+      "price": 2830,
       "properties": {
         "diskSize": "256GB",
         "color": "gray"
@@ -236,7 +236,7 @@
       "pic": "iphone_9.jpeg",
       "catalogPath": "iphone",
       "name": "iPhone X",
-      "price": "2 830.00",
+      "price": 2830,
       "properties": {
         "diskSize": "256GB",
         "color": "silver"
@@ -247,7 +247,7 @@
       "pic": "iphone_10.png",
       "catalogPath": "iphone",
       "name": "iPhone 8",
-      "price": "1 740.00",
+      "price": 1740,
       "properties": {
         "diskSize": "64GB",
         "color": "red"
@@ -258,7 +258,7 @@
       "pic": "iphone_11.png",
       "catalogPath": "iphone",
       "name": "iPhone XR",
-      "price": "2 180.00",
+      "price": 2180,
       "properties": {
         "diskSize": "64GB",
         "color": "red"
@@ -269,7 +269,7 @@
       "pic": "iphone_12.png",
       "catalogPath": "iphone",
       "name": "iPhone XR",
-      "price": "2 180.00",
+      "price": 2180,
       "properties": {
         "diskSize": "64GB",
         "color": "yellow"
@@ -280,7 +280,7 @@
       "pic": "iphone_13.png",
       "catalogPath": "iphone",
       "name": "iPhone XR",
-      "price": "2 180.00",
+      "price": 2180,
       "properties": {
         "diskSize": "64GB",
         "color": "corral"
@@ -291,7 +291,7 @@
       "pic": "iphone_14.png",
       "catalogPath": "iphone",
       "name": "iPhone XR",
-      "price": "2 350.00",
+      "price": 2350,
       "properties": {
         "diskSize": "128GB",
         "color": "black"
@@ -302,7 +302,7 @@
       "pic": "iphone_15.png",
       "catalogPath": "iphone",
       "name": "iPhone XR",
-      "price": "2 350.00",
+      "price": 2350,
       "properties": {
         "diskSize": "128GB",
         "color": "white"
@@ -313,7 +313,7 @@
       "pic": "iphone_14.png",
       "catalogPath": "iphone",
       "name": "iPhone XR",
-      "price": "2 600.00",
+      "price": 2600,
       "properties": {
         "diskSize": "256GB",
         "color": "black"
@@ -324,7 +324,7 @@
       "pic": "iphone_15.png",
       "catalogPath": "iphone",
       "name": "iPhone XR",
-      "price": "2 600.00",
+      "price": 2600,
       "properties": {
         "diskSize": "256GB",
         "color": "white"
@@ -335,7 +335,7 @@
       "pic": "iphone_11.png",
       "catalogPath": "iphone",
       "name": "iPhone XR",
-      "price": "2 600.00",
+      "price": 2600,
       "properties": {
         "diskSize": "256GB",
         "color": "red"
@@ -346,7 +346,7 @@
       "pic": "iphone_12.png",
       "catalogPath": "iphone",
       "name": "iPhone XR",
-      "price": "2 600.00",
+      "price": 2600,
       "properties": {
         "diskSize": "256GB",
         "color": "yellow"
@@ -357,7 +357,7 @@
       "pic": "iphone_13.png",
       "catalogPath": "iphone",
       "name": "iPhone XR",
-      "price": "2 600.00",
+      "price": 2600,
       "properties": {
         "diskSize": "256GB",
         "color": "corral"
@@ -368,7 +368,7 @@
       "pic": "iphone_16.png",
       "catalogPath": "iphone",
       "name": "iPhone XR",
-      "price": "2 600.00",
+      "price": 2600,
       "properties": {
         "diskSize": "256GB",
         "color": "blue"
@@ -379,7 +379,7 @@
       "pic": "iphone_1.jpeg",
       "catalogPath": "iphone",
       "name": "iPhone 7",
-      "price": "1 620.00",
+      "price": 1620,
       "properties": {
         "diskSize": "128GB",
         "color": "black"
@@ -390,7 +390,7 @@
       "pic": "iphone_1.jpeg",
       "catalogPath": "iphone",
       "name": "iPhone 7 Plus",
-      "price": "1 360.00",
+      "price": 1360,
       "properties": {
         "diskSize": "32GB",
         "color": "black"
@@ -401,7 +401,7 @@
       "pic": "iphone_15.png",
       "catalogPath": "iphone",
       "name": "iPhone XR",
-      "price": "2 180.00",
+      "price": 2180,
       "properties": {
         "diskSize": "64GB",
         "color": "white"
@@ -412,7 +412,7 @@
       "pic": "iphone_9.jpeg",
       "catalogPath": "iphone",
       "name": "iPhone X",
-      "price": "2 400.00",
+      "price": 2400,
       "properties": {
         "diskSize": "64GB",
         "color": "silver"
@@ -423,7 +423,7 @@
       "pic": "iphone_12.png",
       "catalogPath": "iphone",
       "name": "iPhone XR",
-      "price": "2 350.00",
+      "price": 2350,
       "properties": {
         "diskSize": "128GB",
         "color": "yellow"
@@ -434,7 +434,7 @@
       "pic": "iphone_6.jpeg",
       "catalogPath": "iphone",
       "name": "iPhone 8 Plus",
-      "price": "2 000.00",
+      "price": 2000,
       "properties": {
         "diskSize": "64GB",
         "color": "gray"
@@ -445,7 +445,7 @@
       "pic": "iphone_17.jpeg",
       "catalogPath": "iphone",
       "name": "iPhone 8 Plus",
-      "price": "2 000.00",
+      "price": 2000,
       "properties": {
         "diskSize": "64GB",
         "color": "gold"
@@ -456,7 +456,7 @@
       "pic": "iphone_17.jpeg",
       "catalogPath": "iphone",
       "name": "iPhone 8 Plus",
-      "price": "2 520.00",
+      "price": 2520,
       "properties": {
         "diskSize": "256GB",
         "color": "gold"
@@ -467,7 +467,7 @@
       "pic": "iphone_7.jpeg",
       "catalogPath": "iphone",
       "name": "iPhone 8",
-      "price": "1 740.00",
+      "price": 1740,
       "properties": {
         "diskSize": "64GB",
         "color": "silver"
@@ -478,7 +478,7 @@
       "pic": "iphone_3.jpeg",
       "catalogPath": "iphone",
       "name": "iPhone 8",
-      "price": "1 740.00",
+      "price": 1740,
       "properties": {
         "diskSize": "64GB",
         "color": "gold"
@@ -489,7 +489,7 @@
       "pic": "iphone_6.jpeg",
       "catalogPath": "iphone",
       "name": "iPhone 8",
-      "price": "2 230.00",
+      "price": 2230,
       "properties": {
         "diskSize": "256GB",
         "color": "gray"
@@ -500,7 +500,7 @@
       "pic": "iphone_3.jpeg",
       "catalogPath": "iphone",
       "name": "iPhone 8",
-      "price": "2 230.00",
+      "price": 2230,
       "properties": {
         "diskSize": "256GB",
         "color": "gold"
@@ -511,7 +511,7 @@
       "pic": "iphone_11.png",
       "catalogPath": "iphone",
       "name": "iPhone XR",
-      "price": "2 350.00",
+      "price": 2350,
       "properties": {
         "diskSize": "128GB",
         "color": "red"
@@ -522,7 +522,7 @@
       "pic": "iphone_14.png",
       "catalogPath": "iphone",
       "name": "iPhone XR",
-      "price": "2 180.00",
+      "price": 2180,
       "properties": {
         "diskSize": "64GB",
         "color": "black"
@@ -533,7 +533,7 @@
       "pic": "iphone_16.png",
       "catalogPath": "iphone",
       "name": "iPhone XR",
-      "price": "2 180.00",
+      "price": 2180,
       "properties": {
         "diskSize": "64GB",
         "color": "blue"
@@ -544,7 +544,7 @@
       "pic": "iphone_13.png",
       "catalogPath": "iphone",
       "name": "iPhone XR",
-      "price": "2 350.00",
+      "price": 2350,
       "properties": {
         "diskSize": "128GB",
         "color": "corral"

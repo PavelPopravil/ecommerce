@@ -6,18 +6,21 @@ import './style.scss';
 class BasketList extends React.PureComponent {
 
   static proptypes = {
-    data: Proptypes.object.isRequired
+    data: Proptypes.object.isRequired,
+    totalPrice: Proptypes.number.isRequired
   };
 
   renderData = () => {
     const {data} = this.props;
 
     return data.map((item) => {
-      return <BasketCard key={item.id} product={item} />
+      return <BasketCard key={`${item.catalogPath}_${item.id}`} product={item} />
     });
   };
 
   render() {
+
+    const {totalPrice} = this.props;
 
     return (
       <div className='basket'>
@@ -29,6 +32,14 @@ class BasketList extends React.PureComponent {
               }
             </tbody>
           </table>
+        </div>
+        <div className="basket__footer">
+          <div className="basket__price-wrap">
+            <h3 className='basket__price'>Итого: {totalPrice} BYN</h3>
+          </div>
+          <div className="basket__btn-wrap">
+            <button className='btn btn-primary'>Купить</button>
+          </div>
         </div>
       </div>
     )

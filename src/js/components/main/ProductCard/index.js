@@ -12,7 +12,7 @@ class ProdCard extends React.PureComponent {
       id: PropTypes.string.isRequired,
       pic: PropTypes.string.isRequired,
       name: PropTypes.string.isRequired,
-      price: PropTypes.string.isRequired,
+      price: PropTypes.number.isRequired,
       properties: PropTypes.object.isRequired,
     }).isRequired,
     path: PropTypes.string.isRequired,
@@ -27,7 +27,7 @@ class ProdCard extends React.PureComponent {
 
   onBasketBtnClick = () => {
     const {card, inBasket} = this.props;
-    inBasket ? this.props.removeProdFromBasket(card.catalogPath, card.id) : this.props.addProdToBasket(card.catalogPath, card.id);
+    inBasket ? this.props.removeProdFromBasket(card) : this.props.addProdToBasket(card);
   };
 
   render() {

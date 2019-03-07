@@ -11,10 +11,10 @@ class Footer extends React.PureComponent {
         <div className="footer__bottom">
           <div className="container">
             <div className="row">
-              <div className="col-sm-7">
+              <div className="col-md-7">
                 <Copyright />
               </div>
-              <div className="col-sm-5">
+              <div className="col-md-5">
                 <div className="developed">
                   developed by Shishchits Pavel
                 </div>

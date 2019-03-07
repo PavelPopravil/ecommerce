@@ -7,6 +7,7 @@ import {
 } from '../actions/prodListA';
 
 import {arrayToObject} from '../../helpers/selector';
+import {FETCH_PRODUCT_SUCCESS} from "../actions/productA";
 
 export const initialState = {
   currentCatalog: null,
@@ -56,6 +57,19 @@ export const prodListR = (state = initialState, action) => {
           isLoading: false,
           ids: payload.data.map((item) => item.id),
           byId: arrayToObject(payload.data, 'id')
+        }
+      };
+    case FETCH_PRODUCT_SUCCESS:
+      const product = action.payload.product;
+      return {
+        ...state,
+        [product.catalogPath]: {
+          ...state[product.catalogPath],
+          byId: {
+            ...state[product.catalogPath].byId,
+            [product.id]: product
+          },
+          ids: [...state[product.catalogPath].ids, product.id]
         }
       };
     case FETCH_PRODLIST_FAILURE:
