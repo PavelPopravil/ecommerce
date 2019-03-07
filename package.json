@@ -18,6 +18,7 @@
     "terser": "^3.14.1"
   },
   "dependencies": {
+    "rc-input-number": "^4.4.0",
     "isomorphic-fetch": "^2.2.1",
     "prop-types": "^15.6.0",
     "react": "^16.0.0",

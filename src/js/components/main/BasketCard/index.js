@@ -3,7 +3,8 @@ import Proptypes from 'prop-types';
 import './style.scss';
 import close from './img/close.svg';
 import {connect} from 'react-redux';
-import {removeProdFromBasket} from '../../../redux/actions/basketA';
+import {removeProdFromBasket, setProductCount} from '../../../redux/actions/basketA';
+import InputNumber from 'rc-input-number';
 
 class BasketCard extends React.PureComponent {
 
@@ -14,6 +15,7 @@ class BasketCard extends React.PureComponent {
       name: Proptypes.string.isRequired,
       price: Proptypes.number.isRequired,
       properties: Proptypes.object.isRequired,
+      count: Proptypes.number.isRequired
     }).isRequired,
   };
 
@@ -28,13 +30,14 @@ class BasketCard extends React.PureComponent {
     this.props.removeProdFromBasket(product);
   };
 
-  onQuantChange = () => {
-    console.log('mew');
+  onQuantChange = (value) => {
+    const {product} = this.props;
+    this.props.setProductCount(value, product);
   };
 
   render() {
 
-    const {pic, price, name, properties} = this.props.product;
+    const {pic, price, name, properties, count} = this.props.product;
 
     return (
       <tr className='basket-p'>
@@ -48,6 +51,14 @@ class BasketCard extends React.PureComponent {
           {
             this.renderProdcutProperties(properties)
           }
+        </td>
+        <td className="basket-p__cell quant">
+          <InputNumber
+            min={1}
+            max={10}
+            defaultValue={count}
+            onChange={this.onQuantChange}
+          />
         </td>
         <td className="basket-p__cell price">
           <div className="basket-p__price">
@@ -65,7 +76,8 @@ class BasketCard extends React.PureComponent {
 }
 
 const MapDispatchToProps = {
-  removeProdFromBasket
+  removeProdFromBasket,
+  setProductCount
 };
 
 export default connect(null, MapDispatchToProps)(BasketCard);

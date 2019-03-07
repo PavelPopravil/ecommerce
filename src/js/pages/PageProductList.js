@@ -6,6 +6,7 @@ import {connect} from 'react-redux';
 import {fetchProdList, setActiveCatalog} from '../redux/actions/prodListA';
 import {CatalogMap} from '../helpers/constats';
 import {filterList} from '../helpers/selector';
+import ErrorMessage from '../components/extra/ErrorMessage/index';
 
 class PageMain extends React.PureComponent {
 
@@ -21,7 +22,7 @@ class PageMain extends React.PureComponent {
     const {isLoading, data, errorMsg} = this.props;
 
     if (errorMsg) {
-      return <div className='error'>{`Произошла ошибка ${errorMsg}`}</div>;
+      return <ErrorMessage>{`Произошла ошибка ${errorMsg}`}</ErrorMessage>;
     }
 
     return isLoading ? <Preloader /> : data.length ? <ProductList path={section} data={data}/> : <div className='error'>Извините, нет товаров подходящих по фильрации</div>;

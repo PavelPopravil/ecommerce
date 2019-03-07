@@ -4,6 +4,7 @@ import './style.scss';
 
 import CatalogCard from '../CatalogCard/index';
 import Preloader from '../../extra/Preloader/index';
+import ErrorMessage from '../../extra/ErrorMessage/index';
 
 import {fetchCatalog} from '../../../redux/actions/catalogA';
 
@@ -25,7 +26,7 @@ export class CatalogList extends React.PureComponent {
     });
 
     if (errorMsg) {
-      return <div className='col-12 failure-block'>{`Произошла ошибка ${errorMsg}`}</div>;
+      return <div className='col-12'><ErrorMessage>{`Произошла ошибка ${errorMsg}`}</ErrorMessage></div>;
     }
 
     return isLoading ? <Preloader /> : catalogItems;

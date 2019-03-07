@@ -18,6 +18,14 @@ class BasketList extends React.PureComponent {
     });
   };
 
+  onBuyBtnClick = () => {
+    const {data, totalPrice} = this.props;
+    const message = `Ваша покупка - ${data.map((item) => {
+      return `${item.name}, в количестве ${item.count} шт. `
+    }).join('')} Общая стоимость - ${totalPrice} BYN`;
+    alert(message)
+  };
+
   render() {
 
     const {totalPrice} = this.props;
@@ -38,7 +46,7 @@ class BasketList extends React.PureComponent {
             <h3 className='basket__price'>Итого: {totalPrice} BYN</h3>
           </div>
           <div className="basket__btn-wrap">
-            <button className='btn btn-primary'>Купить</button>
+            <button className='btn btn-primary' onClick={this.onBuyBtnClick}>Купить</button>
           </div>
         </div>
       </div>

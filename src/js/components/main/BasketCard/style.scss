@@ -43,6 +43,13 @@
       }
     }
 
+    &.quant {
+
+      @media (max-width: $screen-sm-max) {
+        margin-bottom: 10px;
+      }
+    }
+
     &.name {
 
       @media (max-width: $screen-sm-max) {
@@ -66,17 +73,19 @@
   }
 
   &__name {
-    margin-top: -3px;
-
-    @media (max-width: $screen-sm-max) {
-      margin-top: 0;
-    }
+    margin-top: 0;
   }
 
   &__price {
     white-space: nowrap;
     color: $link-color;
     font-family: $font-m;
+    font-size: 18px;
+
+    @media (min-width: $screen-md-min) {
+      margin-top: 4px;
+      font-size: $font-size-base;
+    }
   }
 
   &__remove-btn {
@@ -89,6 +98,10 @@
     justify-content: center;
     background: transparent;
     transition: $transition-default;
+
+    @media (min-width: $screen-md-min) {
+      margin-top: 4px;
+    }
 
     &:hover {
       opacity: .5;

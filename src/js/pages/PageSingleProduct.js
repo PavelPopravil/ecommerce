@@ -18,7 +18,7 @@ class Page extends React.PureComponent {
   setProductInBasketState = (id) => {
     const {basketProd} = this.props;
     const path = this.props.match.params.section;
-    return basketProd[path] && basketProd[path].length ? basketProd[path].includes(id) : false;
+    return basketProd[path] && basketProd[path].length ? basketProd[path].some((item) => item.id === id) : false;
   };
 
   renderContent = () => {
