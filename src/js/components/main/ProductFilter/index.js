@@ -7,7 +7,7 @@ import './style.scss';
 
 import {Collapse} from 'reactstrap';
 
-class ProductFilter extends React.PureComponent {
+export class ProductFilter extends React.PureComponent {
 
   static proptypes = {
     options: Proptypes.array.isRequired,

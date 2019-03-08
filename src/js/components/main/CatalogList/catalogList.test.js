@@ -54,7 +54,7 @@ describe('CatalogList render', () => {
     });
 
     it('Shouldn\'t render div with error message', () => {
-      expect(catalogContainer.find('.failure-block')).toHaveLength(0);
+      expect(catalogContainer.find(ErrorMessage)).toHaveLength(0);
     });
 
     it('renders properly', () => {
@@ -86,7 +86,7 @@ describe('CatalogList render', () => {
     });
 
     it('Shouldn\'t render div with error message', () => {
-      expect(catalogContainer.find('.failure-block')).toHaveLength(0);
+      expect(catalogContainer.find(ErrorMessage)).toHaveLength(0);
     });
 
     it('Should render CatalogCard component', () => {
