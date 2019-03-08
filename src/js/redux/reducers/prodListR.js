@@ -2,8 +2,7 @@ import {
   FETCH_PRODLIST_START,
   FETCH_PRODLIST_SUCCESS,
   FETCH_PRODLIST_FAILURE,
-  SET_ACTIVE_CATALOG,
-  SET_PRODLIST_FILTER,
+  SET_ACTIVE_CATALOG
 } from '../actions/prodListA';
 
 import {arrayToObject} from '../../helpers/selector';
@@ -79,14 +78,6 @@ export const prodListR = (state = initialState, action) => {
           ...state[state.currentCatalog],
           isLoading: false,
           errorMsg: action.errorMsg
-        }
-      };
-    case SET_PRODLIST_FILTER: //toDo вынести фильтр в отдель редусер??? path передавать как prodlist.currectCatalog
-      return {
-        ...state,
-        [state.currentCatalog]: {
-          ...state[state.currentCatalog],
-          filter: action.options
         }
       };
     default:

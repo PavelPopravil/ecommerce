@@ -5,14 +5,6 @@ export const FETCH_PRODLIST_START = 'FETCH_PRODLIST_START';
 export const FETCH_PRODLIST_SUCCESS = 'FETCH_PRODLIST_SUCCESS';
 export const FETCH_PRODLIST_FAILURE = 'FETCH_PRODLIST_FAILURE';
 export const SET_ACTIVE_CATALOG = 'SET_ACTIVE_CATALOG';
-export const SET_PRODLIST_FILTER = 'SET_PRODLIST_FILTER';
-
-export const setProdFilter = (options) => {
-  return {
-    type: SET_PRODLIST_FILTER,
-    options
-  }
-};
 
 export const fetchDataStart = () => {
   return {

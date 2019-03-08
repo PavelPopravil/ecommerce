@@ -69,7 +69,7 @@ describe('Prod-list Reducers tests', () => {
       [state.currentCatalog]: {
         ...state[state.currentCatalog],
         isLoading: false,
-        ids: action.payload.data.map((item) => item.id),
+        ids: [1, 2, 3],
         byId: arrayToObject(action.payload.data, 'id')
       }
     });
@@ -107,5 +107,4 @@ describe('Prod-list Reducers tests', () => {
       }
     });
   });
-
 });

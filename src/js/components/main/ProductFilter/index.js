@@ -2,7 +2,7 @@ import React from 'react';
 import Proptypes from 'prop-types';
 import {connect} from 'react-redux';
 import {PropMap} from '../../../helpers/constats';
-import {setProdFilter} from '../../../redux/actions/prodListA';
+import {setProdFilterOption, removeProdFilterOption} from '../../../redux/actions/filterA';
 import './style.scss';
 
 import {Collapse} from 'reactstrap';
@@ -20,32 +20,26 @@ class ProductFilter extends React.PureComponent {
   };
 
   onCheckboxChange = (e) => {
+    const {path} = this.props;
     const {value, name, checked} = e.target;
-    const map = this.props.checkboxes || {};
 
-    if (checked) {
-      map[name] = map[name] ? [...map[name], value] : [value];
-    } else {
-      map[name] = map[name].filter((item) => item !== value);
-      if (!map[name].length) {
-        delete map[name];
-      }
-    }
-
-    this.props.setProdFilter(map);
+    checked ? this.props.setProdFilterOption(path, value, name) : this.props.removeProdFilterOption(path, value, name);
   };
 
-  renderCheckbox = (option, optGroup) => {
-
+  setCheckboxState = (option, optGroup) => {
     const {checkboxes} = this.props;
     let isChecked = false;
     if (checkboxes && checkboxes[optGroup]) {
       isChecked = checkboxes[optGroup].includes(option);
     }
+    return isChecked;
+  };
+
+  renderCheckbox = (option, optGroup) => {
 
     return <div className='checkbox' key={option}>
             <label>
-              <input className='cb-input' type="checkbox" name={optGroup} defaultChecked={isChecked} value={option} onChange={this.onCheckboxChange} />
+              <input className='cb-input' type="checkbox" name={optGroup} defaultChecked={this.setCheckboxState(option, optGroup)} value={option} onChange={this.onCheckboxChange} />
               <span className='cb-icon'>
               </span>
               <span>{option}</span>
@@ -96,15 +90,15 @@ class ProductFilter extends React.PureComponent {
 
 const mapStateToProps = (store, ownProps) => {
   const currentCatalog = ownProps.path;
-  const currentProdlist = store.prodList[currentCatalog];
 
   return {
-    checkboxes: currentProdlist.filter
+    checkboxes: store.filter[currentCatalog]
   }
 };
 
 const MapDispatchToProps = {
-  setProdFilter
+  setProdFilterOption,
+  removeProdFilterOption
 };
 
 export default connect(mapStateToProps, MapDispatchToProps)(ProductFilter);

@@ -59,7 +59,7 @@ const mapStateToProps = (store, ownProps) => {
 
   return {
     isLoading: currentProdlist.isLoading,
-    data: filterList(data, currentProdlist.filter),
+    data: filterList(data, store.filter[currentCatalog]),
     errorMsg: currentProdlist.errorMsg,
   }
 };
