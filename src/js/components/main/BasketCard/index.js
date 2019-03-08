@@ -54,6 +54,7 @@ class BasketCard extends React.PureComponent {
         </td>
         <td className="basket-p__cell quant">
           <InputNumber
+            readOnly={true}
             min={1}
             max={10}
             defaultValue={count}

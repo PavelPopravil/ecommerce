@@ -23,43 +23,113 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "host",
     "props": Object {
-      "children": Array [
-        <h2
-          className="catalog-list__title"
-        >
-          Каталог
-        </h2>,
+      "children": <div
+        className="catalog-list__list"
+      >
         <div
+          className="row"
+        >
+          <div
+            className="col-12"
+          >
+            <_default>
+              Произошла ошибка fetch error
+            </_default>
+          </div>
+        </div>
+      </div>,
+      "className": "catalog-list",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          className="row"
+        >
+          <div
+            className="col-12"
+          >
+            <_default>
+              Произошла ошибка fetch error
+            </_default>
+          </div>
+        </div>,
+        "className": "catalog-list__list",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <div
+            className="col-12"
+          >
+            <_default>
+              Произошла ошибка fetch error
+            </_default>
+          </div>,
+          "className": "row",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <_default>
+              Произошла ошибка fetch error
+            </_default>,
+            "className": "col-12",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": "Произошла ошибка fetch error",
+            },
+            "ref": null,
+            "rendered": "Произошла ошибка fetch error",
+            "type": [Function],
+          },
+          "type": "div",
+        },
+        "type": "div",
+      },
+      "type": "div",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
           className="catalog-list__list"
         >
           <div
             className="row"
           >
             <div
-              className="col-12 failure-block"
+              className="col-12"
             >
-              Произошла ошибка fetch error
+              <_default>
+                Произошла ошибка fetch error
+              </_default>
             </div>
           </div>
         </div>,
-      ],
-      "className": "catalog-list",
-    },
-    "ref": null,
-    "rendered": Array [
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": "Каталог",
-          "className": "catalog-list__title",
-        },
-        "ref": null,
-        "rendered": "Каталог",
-        "type": "h2",
+        "className": "catalog-list",
       },
-      Object {
+      "ref": null,
+      "rendered": Object {
         "instance": null,
         "key": undefined,
         "nodeType": "host",
@@ -68,9 +138,11 @@ ShallowWrapper {
             className="row"
           >
             <div
-              className="col-12 failure-block"
+              className="col-12"
             >
-              Произошла ошибка fetch error
+              <_default>
+                Произошла ошибка fetch error
+              </_default>
             </div>
           </div>,
           "className": "catalog-list__list",
@@ -82,9 +154,11 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": <div
-              className="col-12 failure-block"
+              className="col-12"
             >
-              Произошла ошибка fetch error
+              <_default>
+                Произошла ошибка fetch error
+              </_default>
             </div>,
             "className": "row",
           },
@@ -94,109 +168,29 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
-              "children": "Произошла ошибка fetch error",
-              "className": "col-12 failure-block",
+              "children": <_default>
+                Произошла ошибка fetch error
+              </_default>,
+              "className": "col-12",
             },
             "ref": null,
-            "rendered": "Произошла ошибка fetch error",
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": "Произошла ошибка fetch error",
+              },
+              "ref": null,
+              "rendered": "Произошла ошибка fetch error",
+              "type": [Function],
+            },
             "type": "div",
           },
           "type": "div",
         },
         "type": "div",
       },
-    ],
-    "type": "div",
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "host",
-      "props": Object {
-        "children": Array [
-          <h2
-            className="catalog-list__title"
-          >
-            Каталог
-          </h2>,
-          <div
-            className="catalog-list__list"
-          >
-            <div
-              className="row"
-            >
-              <div
-                className="col-12 failure-block"
-              >
-                Произошла ошибка fetch error
-              </div>
-            </div>
-          </div>,
-        ],
-        "className": "catalog-list",
-      },
-      "ref": null,
-      "rendered": Array [
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": "Каталог",
-            "className": "catalog-list__title",
-          },
-          "ref": null,
-          "rendered": "Каталог",
-          "type": "h2",
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": <div
-              className="row"
-            >
-              <div
-                className="col-12 failure-block"
-              >
-                Произошла ошибка fetch error
-              </div>
-            </div>,
-            "className": "catalog-list__list",
-          },
-          "ref": null,
-          "rendered": Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": <div
-                className="col-12 failure-block"
-              >
-                Произошла ошибка fetch error
-              </div>,
-              "className": "row",
-            },
-            "ref": null,
-            "rendered": Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": "Произошла ошибка fetch error",
-                "className": "col-12 failure-block",
-              },
-              "ref": null,
-              "rendered": "Произошла ошибка fetch error",
-              "type": "div",
-            },
-            "type": "div",
-          },
-          "type": "div",
-        },
-      ],
       "type": "div",
     },
   ],
@@ -247,13 +241,62 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "host",
     "props": Object {
-      "children": Array [
-        <h2
-          className="catalog-list__title"
-        >
-          Каталог
-        </h2>,
+      "children": <div
+        className="catalog-list__list"
+      >
         <div
+          className="row"
+        >
+          <_default />
+        </div>
+      </div>,
+      "className": "catalog-list",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          className="row"
+        >
+          <_default />
+        </div>,
+        "className": "catalog-list__list",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <_default />,
+          "className": "row",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        "type": "div",
+      },
+      "type": "div",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
           className="catalog-list__list"
         >
           <div
@@ -262,24 +305,10 @@ ShallowWrapper {
             <_default />
           </div>
         </div>,
-      ],
-      "className": "catalog-list",
-    },
-    "ref": null,
-    "rendered": Array [
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": "Каталог",
-          "className": "catalog-list__title",
-        },
-        "ref": null,
-        "rendered": "Каталог",
-        "type": "h2",
+        "className": "catalog-list",
       },
-      Object {
+      "ref": null,
+      "rendered": Object {
         "instance": null,
         "key": undefined,
         "nodeType": "host",
@@ -314,83 +343,6 @@ ShallowWrapper {
         },
         "type": "div",
       },
-    ],
-    "type": "div",
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "host",
-      "props": Object {
-        "children": Array [
-          <h2
-            className="catalog-list__title"
-          >
-            Каталог
-          </h2>,
-          <div
-            className="catalog-list__list"
-          >
-            <div
-              className="row"
-            >
-              <_default />
-            </div>
-          </div>,
-        ],
-        "className": "catalog-list",
-      },
-      "ref": null,
-      "rendered": Array [
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": "Каталог",
-            "className": "catalog-list__title",
-          },
-          "ref": null,
-          "rendered": "Каталог",
-          "type": "h2",
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": <div
-              className="row"
-            >
-              <_default />
-            </div>,
-            "className": "catalog-list__list",
-          },
-          "ref": null,
-          "rendered": Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": <_default />,
-              "className": "row",
-            },
-            "ref": null,
-            "rendered": Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "function",
-              "props": Object {},
-              "ref": null,
-              "rendered": null,
-              "type": [Function],
-            },
-            "type": "div",
-          },
-          "type": "div",
-        },
-      ],
       "type": "div",
     },
   ],
@@ -429,7 +381,7 @@ ShallowWrapper {
           "mod": "big",
           "path": "mac",
           "pic": "img/catalog_imac.png",
-          "price": "от 1 650 руб",
+          "price": 1650,
           "title": "Mac",
         },
       ]
@@ -452,13 +404,114 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "host",
     "props": Object {
-      "children": Array [
-        <h2
-          className="catalog-list__title"
-        >
-          Каталог
-        </h2>,
+      "children": <div
+        className="catalog-list__list"
+      >
         <div
+          className="row"
+        >
+          <div
+            className="catalog-list__item col-lg-6 col-md-6 col-12"
+          >
+            <CatalogCard
+              path="mac"
+              pic="img/catalog_imac.png"
+              price={1650}
+              title="Mac"
+            />
+          </div>
+        </div>
+      </div>,
+      "className": "catalog-list",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          className="row"
+        >
+          <div
+            className="catalog-list__item col-lg-6 col-md-6 col-12"
+          >
+            <CatalogCard
+              path="mac"
+              pic="img/catalog_imac.png"
+              price={1650}
+              title="Mac"
+            />
+          </div>
+        </div>,
+        "className": "catalog-list__list",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="catalog-list__item col-lg-6 col-md-6 col-12"
+            >
+              <CatalogCard
+                path="mac"
+                pic="img/catalog_imac.png"
+                price={1650}
+                title="Mac"
+              />
+            </div>,
+          ],
+          "className": "row",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "1",
+            "nodeType": "host",
+            "props": Object {
+              "children": <CatalogCard
+                path="mac"
+                pic="img/catalog_imac.png"
+                price={1650}
+                title="Mac"
+              />,
+              "className": "catalog-list__item col-lg-6 col-md-6 col-12",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": "1",
+              "nodeType": "class",
+              "props": Object {
+                "path": "mac",
+                "pic": "img/catalog_imac.png",
+                "price": 1650,
+                "title": "Mac",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+      "type": "div",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
           className="catalog-list__list"
         >
           <div
@@ -470,30 +523,16 @@ ShallowWrapper {
               <CatalogCard
                 path="mac"
                 pic="img/catalog_imac.png"
-                price="от 1 650 руб"
+                price={1650}
                 title="Mac"
               />
             </div>
           </div>
         </div>,
-      ],
-      "className": "catalog-list",
-    },
-    "ref": null,
-    "rendered": Array [
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": "Каталог",
-          "className": "catalog-list__title",
-        },
-        "ref": null,
-        "rendered": "Каталог",
-        "type": "h2",
+        "className": "catalog-list",
       },
-      Object {
+      "ref": null,
+      "rendered": Object {
         "instance": null,
         "key": undefined,
         "nodeType": "host",
@@ -507,7 +546,7 @@ ShallowWrapper {
               <CatalogCard
                 path="mac"
                 pic="img/catalog_imac.png"
-                price="от 1 650 руб"
+                price={1650}
                 title="Mac"
               />
             </div>
@@ -527,7 +566,7 @@ ShallowWrapper {
                 <CatalogCard
                   path="mac"
                   pic="img/catalog_imac.png"
-                  price="от 1 650 руб"
+                  price={1650}
                   title="Mac"
                 />
               </div>,
@@ -544,7 +583,7 @@ ShallowWrapper {
                 "children": <CatalogCard
                   path="mac"
                   pic="img/catalog_imac.png"
-                  price="от 1 650 руб"
+                  price={1650}
                   title="Mac"
                 />,
                 "className": "catalog-list__item col-lg-6 col-md-6 col-12",
@@ -557,7 +596,7 @@ ShallowWrapper {
                 "props": Object {
                   "path": "mac",
                   "pic": "img/catalog_imac.png",
-                  "price": "от 1 650 руб",
+                  "price": 1650,
                   "title": "Mac",
                 },
                 "ref": null,
@@ -571,135 +610,6 @@ ShallowWrapper {
         },
         "type": "div",
       },
-    ],
-    "type": "div",
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "host",
-      "props": Object {
-        "children": Array [
-          <h2
-            className="catalog-list__title"
-          >
-            Каталог
-          </h2>,
-          <div
-            className="catalog-list__list"
-          >
-            <div
-              className="row"
-            >
-              <div
-                className="catalog-list__item col-lg-6 col-md-6 col-12"
-              >
-                <CatalogCard
-                  path="mac"
-                  pic="img/catalog_imac.png"
-                  price="от 1 650 руб"
-                  title="Mac"
-                />
-              </div>
-            </div>
-          </div>,
-        ],
-        "className": "catalog-list",
-      },
-      "ref": null,
-      "rendered": Array [
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": "Каталог",
-            "className": "catalog-list__title",
-          },
-          "ref": null,
-          "rendered": "Каталог",
-          "type": "h2",
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": <div
-              className="row"
-            >
-              <div
-                className="catalog-list__item col-lg-6 col-md-6 col-12"
-              >
-                <CatalogCard
-                  path="mac"
-                  pic="img/catalog_imac.png"
-                  price="от 1 650 руб"
-                  title="Mac"
-                />
-              </div>
-            </div>,
-            "className": "catalog-list__list",
-          },
-          "ref": null,
-          "rendered": Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": Array [
-                <div
-                  className="catalog-list__item col-lg-6 col-md-6 col-12"
-                >
-                  <CatalogCard
-                    path="mac"
-                    pic="img/catalog_imac.png"
-                    price="от 1 650 руб"
-                    title="Mac"
-                  />
-                </div>,
-              ],
-              "className": "row",
-            },
-            "ref": null,
-            "rendered": Array [
-              Object {
-                "instance": null,
-                "key": "1",
-                "nodeType": "host",
-                "props": Object {
-                  "children": <CatalogCard
-                    path="mac"
-                    pic="img/catalog_imac.png"
-                    price="от 1 650 руб"
-                    title="Mac"
-                  />,
-                  "className": "catalog-list__item col-lg-6 col-md-6 col-12",
-                },
-                "ref": null,
-                "rendered": Object {
-                  "instance": null,
-                  "key": "1",
-                  "nodeType": "class",
-                  "props": Object {
-                    "path": "mac",
-                    "pic": "img/catalog_imac.png",
-                    "price": "от 1 650 руб",
-                    "title": "Mac",
-                  },
-                  "ref": null,
-                  "rendered": null,
-                  "type": [Function],
-                },
-                "type": "div",
-              },
-            ],
-            "type": "div",
-          },
-          "type": "div",
-        },
-      ],
       "type": "div",
     },
   ],
@@ -762,37 +672,60 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "host",
     "props": Object {
-      "children": Array [
-        <h2
-          className="catalog-list__title"
-        >
-          Каталог
-        </h2>,
+      "children": <div
+        className="catalog-list__list"
+      >
         <div
+          className="row"
+        />
+      </div>,
+      "className": "catalog-list",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          className="row"
+        />,
+        "className": "catalog-list__list",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [],
+          "className": "row",
+        },
+        "ref": null,
+        "rendered": Array [],
+        "type": "div",
+      },
+      "type": "div",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
           className="catalog-list__list"
         >
           <div
             className="row"
           />
         </div>,
-      ],
-      "className": "catalog-list",
-    },
-    "ref": null,
-    "rendered": Array [
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": "Каталог",
-          "className": "catalog-list__title",
-        },
-        "ref": null,
-        "rendered": "Каталог",
-        "type": "h2",
+        "className": "catalog-list",
       },
-      Object {
+      "ref": null,
+      "rendered": Object {
         "instance": null,
         "key": undefined,
         "nodeType": "host",
@@ -817,71 +750,6 @@ ShallowWrapper {
         },
         "type": "div",
       },
-    ],
-    "type": "div",
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "host",
-      "props": Object {
-        "children": Array [
-          <h2
-            className="catalog-list__title"
-          >
-            Каталог
-          </h2>,
-          <div
-            className="catalog-list__list"
-          >
-            <div
-              className="row"
-            />
-          </div>,
-        ],
-        "className": "catalog-list",
-      },
-      "ref": null,
-      "rendered": Array [
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": "Каталог",
-            "className": "catalog-list__title",
-          },
-          "ref": null,
-          "rendered": "Каталог",
-          "type": "h2",
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": <div
-              className="row"
-            />,
-            "className": "catalog-list__list",
-          },
-          "ref": null,
-          "rendered": Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": Array [],
-              "className": "row",
-            },
-            "ref": null,
-            "rendered": Array [],
-            "type": "div",
-          },
-          "type": "div",
-        },
-      ],
       "type": "div",
     },
   ],

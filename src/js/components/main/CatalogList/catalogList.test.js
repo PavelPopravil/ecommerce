@@ -4,6 +4,7 @@ import {shallow} from 'enzyme';
 import {CatalogList} from './index';
 import CatalogCard from '../CatalogCard/index';
 import Preloader from '../../extra/Preloader/index';
+import ErrorMessage from '../../extra/ErrorMessage/index';
 
 describe('CatalogList render', () => {
 
@@ -73,7 +74,7 @@ describe('CatalogList render', () => {
           pic: "img/catalog_imac.png",
           path: 'mac',
           title: "Mac",
-          price: "от 1 650 руб"
+          price: 1650
         }
       ]
     };
@@ -116,8 +117,8 @@ describe('CatalogList render', () => {
       expect(catalogContainer.find(CatalogCard)).toHaveLength(0);
     });
 
-    it('Should return div with error message text', () => {
-      expect(catalogContainer.find('.failure-block').text()).toEqual(`Произошла ошибка ${newProps.errorMsg}`);
+    it('Should render ErrorMessage component', () => {
+      expect(catalogContainer.find(ErrorMessage)).toHaveLength(1);
     });
 
     it('renders properly', () => {

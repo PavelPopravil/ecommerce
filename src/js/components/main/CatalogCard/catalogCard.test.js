@@ -9,7 +9,7 @@ describe('CatalogCard render', () => {
     path: 'mac',
     pic: 'catalog_imac.png',
     title: 'Заголовок карточки',
-    price: 'Цена карточки'
+    price: 1900
   };
 
   const catalogCard = shallow(<CatalogCard {...props}/>);
@@ -31,7 +31,7 @@ describe('CatalogCard render', () => {
   it('should contain price', () => {
     const price = catalogCard.find('.catalog-card__price');
     expect(price).toHaveLength(1);
-    expect(price.text()).toEqual(props.price);
+    expect(price.text()).toEqual(`от ${props.price} BYN`);
   });
 
 });
