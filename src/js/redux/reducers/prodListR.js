@@ -5,8 +5,9 @@ import {
   SET_ACTIVE_CATALOG
 } from '../actions/prodListA';
 
+import {FETCH_PRODUCT_SUCCESS} from '../actions/productA';
+
 import {arrayToObject} from '../../helpers/selector';
-import {FETCH_PRODUCT_SUCCESS} from "../actions/productA";
 
 export const initialState = {
   currentCatalog: null,

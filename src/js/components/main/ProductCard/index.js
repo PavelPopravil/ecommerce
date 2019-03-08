@@ -34,8 +34,6 @@ class ProdCard extends React.PureComponent {
     const {path, card, inBasket} = this.props;
     const {pic, name, price, properties, id} = card;
 
-    console.log('render Product Card');
-
     return (
       <div className={`prod-card ${inBasket ? 'in-basket' : ''}`}>
         <Link to={`/catalog/${path}/${id}`} className='prod-card__inner'>
@@ -54,7 +52,7 @@ class ProdCard extends React.PureComponent {
         </Link>
         <div className="prod-card__footer">
           <div className="prod-card__btn-wrap">
-            <button className='btn btn-primary' type='button' onClick={this.onBasketBtnClick}>{inBasket ? 'Убрать из корзины' : 'Добавить в корзину'}</button>
+            <button className={`btn ${inBasket ? `btn-accent` : `btn-primary`}`} type='button' onClick={this.onBasketBtnClick}>{inBasket ? 'Убрать из корзины' : 'Добавить в корзину'}</button>
           </div>
         </div>
       </div>

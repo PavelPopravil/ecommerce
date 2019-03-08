@@ -61,7 +61,7 @@ class SingleProduct extends React.PureComponent {
           <div className="product__b-price">
             <h3 className='product__price'>{price} BYN</h3>
             <div className="product__btn-wrap">
-              <button className='btn btn-primary' onClick={this.onBasketBtnClick}>{inBasket ? 'Убрать из корзины' : 'Добавить в корзину'}</button>
+              <button className={`btn ${inBasket ? `btn-accent` : `btn-primary`}`} onClick={this.onBasketBtnClick}>{inBasket ? 'Убрать из корзины' : 'Добавить в корзину'}</button>
             </div>
           </div>
         </div>

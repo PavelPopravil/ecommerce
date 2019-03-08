@@ -1,0 +1,4128 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductFilter render should render fitler options form props renders properly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ProductFilter
+    options={
+      Array [
+        Object {
+          "name": "diskSize",
+          "options": Array [
+            "2TB",
+            "1TB",
+            "512GB",
+            "256GB",
+            "128GB",
+          ],
+        },
+        Object {
+          "name": "coreMem",
+          "options": Array [
+            "32GB",
+            "16GB",
+            "8GB",
+          ],
+        },
+      ]
+    }
+    path="mac"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <div
+        className="p-filter__inner"
+      >
+        <h4
+          className="p-filter__collapse-link collapsed"
+          onClick={[Function]}
+        >
+          Показать фильтры
+        </h4>
+        <Collapse
+          appear={false}
+          className="p-filter__collapse"
+          enter={true}
+          exit={true}
+          in={false}
+          isOpen={false}
+          mountOnEnter={false}
+          onEnter={[Function]}
+          onEntered={[Function]}
+          onEntering={[Function]}
+          onExit={[Function]}
+          onExited={[Function]}
+          onExiting={[Function]}
+          tag="div"
+          timeout={350}
+          unmountOnExit={false}
+        >
+          <div
+            className="p-filter__list"
+          >
+            <div
+              className="p-filter__item"
+            >
+              <h5
+                className="p-filter__i-title"
+              >
+                Размер накопителя
+              </h5>
+              <div
+                className="p-filter__options"
+              >
+                <div
+                  className="checkbox"
+                >
+                  <label>
+                    <input
+                      className="cb-input"
+                      defaultChecked={false}
+                      name="diskSize"
+                      onChange={[Function]}
+                      type="checkbox"
+                      value="2TB"
+                    />
+                    <span
+                      className="cb-icon"
+                    />
+                    <span>
+                      2TB
+                    </span>
+                  </label>
+                </div>
+                <div
+                  className="checkbox"
+                >
+                  <label>
+                    <input
+                      className="cb-input"
+                      defaultChecked={false}
+                      name="diskSize"
+                      onChange={[Function]}
+                      type="checkbox"
+                      value="1TB"
+                    />
+                    <span
+                      className="cb-icon"
+                    />
+                    <span>
+                      1TB
+                    </span>
+                  </label>
+                </div>
+                <div
+                  className="checkbox"
+                >
+                  <label>
+                    <input
+                      className="cb-input"
+                      defaultChecked={false}
+                      name="diskSize"
+                      onChange={[Function]}
+                      type="checkbox"
+                      value="512GB"
+                    />
+                    <span
+                      className="cb-icon"
+                    />
+                    <span>
+                      512GB
+                    </span>
+                  </label>
+                </div>
+                <div
+                  className="checkbox"
+                >
+                  <label>
+                    <input
+                      className="cb-input"
+                      defaultChecked={false}
+                      name="diskSize"
+                      onChange={[Function]}
+                      type="checkbox"
+                      value="256GB"
+                    />
+                    <span
+                      className="cb-icon"
+                    />
+                    <span>
+                      256GB
+                    </span>
+                  </label>
+                </div>
+                <div
+                  className="checkbox"
+                >
+                  <label>
+                    <input
+                      className="cb-input"
+                      defaultChecked={false}
+                      name="diskSize"
+                      onChange={[Function]}
+                      type="checkbox"
+                      value="128GB"
+                    />
+                    <span
+                      className="cb-icon"
+                    />
+                    <span>
+                      128GB
+                    </span>
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-filter__item"
+            >
+              <h5
+                className="p-filter__i-title"
+              >
+                Оперативная память
+              </h5>
+              <div
+                className="p-filter__options"
+              >
+                <div
+                  className="checkbox"
+                >
+                  <label>
+                    <input
+                      className="cb-input"
+                      defaultChecked={false}
+                      name="coreMem"
+                      onChange={[Function]}
+                      type="checkbox"
+                      value="32GB"
+                    />
+                    <span
+                      className="cb-icon"
+                    />
+                    <span>
+                      32GB
+                    </span>
+                  </label>
+                </div>
+                <div
+                  className="checkbox"
+                >
+                  <label>
+                    <input
+                      className="cb-input"
+                      defaultChecked={false}
+                      name="coreMem"
+                      onChange={[Function]}
+                      type="checkbox"
+                      value="16GB"
+                    />
+                    <span
+                      className="cb-icon"
+                    />
+                    <span>
+                      16GB
+                    </span>
+                  </label>
+                </div>
+                <div
+                  className="checkbox"
+                >
+                  <label>
+                    <input
+                      className="cb-input"
+                      defaultChecked={false}
+                      name="coreMem"
+                      onChange={[Function]}
+                      type="checkbox"
+                      value="8GB"
+                    />
+                    <span
+                      className="cb-icon"
+                    />
+                    <span>
+                      8GB
+                    </span>
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </Collapse>
+      </div>,
+      "className": "p-filter",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h4
+            className="p-filter__collapse-link collapsed"
+            onClick={[Function]}
+          >
+            Показать фильтры
+          </h4>,
+          <Collapse
+            appear={false}
+            className="p-filter__collapse"
+            enter={true}
+            exit={true}
+            in={false}
+            isOpen={false}
+            mountOnEnter={false}
+            onEnter={[Function]}
+            onEntered={[Function]}
+            onEntering={[Function]}
+            onExit={[Function]}
+            onExited={[Function]}
+            onExiting={[Function]}
+            tag="div"
+            timeout={350}
+            unmountOnExit={false}
+          >
+            <div
+              className="p-filter__list"
+            >
+              <div
+                className="p-filter__item"
+              >
+                <h5
+                  className="p-filter__i-title"
+                >
+                  Размер накопителя
+                </h5>
+                <div
+                  className="p-filter__options"
+                >
+                  <div
+                    className="checkbox"
+                  >
+                    <label>
+                      <input
+                        className="cb-input"
+                        defaultChecked={false}
+                        name="diskSize"
+                        onChange={[Function]}
+                        type="checkbox"
+                        value="2TB"
+                      />
+                      <span
+                        className="cb-icon"
+                      />
+                      <span>
+                        2TB
+                      </span>
+                    </label>
+                  </div>
+                  <div
+                    className="checkbox"
+                  >
+                    <label>
+                      <input
+                        className="cb-input"
+                        defaultChecked={false}
+                        name="diskSize"
+                        onChange={[Function]}
+                        type="checkbox"
+                        value="1TB"
+                      />
+                      <span
+                        className="cb-icon"
+                      />
+                      <span>
+                        1TB
+                      </span>
+                    </label>
+                  </div>
+                  <div
+                    className="checkbox"
+                  >
+                    <label>
+                      <input
+                        className="cb-input"
+                        defaultChecked={false}
+                        name="diskSize"
+                        onChange={[Function]}
+                        type="checkbox"
+                        value="512GB"
+                      />
+                      <span
+                        className="cb-icon"
+                      />
+                      <span>
+                        512GB
+                      </span>
+                    </label>
+                  </div>
+                  <div
+                    className="checkbox"
+                  >
+                    <label>
+                      <input
+                        className="cb-input"
+                        defaultChecked={false}
+                        name="diskSize"
+                        onChange={[Function]}
+                        type="checkbox"
+                        value="256GB"
+                      />
+                      <span
+                        className="cb-icon"
+                      />
+                      <span>
+                        256GB
+                      </span>
+                    </label>
+                  </div>
+                  <div
+                    className="checkbox"
+                  >
+                    <label>
+                      <input
+                        className="cb-input"
+                        defaultChecked={false}
+                        name="diskSize"
+                        onChange={[Function]}
+                        type="checkbox"
+                        value="128GB"
+                      />
+                      <span
+                        className="cb-icon"
+                      />
+                      <span>
+                        128GB
+                      </span>
+                    </label>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="p-filter__item"
+              >
+                <h5
+                  className="p-filter__i-title"
+                >
+                  Оперативная память
+                </h5>
+                <div
+                  className="p-filter__options"
+                >
+                  <div
+                    className="checkbox"
+                  >
+                    <label>
+                      <input
+                        className="cb-input"
+                        defaultChecked={false}
+                        name="coreMem"
+                        onChange={[Function]}
+                        type="checkbox"
+                        value="32GB"
+                      />
+                      <span
+                        className="cb-icon"
+                      />
+                      <span>
+                        32GB
+                      </span>
+                    </label>
+                  </div>
+                  <div
+                    className="checkbox"
+                  >
+                    <label>
+                      <input
+                        className="cb-input"
+                        defaultChecked={false}
+                        name="coreMem"
+                        onChange={[Function]}
+                        type="checkbox"
+                        value="16GB"
+                      />
+                      <span
+                        className="cb-icon"
+                      />
+                      <span>
+                        16GB
+                      </span>
+                    </label>
+                  </div>
+                  <div
+                    className="checkbox"
+                  >
+                    <label>
+                      <input
+                        className="cb-input"
+                        defaultChecked={false}
+                        name="coreMem"
+                        onChange={[Function]}
+                        type="checkbox"
+                        value="8GB"
+                      />
+                      <span
+                        className="cb-icon"
+                      />
+                      <span>
+                        8GB
+                      </span>
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </Collapse>,
+        ],
+        "className": "p-filter__inner",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Показать фильтры",
+            "className": "p-filter__collapse-link collapsed",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": "Показать фильтры",
+          "type": "h4",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "appear": false,
+            "children": <div
+              className="p-filter__list"
+            >
+              <div
+                className="p-filter__item"
+              >
+                <h5
+                  className="p-filter__i-title"
+                >
+                  Размер накопителя
+                </h5>
+                <div
+                  className="p-filter__options"
+                >
+                  <div
+                    className="checkbox"
+                  >
+                    <label>
+                      <input
+                        className="cb-input"
+                        defaultChecked={false}
+                        name="diskSize"
+                        onChange={[Function]}
+                        type="checkbox"
+                        value="2TB"
+                      />
+                      <span
+                        className="cb-icon"
+                      />
+                      <span>
+                        2TB
+                      </span>
+                    </label>
+                  </div>
+                  <div
+                    className="checkbox"
+                  >
+                    <label>
+                      <input
+                        className="cb-input"
+                        defaultChecked={false}
+                        name="diskSize"
+                        onChange={[Function]}
+                        type="checkbox"
+                        value="1TB"
+                      />
+                      <span
+                        className="cb-icon"
+                      />
+                      <span>
+                        1TB
+                      </span>
+                    </label>
+                  </div>
+                  <div
+                    className="checkbox"
+                  >
+                    <label>
+                      <input
+                        className="cb-input"
+                        defaultChecked={false}
+                        name="diskSize"
+                        onChange={[Function]}
+                        type="checkbox"
+                        value="512GB"
+                      />
+                      <span
+                        className="cb-icon"
+                      />
+                      <span>
+                        512GB
+                      </span>
+                    </label>
+                  </div>
+                  <div
+                    className="checkbox"
+                  >
+                    <label>
+                      <input
+                        className="cb-input"
+                        defaultChecked={false}
+                        name="diskSize"
+                        onChange={[Function]}
+                        type="checkbox"
+                        value="256GB"
+                      />
+                      <span
+                        className="cb-icon"
+                      />
+                      <span>
+                        256GB
+                      </span>
+                    </label>
+                  </div>
+                  <div
+                    className="checkbox"
+                  >
+                    <label>
+                      <input
+                        className="cb-input"
+                        defaultChecked={false}
+                        name="diskSize"
+                        onChange={[Function]}
+                        type="checkbox"
+                        value="128GB"
+                      />
+                      <span
+                        className="cb-icon"
+                      />
+                      <span>
+                        128GB
+                      </span>
+                    </label>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="p-filter__item"
+              >
+                <h5
+                  className="p-filter__i-title"
+                >
+                  Оперативная память
+                </h5>
+                <div
+                  className="p-filter__options"
+                >
+                  <div
+                    className="checkbox"
+                  >
+                    <label>
+                      <input
+                        className="cb-input"
+                        defaultChecked={false}
+                        name="coreMem"
+                        onChange={[Function]}
+                        type="checkbox"
+                        value="32GB"
+                      />
+                      <span
+                        className="cb-icon"
+                      />
+                      <span>
+                        32GB
+                      </span>
+                    </label>
+                  </div>
+                  <div
+                    className="checkbox"
+                  >
+                    <label>
+                      <input
+                        className="cb-input"
+                        defaultChecked={false}
+                        name="coreMem"
+                        onChange={[Function]}
+                        type="checkbox"
+                        value="16GB"
+                      />
+                      <span
+                        className="cb-icon"
+                      />
+                      <span>
+                        16GB
+                      </span>
+                    </label>
+                  </div>
+                  <div
+                    className="checkbox"
+                  >
+                    <label>
+                      <input
+                        className="cb-input"
+                        defaultChecked={false}
+                        name="coreMem"
+                        onChange={[Function]}
+                        type="checkbox"
+                        value="8GB"
+                      />
+                      <span
+                        className="cb-icon"
+                      />
+                      <span>
+                        8GB
+                      </span>
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </div>,
+            "className": "p-filter__collapse",
+            "enter": true,
+            "exit": true,
+            "in": false,
+            "isOpen": false,
+            "mountOnEnter": false,
+            "onEnter": [Function],
+            "onEntered": [Function],
+            "onEntering": [Function],
+            "onExit": [Function],
+            "onExited": [Function],
+            "onExiting": [Function],
+            "tag": "div",
+            "timeout": 350,
+            "unmountOnExit": false,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <div
+                  className="p-filter__item"
+                >
+                  <h5
+                    className="p-filter__i-title"
+                  >
+                    Размер накопителя
+                  </h5>
+                  <div
+                    className="p-filter__options"
+                  >
+                    <div
+                      className="checkbox"
+                    >
+                      <label>
+                        <input
+                          className="cb-input"
+                          defaultChecked={false}
+                          name="diskSize"
+                          onChange={[Function]}
+                          type="checkbox"
+                          value="2TB"
+                        />
+                        <span
+                          className="cb-icon"
+                        />
+                        <span>
+                          2TB
+                        </span>
+                      </label>
+                    </div>
+                    <div
+                      className="checkbox"
+                    >
+                      <label>
+                        <input
+                          className="cb-input"
+                          defaultChecked={false}
+                          name="diskSize"
+                          onChange={[Function]}
+                          type="checkbox"
+                          value="1TB"
+                        />
+                        <span
+                          className="cb-icon"
+                        />
+                        <span>
+                          1TB
+                        </span>
+                      </label>
+                    </div>
+                    <div
+                      className="checkbox"
+                    >
+                      <label>
+                        <input
+                          className="cb-input"
+                          defaultChecked={false}
+                          name="diskSize"
+                          onChange={[Function]}
+                          type="checkbox"
+                          value="512GB"
+                        />
+                        <span
+                          className="cb-icon"
+                        />
+                        <span>
+                          512GB
+                        </span>
+                      </label>
+                    </div>
+                    <div
+                      className="checkbox"
+                    >
+                      <label>
+                        <input
+                          className="cb-input"
+                          defaultChecked={false}
+                          name="diskSize"
+                          onChange={[Function]}
+                          type="checkbox"
+                          value="256GB"
+                        />
+                        <span
+                          className="cb-icon"
+                        />
+                        <span>
+                          256GB
+                        </span>
+                      </label>
+                    </div>
+                    <div
+                      className="checkbox"
+                    >
+                      <label>
+                        <input
+                          className="cb-input"
+                          defaultChecked={false}
+                          name="diskSize"
+                          onChange={[Function]}
+                          type="checkbox"
+                          value="128GB"
+                        />
+                        <span
+                          className="cb-icon"
+                        />
+                        <span>
+                          128GB
+                        </span>
+                      </label>
+                    </div>
+                  </div>
+                </div>,
+                <div
+                  className="p-filter__item"
+                >
+                  <h5
+                    className="p-filter__i-title"
+                  >
+                    Оперативная память
+                  </h5>
+                  <div
+                    className="p-filter__options"
+                  >
+                    <div
+                      className="checkbox"
+                    >
+                      <label>
+                        <input
+                          className="cb-input"
+                          defaultChecked={false}
+                          name="coreMem"
+                          onChange={[Function]}
+                          type="checkbox"
+                          value="32GB"
+                        />
+                        <span
+                          className="cb-icon"
+                        />
+                        <span>
+                          32GB
+                        </span>
+                      </label>
+                    </div>
+                    <div
+                      className="checkbox"
+                    >
+                      <label>
+                        <input
+                          className="cb-input"
+                          defaultChecked={false}
+                          name="coreMem"
+                          onChange={[Function]}
+                          type="checkbox"
+                          value="16GB"
+                        />
+                        <span
+                          className="cb-icon"
+                        />
+                        <span>
+                          16GB
+                        </span>
+                      </label>
+                    </div>
+                    <div
+                      className="checkbox"
+                    >
+                      <label>
+                        <input
+                          className="cb-input"
+                          defaultChecked={false}
+                          name="coreMem"
+                          onChange={[Function]}
+                          type="checkbox"
+                          value="8GB"
+                        />
+                        <span
+                          className="cb-icon"
+                        />
+                        <span>
+                          8GB
+                        </span>
+                      </label>
+                    </div>
+                  </div>
+                </div>,
+              ],
+              "className": "p-filter__list",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": "diskSize",
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <h5
+                      className="p-filter__i-title"
+                    >
+                      Размер накопителя
+                    </h5>,
+                    <div
+                      className="p-filter__options"
+                    >
+                      <div
+                        className="checkbox"
+                      >
+                        <label>
+                          <input
+                            className="cb-input"
+                            defaultChecked={false}
+                            name="diskSize"
+                            onChange={[Function]}
+                            type="checkbox"
+                            value="2TB"
+                          />
+                          <span
+                            className="cb-icon"
+                          />
+                          <span>
+                            2TB
+                          </span>
+                        </label>
+                      </div>
+                      <div
+                        className="checkbox"
+                      >
+                        <label>
+                          <input
+                            className="cb-input"
+                            defaultChecked={false}
+                            name="diskSize"
+                            onChange={[Function]}
+                            type="checkbox"
+                            value="1TB"
+                          />
+                          <span
+                            className="cb-icon"
+                          />
+                          <span>
+                            1TB
+                          </span>
+                        </label>
+                      </div>
+                      <div
+                        className="checkbox"
+                      >
+                        <label>
+                          <input
+                            className="cb-input"
+                            defaultChecked={false}
+                            name="diskSize"
+                            onChange={[Function]}
+                            type="checkbox"
+                            value="512GB"
+                          />
+                          <span
+                            className="cb-icon"
+                          />
+                          <span>
+                            512GB
+                          </span>
+                        </label>
+                      </div>
+                      <div
+                        className="checkbox"
+                      >
+                        <label>
+                          <input
+                            className="cb-input"
+                            defaultChecked={false}
+                            name="diskSize"
+                            onChange={[Function]}
+                            type="checkbox"
+                            value="256GB"
+                          />
+                          <span
+                            className="cb-icon"
+                          />
+                          <span>
+                            256GB
+                          </span>
+                        </label>
+                      </div>
+                      <div
+                        className="checkbox"
+                      >
+                        <label>
+                          <input
+                            className="cb-input"
+                            defaultChecked={false}
+                            name="diskSize"
+                            onChange={[Function]}
+                            type="checkbox"
+                            value="128GB"
+                          />
+                          <span
+                            className="cb-icon"
+                          />
+                          <span>
+                            128GB
+                          </span>
+                        </label>
+                      </div>
+                    </div>,
+                  ],
+                  "className": "p-filter__item",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Размер накопителя",
+                      "className": "p-filter__i-title",
+                    },
+                    "ref": null,
+                    "rendered": "Размер накопителя",
+                    "type": "h5",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <div
+                          className="checkbox"
+                        >
+                          <label>
+                            <input
+                              className="cb-input"
+                              defaultChecked={false}
+                              name="diskSize"
+                              onChange={[Function]}
+                              type="checkbox"
+                              value="2TB"
+                            />
+                            <span
+                              className="cb-icon"
+                            />
+                            <span>
+                              2TB
+                            </span>
+                          </label>
+                        </div>,
+                        <div
+                          className="checkbox"
+                        >
+                          <label>
+                            <input
+                              className="cb-input"
+                              defaultChecked={false}
+                              name="diskSize"
+                              onChange={[Function]}
+                              type="checkbox"
+                              value="1TB"
+                            />
+                            <span
+                              className="cb-icon"
+                            />
+                            <span>
+                              1TB
+                            </span>
+                          </label>
+                        </div>,
+                        <div
+                          className="checkbox"
+                        >
+                          <label>
+                            <input
+                              className="cb-input"
+                              defaultChecked={false}
+                              name="diskSize"
+                              onChange={[Function]}
+                              type="checkbox"
+                              value="512GB"
+                            />
+                            <span
+                              className="cb-icon"
+                            />
+                            <span>
+                              512GB
+                            </span>
+                          </label>
+                        </div>,
+                        <div
+                          className="checkbox"
+                        >
+                          <label>
+                            <input
+                              className="cb-input"
+                              defaultChecked={false}
+                              name="diskSize"
+                              onChange={[Function]}
+                              type="checkbox"
+                              value="256GB"
+                            />
+                            <span
+                              className="cb-icon"
+                            />
+                            <span>
+                              256GB
+                            </span>
+                          </label>
+                        </div>,
+                        <div
+                          className="checkbox"
+                        >
+                          <label>
+                            <input
+                              className="cb-input"
+                              defaultChecked={false}
+                              name="diskSize"
+                              onChange={[Function]}
+                              type="checkbox"
+                              value="128GB"
+                            />
+                            <span
+                              className="cb-icon"
+                            />
+                            <span>
+                              128GB
+                            </span>
+                          </label>
+                        </div>,
+                      ],
+                      "className": "p-filter__options",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": "2TB",
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": <label>
+                            <input
+                              className="cb-input"
+                              defaultChecked={false}
+                              name="diskSize"
+                              onChange={[Function]}
+                              type="checkbox"
+                              value="2TB"
+                            />
+                            <span
+                              className="cb-icon"
+                            />
+                            <span>
+                              2TB
+                            </span>
+                          </label>,
+                          "className": "checkbox",
+                        },
+                        "ref": null,
+                        "rendered": Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": Array [
+                              <input
+                                className="cb-input"
+                                defaultChecked={false}
+                                name="diskSize"
+                                onChange={[Function]}
+                                type="checkbox"
+                                value="2TB"
+                              />,
+                              <span
+                                className="cb-icon"
+                              />,
+                              <span>
+                                2TB
+                              </span>,
+                            ],
+                          },
+                          "ref": null,
+                          "rendered": Array [
+                            Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "host",
+                              "props": Object {
+                                "className": "cb-input",
+                                "defaultChecked": false,
+                                "name": "diskSize",
+                                "onChange": [Function],
+                                "type": "checkbox",
+                                "value": "2TB",
+                              },
+                              "ref": null,
+                              "rendered": null,
+                              "type": "input",
+                            },
+                            Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "host",
+                              "props": Object {
+                                "className": "cb-icon",
+                              },
+                              "ref": null,
+                              "rendered": null,
+                              "type": "span",
+                            },
+                            Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "host",
+                              "props": Object {
+                                "children": "2TB",
+                              },
+                              "ref": null,
+                              "rendered": "2TB",
+                              "type": "span",
+                            },
+                          ],
+                          "type": "label",
+                        },
+                        "type": "div",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": "1TB",
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": <label>
+                            <input
+                              className="cb-input"
+                              defaultChecked={false}
+                              name="diskSize"
+                              onChange={[Function]}
+                              type="checkbox"
+                              value="1TB"
+                            />
+                            <span
+                              className="cb-icon"
+                            />
+                            <span>
+                              1TB
+                            </span>
+                          </label>,
+                          "className": "checkbox",
+                        },
+                        "ref": null,
+                        "rendered": Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": Array [
+                              <input
+                                className="cb-input"
+                                defaultChecked={false}
+                                name="diskSize"
+                                onChange={[Function]}
+                                type="checkbox"
+                                value="1TB"
+                              />,
+                              <span
+                                className="cb-icon"
+                              />,
+                              <span>
+                                1TB
+                              </span>,
+                            ],
+                          },
+                          "ref": null,
+                          "rendered": Array [
+                            Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "host",
+                              "props": Object {
+                                "className": "cb-input",
+                                "defaultChecked": false,
+                                "name": "diskSize",
+                                "onChange": [Function],
+                                "type": "checkbox",
+                                "value": "1TB",
+                              },
+                              "ref": null,
+                              "rendered": null,
+                              "type": "input",
+                            },
+                            Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "host",
+                              "props": Object {
+                                "className": "cb-icon",
+                              },
+                              "ref": null,
+                              "rendered": null,
+                              "type": "span",
+                            },
+                            Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "host",
+                              "props": Object {
+                                "children": "1TB",
+                              },
+                              "ref": null,
+                              "rendered": "1TB",
+                              "type": "span",
+                            },
+                          ],
+                          "type": "label",
+                        },
+                        "type": "div",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": "512GB",
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": <label>
+                            <input
+                              className="cb-input"
+                              defaultChecked={false}
+                              name="diskSize"
+                              onChange={[Function]}
+                              type="checkbox"
+                              value="512GB"
+                            />
+                            <span
+                              className="cb-icon"
+                            />
+                            <span>
+                              512GB
+                            </span>
+                          </label>,
+                          "className": "checkbox",
+                        },
+                        "ref": null,
+                        "rendered": Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": Array [
+                              <input
+                                className="cb-input"
+                                defaultChecked={false}
+                                name="diskSize"
+                                onChange={[Function]}
+                                type="checkbox"
+                                value="512GB"
+                              />,
+                              <span
+                                className="cb-icon"
+                              />,
+                              <span>
+                                512GB
+                              </span>,
+                            ],
+                          },
+                          "ref": null,
+                          "rendered": Array [
+                            Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "host",
+                              "props": Object {
+                                "className": "cb-input",
+                                "defaultChecked": false,
+                                "name": "diskSize",
+                                "onChange": [Function],
+                                "type": "checkbox",
+                                "value": "512GB",
+                              },
+                              "ref": null,
+                              "rendered": null,
+                              "type": "input",
+                            },
+                            Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "host",
+                              "props": Object {
+                                "className": "cb-icon",
+                              },
+                              "ref": null,
+                              "rendered": null,
+                              "type": "span",
+                            },
+                            Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "host",
+                              "props": Object {
+                                "children": "512GB",
+                              },
+                              "ref": null,
+                              "rendered": "512GB",
+                              "type": "span",
+                            },
+                          ],
+                          "type": "label",
+                        },
+                        "type": "div",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": "256GB",
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": <label>
+                            <input
+                              className="cb-input"
+                              defaultChecked={false}
+                              name="diskSize"
+                              onChange={[Function]}
+                              type="checkbox"
+                              value="256GB"
+                            />
+                            <span
+                              className="cb-icon"
+                            />
+                            <span>
+                              256GB
+                            </span>
+                          </label>,
+                          "className": "checkbox",
+                        },
+                        "ref": null,
+                        "rendered": Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": Array [
+                              <input
+                                className="cb-input"
+                                defaultChecked={false}
+                                name="diskSize"
+                                onChange={[Function]}
+                                type="checkbox"
+                                value="256GB"
+                              />,
+                              <span
+                                className="cb-icon"
+                              />,
+                              <span>
+                                256GB
+                              </span>,
+                            ],
+                          },
+                          "ref": null,
+                          "rendered": Array [
+                            Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "host",
+                              "props": Object {
+                                "className": "cb-input",
+                                "defaultChecked": false,
+                                "name": "diskSize",
+                                "onChange": [Function],
+                                "type": "checkbox",
+                                "value": "256GB",
+                              },
+                              "ref": null,
+                              "rendered": null,
+                              "type": "input",
+                            },
+                            Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "host",
+                              "props": Object {
+                                "className": "cb-icon",
+                              },
+                              "ref": null,
+                              "rendered": null,
+                              "type": "span",
+                            },
+                            Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "host",
+                              "props": Object {
+                                "children": "256GB",
+                              },
+                              "ref": null,
+                              "rendered": "256GB",
+                              "type": "span",
+                            },
+                          ],
+                          "type": "label",
+                        },
+                        "type": "div",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": "128GB",
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": <label>
+                            <input
+                              className="cb-input"
+                              defaultChecked={false}
+                              name="diskSize"
+                              onChange={[Function]}
+                              type="checkbox"
+                              value="128GB"
+                            />
+                            <span
+                              className="cb-icon"
+                            />
+                            <span>
+                              128GB
+                            </span>
+                          </label>,
+                          "className": "checkbox",
+                        },
+                        "ref": null,
+                        "rendered": Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": Array [
+                              <input
+                                className="cb-input"
+                                defaultChecked={false}
+                                name="diskSize"
+                                onChange={[Function]}
+                                type="checkbox"
+                                value="128GB"
+                              />,
+                              <span
+                                className="cb-icon"
+                              />,
+                              <span>
+                                128GB
+                              </span>,
+                            ],
+                          },
+                          "ref": null,
+                          "rendered": Array [
+                            Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "host",
+                              "props": Object {
+                                "className": "cb-input",
+                                "defaultChecked": false,
+                                "name": "diskSize",
+                                "onChange": [Function],
+                                "type": "checkbox",
+                                "value": "128GB",
+                              },
+                              "ref": null,
+                              "rendered": null,
+                              "type": "input",
+                            },
+                            Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "host",
+                              "props": Object {
+                                "className": "cb-icon",
+                              },
+                              "ref": null,
+                              "rendered": null,
+                              "type": "span",
+                            },
+                            Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "host",
+                              "props": Object {
+                                "children": "128GB",
+                              },
+                              "ref": null,
+                              "rendered": "128GB",
+                              "type": "span",
+                            },
+                          ],
+                          "type": "label",
+                        },
+                        "type": "div",
+                      },
+                    ],
+                    "type": "div",
+                  },
+                ],
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": "coreMem",
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <h5
+                      className="p-filter__i-title"
+                    >
+                      Оперативная память
+                    </h5>,
+                    <div
+                      className="p-filter__options"
+                    >
+                      <div
+                        className="checkbox"
+                      >
+                        <label>
+                          <input
+                            className="cb-input"
+                            defaultChecked={false}
+                            name="coreMem"
+                            onChange={[Function]}
+                            type="checkbox"
+                            value="32GB"
+                          />
+                          <span
+                            className="cb-icon"
+                          />
+                          <span>
+                            32GB
+                          </span>
+                        </label>
+                      </div>
+                      <div
+                        className="checkbox"
+                      >
+                        <label>
+                          <input
+                            className="cb-input"
+                            defaultChecked={false}
+                            name="coreMem"
+                            onChange={[Function]}
+                            type="checkbox"
+                            value="16GB"
+                          />
+                          <span
+                            className="cb-icon"
+                          />
+                          <span>
+                            16GB
+                          </span>
+                        </label>
+                      </div>
+                      <div
+                        className="checkbox"
+                      >
+                        <label>
+                          <input
+                            className="cb-input"
+                            defaultChecked={false}
+                            name="coreMem"
+                            onChange={[Function]}
+                            type="checkbox"
+                            value="8GB"
+                          />
+                          <span
+                            className="cb-icon"
+                          />
+                          <span>
+                            8GB
+                          </span>
+                        </label>
+                      </div>
+                    </div>,
+                  ],
+                  "className": "p-filter__item",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Оперативная память",
+                      "className": "p-filter__i-title",
+                    },
+                    "ref": null,
+                    "rendered": "Оперативная память",
+                    "type": "h5",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <div
+                          className="checkbox"
+                        >
+                          <label>
+                            <input
+                              className="cb-input"
+                              defaultChecked={false}
+                              name="coreMem"
+                              onChange={[Function]}
+                              type="checkbox"
+                              value="32GB"
+                            />
+                            <span
+                              className="cb-icon"
+                            />
+                            <span>
+                              32GB
+                            </span>
+                          </label>
+                        </div>,
+                        <div
+                          className="checkbox"
+                        >
+                          <label>
+                            <input
+                              className="cb-input"
+                              defaultChecked={false}
+                              name="coreMem"
+                              onChange={[Function]}
+                              type="checkbox"
+                              value="16GB"
+                            />
+                            <span
+                              className="cb-icon"
+                            />
+                            <span>
+                              16GB
+                            </span>
+                          </label>
+                        </div>,
+                        <div
+                          className="checkbox"
+                        >
+                          <label>
+                            <input
+                              className="cb-input"
+                              defaultChecked={false}
+                              name="coreMem"
+                              onChange={[Function]}
+                              type="checkbox"
+                              value="8GB"
+                            />
+                            <span
+                              className="cb-icon"
+                            />
+                            <span>
+                              8GB
+                            </span>
+                          </label>
+                        </div>,
+                      ],
+                      "className": "p-filter__options",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": "32GB",
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": <label>
+                            <input
+                              className="cb-input"
+                              defaultChecked={false}
+                              name="coreMem"
+                              onChange={[Function]}
+                              type="checkbox"
+                              value="32GB"
+                            />
+                            <span
+                              className="cb-icon"
+                            />
+                            <span>
+                              32GB
+                            </span>
+                          </label>,
+                          "className": "checkbox",
+                        },
+                        "ref": null,
+                        "rendered": Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": Array [
+                              <input
+                                className="cb-input"
+                                defaultChecked={false}
+                                name="coreMem"
+                                onChange={[Function]}
+                                type="checkbox"
+                                value="32GB"
+                              />,
+                              <span
+                                className="cb-icon"
+                              />,
+                              <span>
+                                32GB
+                              </span>,
+                            ],
+                          },
+                          "ref": null,
+                          "rendered": Array [
+                            Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "host",
+                              "props": Object {
+                                "className": "cb-input",
+                                "defaultChecked": false,
+                                "name": "coreMem",
+                                "onChange": [Function],
+                                "type": "checkbox",
+                                "value": "32GB",
+                              },
+                              "ref": null,
+                              "rendered": null,
+                              "type": "input",
+                            },
+                            Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "host",
+                              "props": Object {
+                                "className": "cb-icon",
+                              },
+                              "ref": null,
+                              "rendered": null,
+                              "type": "span",
+                            },
+                            Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "host",
+                              "props": Object {
+                                "children": "32GB",
+                              },
+                              "ref": null,
+                              "rendered": "32GB",
+                              "type": "span",
+                            },
+                          ],
+                          "type": "label",
+                        },
+                        "type": "div",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": "16GB",
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": <label>
+                            <input
+                              className="cb-input"
+                              defaultChecked={false}
+                              name="coreMem"
+                              onChange={[Function]}
+                              type="checkbox"
+                              value="16GB"
+                            />
+                            <span
+                              className="cb-icon"
+                            />
+                            <span>
+                              16GB
+                            </span>
+                          </label>,
+                          "className": "checkbox",
+                        },
+                        "ref": null,
+                        "rendered": Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": Array [
+                              <input
+                                className="cb-input"
+                                defaultChecked={false}
+                                name="coreMem"
+                                onChange={[Function]}
+                                type="checkbox"
+                                value="16GB"
+                              />,
+                              <span
+                                className="cb-icon"
+                              />,
+                              <span>
+                                16GB
+                              </span>,
+                            ],
+                          },
+                          "ref": null,
+                          "rendered": Array [
+                            Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "host",
+                              "props": Object {
+                                "className": "cb-input",
+                                "defaultChecked": false,
+                                "name": "coreMem",
+                                "onChange": [Function],
+                                "type": "checkbox",
+                                "value": "16GB",
+                              },
+                              "ref": null,
+                              "rendered": null,
+                              "type": "input",
+                            },
+                            Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "host",
+                              "props": Object {
+                                "className": "cb-icon",
+                              },
+                              "ref": null,
+                              "rendered": null,
+                              "type": "span",
+                            },
+                            Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "host",
+                              "props": Object {
+                                "children": "16GB",
+                              },
+                              "ref": null,
+                              "rendered": "16GB",
+                              "type": "span",
+                            },
+                          ],
+                          "type": "label",
+                        },
+                        "type": "div",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": "8GB",
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": <label>
+                            <input
+                              className="cb-input"
+                              defaultChecked={false}
+                              name="coreMem"
+                              onChange={[Function]}
+                              type="checkbox"
+                              value="8GB"
+                            />
+                            <span
+                              className="cb-icon"
+                            />
+                            <span>
+                              8GB
+                            </span>
+                          </label>,
+                          "className": "checkbox",
+                        },
+                        "ref": null,
+                        "rendered": Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": Array [
+                              <input
+                                className="cb-input"
+                                defaultChecked={false}
+                                name="coreMem"
+                                onChange={[Function]}
+                                type="checkbox"
+                                value="8GB"
+                              />,
+                              <span
+                                className="cb-icon"
+                              />,
+                              <span>
+                                8GB
+                              </span>,
+                            ],
+                          },
+                          "ref": null,
+                          "rendered": Array [
+                            Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "host",
+                              "props": Object {
+                                "className": "cb-input",
+                                "defaultChecked": false,
+                                "name": "coreMem",
+                                "onChange": [Function],
+                                "type": "checkbox",
+                                "value": "8GB",
+                              },
+                              "ref": null,
+                              "rendered": null,
+                              "type": "input",
+                            },
+                            Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "host",
+                              "props": Object {
+                                "className": "cb-icon",
+                              },
+                              "ref": null,
+                              "rendered": null,
+                              "type": "span",
+                            },
+                            Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "host",
+                              "props": Object {
+                                "children": "8GB",
+                              },
+                              "ref": null,
+                              "rendered": "8GB",
+                              "type": "span",
+                            },
+                          ],
+                          "type": "label",
+                        },
+                        "type": "div",
+                      },
+                    ],
+                    "type": "div",
+                  },
+                ],
+                "type": "div",
+              },
+            ],
+            "type": "div",
+          },
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          className="p-filter__inner"
+        >
+          <h4
+            className="p-filter__collapse-link collapsed"
+            onClick={[Function]}
+          >
+            Показать фильтры
+          </h4>
+          <Collapse
+            appear={false}
+            className="p-filter__collapse"
+            enter={true}
+            exit={true}
+            in={false}
+            isOpen={false}
+            mountOnEnter={false}
+            onEnter={[Function]}
+            onEntered={[Function]}
+            onEntering={[Function]}
+            onExit={[Function]}
+            onExited={[Function]}
+            onExiting={[Function]}
+            tag="div"
+            timeout={350}
+            unmountOnExit={false}
+          >
+            <div
+              className="p-filter__list"
+            >
+              <div
+                className="p-filter__item"
+              >
+                <h5
+                  className="p-filter__i-title"
+                >
+                  Размер накопителя
+                </h5>
+                <div
+                  className="p-filter__options"
+                >
+                  <div
+                    className="checkbox"
+                  >
+                    <label>
+                      <input
+                        className="cb-input"
+                        defaultChecked={false}
+                        name="diskSize"
+                        onChange={[Function]}
+                        type="checkbox"
+                        value="2TB"
+                      />
+                      <span
+                        className="cb-icon"
+                      />
+                      <span>
+                        2TB
+                      </span>
+                    </label>
+                  </div>
+                  <div
+                    className="checkbox"
+                  >
+                    <label>
+                      <input
+                        className="cb-input"
+                        defaultChecked={false}
+                        name="diskSize"
+                        onChange={[Function]}
+                        type="checkbox"
+                        value="1TB"
+                      />
+                      <span
+                        className="cb-icon"
+                      />
+                      <span>
+                        1TB
+                      </span>
+                    </label>
+                  </div>
+                  <div
+                    className="checkbox"
+                  >
+                    <label>
+                      <input
+                        className="cb-input"
+                        defaultChecked={false}
+                        name="diskSize"
+                        onChange={[Function]}
+                        type="checkbox"
+                        value="512GB"
+                      />
+                      <span
+                        className="cb-icon"
+                      />
+                      <span>
+                        512GB
+                      </span>
+                    </label>
+                  </div>
+                  <div
+                    className="checkbox"
+                  >
+                    <label>
+                      <input
+                        className="cb-input"
+                        defaultChecked={false}
+                        name="diskSize"
+                        onChange={[Function]}
+                        type="checkbox"
+                        value="256GB"
+                      />
+                      <span
+                        className="cb-icon"
+                      />
+                      <span>
+                        256GB
+                      </span>
+                    </label>
+                  </div>
+                  <div
+                    className="checkbox"
+                  >
+                    <label>
+                      <input
+                        className="cb-input"
+                        defaultChecked={false}
+                        name="diskSize"
+                        onChange={[Function]}
+                        type="checkbox"
+                        value="128GB"
+                      />
+                      <span
+                        className="cb-icon"
+                      />
+                      <span>
+                        128GB
+                      </span>
+                    </label>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="p-filter__item"
+              >
+                <h5
+                  className="p-filter__i-title"
+                >
+                  Оперативная память
+                </h5>
+                <div
+                  className="p-filter__options"
+                >
+                  <div
+                    className="checkbox"
+                  >
+                    <label>
+                      <input
+                        className="cb-input"
+                        defaultChecked={false}
+                        name="coreMem"
+                        onChange={[Function]}
+                        type="checkbox"
+                        value="32GB"
+                      />
+                      <span
+                        className="cb-icon"
+                      />
+                      <span>
+                        32GB
+                      </span>
+                    </label>
+                  </div>
+                  <div
+                    className="checkbox"
+                  >
+                    <label>
+                      <input
+                        className="cb-input"
+                        defaultChecked={false}
+                        name="coreMem"
+                        onChange={[Function]}
+                        type="checkbox"
+                        value="16GB"
+                      />
+                      <span
+                        className="cb-icon"
+                      />
+                      <span>
+                        16GB
+                      </span>
+                    </label>
+                  </div>
+                  <div
+                    className="checkbox"
+                  >
+                    <label>
+                      <input
+                        className="cb-input"
+                        defaultChecked={false}
+                        name="coreMem"
+                        onChange={[Function]}
+                        type="checkbox"
+                        value="8GB"
+                      />
+                      <span
+                        className="cb-icon"
+                      />
+                      <span>
+                        8GB
+                      </span>
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </Collapse>
+        </div>,
+        "className": "p-filter",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <h4
+              className="p-filter__collapse-link collapsed"
+              onClick={[Function]}
+            >
+              Показать фильтры
+            </h4>,
+            <Collapse
+              appear={false}
+              className="p-filter__collapse"
+              enter={true}
+              exit={true}
+              in={false}
+              isOpen={false}
+              mountOnEnter={false}
+              onEnter={[Function]}
+              onEntered={[Function]}
+              onEntering={[Function]}
+              onExit={[Function]}
+              onExited={[Function]}
+              onExiting={[Function]}
+              tag="div"
+              timeout={350}
+              unmountOnExit={false}
+            >
+              <div
+                className="p-filter__list"
+              >
+                <div
+                  className="p-filter__item"
+                >
+                  <h5
+                    className="p-filter__i-title"
+                  >
+                    Размер накопителя
+                  </h5>
+                  <div
+                    className="p-filter__options"
+                  >
+                    <div
+                      className="checkbox"
+                    >
+                      <label>
+                        <input
+                          className="cb-input"
+                          defaultChecked={false}
+                          name="diskSize"
+                          onChange={[Function]}
+                          type="checkbox"
+                          value="2TB"
+                        />
+                        <span
+                          className="cb-icon"
+                        />
+                        <span>
+                          2TB
+                        </span>
+                      </label>
+                    </div>
+                    <div
+                      className="checkbox"
+                    >
+                      <label>
+                        <input
+                          className="cb-input"
+                          defaultChecked={false}
+                          name="diskSize"
+                          onChange={[Function]}
+                          type="checkbox"
+                          value="1TB"
+                        />
+                        <span
+                          className="cb-icon"
+                        />
+                        <span>
+                          1TB
+                        </span>
+                      </label>
+                    </div>
+                    <div
+                      className="checkbox"
+                    >
+                      <label>
+                        <input
+                          className="cb-input"
+                          defaultChecked={false}
+                          name="diskSize"
+                          onChange={[Function]}
+                          type="checkbox"
+                          value="512GB"
+                        />
+                        <span
+                          className="cb-icon"
+                        />
+                        <span>
+                          512GB
+                        </span>
+                      </label>
+                    </div>
+                    <div
+                      className="checkbox"
+                    >
+                      <label>
+                        <input
+                          className="cb-input"
+                          defaultChecked={false}
+                          name="diskSize"
+                          onChange={[Function]}
+                          type="checkbox"
+                          value="256GB"
+                        />
+                        <span
+                          className="cb-icon"
+                        />
+                        <span>
+                          256GB
+                        </span>
+                      </label>
+                    </div>
+                    <div
+                      className="checkbox"
+                    >
+                      <label>
+                        <input
+                          className="cb-input"
+                          defaultChecked={false}
+                          name="diskSize"
+                          onChange={[Function]}
+                          type="checkbox"
+                          value="128GB"
+                        />
+                        <span
+                          className="cb-icon"
+                        />
+                        <span>
+                          128GB
+                        </span>
+                      </label>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  className="p-filter__item"
+                >
+                  <h5
+                    className="p-filter__i-title"
+                  >
+                    Оперативная память
+                  </h5>
+                  <div
+                    className="p-filter__options"
+                  >
+                    <div
+                      className="checkbox"
+                    >
+                      <label>
+                        <input
+                          className="cb-input"
+                          defaultChecked={false}
+                          name="coreMem"
+                          onChange={[Function]}
+                          type="checkbox"
+                          value="32GB"
+                        />
+                        <span
+                          className="cb-icon"
+                        />
+                        <span>
+                          32GB
+                        </span>
+                      </label>
+                    </div>
+                    <div
+                      className="checkbox"
+                    >
+                      <label>
+                        <input
+                          className="cb-input"
+                          defaultChecked={false}
+                          name="coreMem"
+                          onChange={[Function]}
+                          type="checkbox"
+                          value="16GB"
+                        />
+                        <span
+                          className="cb-icon"
+                        />
+                        <span>
+                          16GB
+                        </span>
+                      </label>
+                    </div>
+                    <div
+                      className="checkbox"
+                    >
+                      <label>
+                        <input
+                          className="cb-input"
+                          defaultChecked={false}
+                          name="coreMem"
+                          onChange={[Function]}
+                          type="checkbox"
+                          value="8GB"
+                        />
+                        <span
+                          className="cb-icon"
+                        />
+                        <span>
+                          8GB
+                        </span>
+                      </label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </Collapse>,
+          ],
+          "className": "p-filter__inner",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Показать фильтры",
+              "className": "p-filter__collapse-link collapsed",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": "Показать фильтры",
+            "type": "h4",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "appear": false,
+              "children": <div
+                className="p-filter__list"
+              >
+                <div
+                  className="p-filter__item"
+                >
+                  <h5
+                    className="p-filter__i-title"
+                  >
+                    Размер накопителя
+                  </h5>
+                  <div
+                    className="p-filter__options"
+                  >
+                    <div
+                      className="checkbox"
+                    >
+                      <label>
+                        <input
+                          className="cb-input"
+                          defaultChecked={false}
+                          name="diskSize"
+                          onChange={[Function]}
+                          type="checkbox"
+                          value="2TB"
+                        />
+                        <span
+                          className="cb-icon"
+                        />
+                        <span>
+                          2TB
+                        </span>
+                      </label>
+                    </div>
+                    <div
+                      className="checkbox"
+                    >
+                      <label>
+                        <input
+                          className="cb-input"
+                          defaultChecked={false}
+                          name="diskSize"
+                          onChange={[Function]}
+                          type="checkbox"
+                          value="1TB"
+                        />
+                        <span
+                          className="cb-icon"
+                        />
+                        <span>
+                          1TB
+                        </span>
+                      </label>
+                    </div>
+                    <div
+                      className="checkbox"
+                    >
+                      <label>
+                        <input
+                          className="cb-input"
+                          defaultChecked={false}
+                          name="diskSize"
+                          onChange={[Function]}
+                          type="checkbox"
+                          value="512GB"
+                        />
+                        <span
+                          className="cb-icon"
+                        />
+                        <span>
+                          512GB
+                        </span>
+                      </label>
+                    </div>
+                    <div
+                      className="checkbox"
+                    >
+                      <label>
+                        <input
+                          className="cb-input"
+                          defaultChecked={false}
+                          name="diskSize"
+                          onChange={[Function]}
+                          type="checkbox"
+                          value="256GB"
+                        />
+                        <span
+                          className="cb-icon"
+                        />
+                        <span>
+                          256GB
+                        </span>
+                      </label>
+                    </div>
+                    <div
+                      className="checkbox"
+                    >
+                      <label>
+                        <input
+                          className="cb-input"
+                          defaultChecked={false}
+                          name="diskSize"
+                          onChange={[Function]}
+                          type="checkbox"
+                          value="128GB"
+                        />
+                        <span
+                          className="cb-icon"
+                        />
+                        <span>
+                          128GB
+                        </span>
+                      </label>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  className="p-filter__item"
+                >
+                  <h5
+                    className="p-filter__i-title"
+                  >
+                    Оперативная память
+                  </h5>
+                  <div
+                    className="p-filter__options"
+                  >
+                    <div
+                      className="checkbox"
+                    >
+                      <label>
+                        <input
+                          className="cb-input"
+                          defaultChecked={false}
+                          name="coreMem"
+                          onChange={[Function]}
+                          type="checkbox"
+                          value="32GB"
+                        />
+                        <span
+                          className="cb-icon"
+                        />
+                        <span>
+                          32GB
+                        </span>
+                      </label>
+                    </div>
+                    <div
+                      className="checkbox"
+                    >
+                      <label>
+                        <input
+                          className="cb-input"
+                          defaultChecked={false}
+                          name="coreMem"
+                          onChange={[Function]}
+                          type="checkbox"
+                          value="16GB"
+                        />
+                        <span
+                          className="cb-icon"
+                        />
+                        <span>
+                          16GB
+                        </span>
+                      </label>
+                    </div>
+                    <div
+                      className="checkbox"
+                    >
+                      <label>
+                        <input
+                          className="cb-input"
+                          defaultChecked={false}
+                          name="coreMem"
+                          onChange={[Function]}
+                          type="checkbox"
+                          value="8GB"
+                        />
+                        <span
+                          className="cb-icon"
+                        />
+                        <span>
+                          8GB
+                        </span>
+                      </label>
+                    </div>
+                  </div>
+                </div>
+              </div>,
+              "className": "p-filter__collapse",
+              "enter": true,
+              "exit": true,
+              "in": false,
+              "isOpen": false,
+              "mountOnEnter": false,
+              "onEnter": [Function],
+              "onEntered": [Function],
+              "onEntering": [Function],
+              "onExit": [Function],
+              "onExited": [Function],
+              "onExiting": [Function],
+              "tag": "div",
+              "timeout": 350,
+              "unmountOnExit": false,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <div
+                    className="p-filter__item"
+                  >
+                    <h5
+                      className="p-filter__i-title"
+                    >
+                      Размер накопителя
+                    </h5>
+                    <div
+                      className="p-filter__options"
+                    >
+                      <div
+                        className="checkbox"
+                      >
+                        <label>
+                          <input
+                            className="cb-input"
+                            defaultChecked={false}
+                            name="diskSize"
+                            onChange={[Function]}
+                            type="checkbox"
+                            value="2TB"
+                          />
+                          <span
+                            className="cb-icon"
+                          />
+                          <span>
+                            2TB
+                          </span>
+                        </label>
+                      </div>
+                      <div
+                        className="checkbox"
+                      >
+                        <label>
+                          <input
+                            className="cb-input"
+                            defaultChecked={false}
+                            name="diskSize"
+                            onChange={[Function]}
+                            type="checkbox"
+                            value="1TB"
+                          />
+                          <span
+                            className="cb-icon"
+                          />
+                          <span>
+                            1TB
+                          </span>
+                        </label>
+                      </div>
+                      <div
+                        className="checkbox"
+                      >
+                        <label>
+                          <input
+                            className="cb-input"
+                            defaultChecked={false}
+                            name="diskSize"
+                            onChange={[Function]}
+                            type="checkbox"
+                            value="512GB"
+                          />
+                          <span
+                            className="cb-icon"
+                          />
+                          <span>
+                            512GB
+                          </span>
+                        </label>
+                      </div>
+                      <div
+                        className="checkbox"
+                      >
+                        <label>
+                          <input
+                            className="cb-input"
+                            defaultChecked={false}
+                            name="diskSize"
+                            onChange={[Function]}
+                            type="checkbox"
+                            value="256GB"
+                          />
+                          <span
+                            className="cb-icon"
+                          />
+                          <span>
+                            256GB
+                          </span>
+                        </label>
+                      </div>
+                      <div
+                        className="checkbox"
+                      >
+                        <label>
+                          <input
+                            className="cb-input"
+                            defaultChecked={false}
+                            name="diskSize"
+                            onChange={[Function]}
+                            type="checkbox"
+                            value="128GB"
+                          />
+                          <span
+                            className="cb-icon"
+                          />
+                          <span>
+                            128GB
+                          </span>
+                        </label>
+                      </div>
+                    </div>
+                  </div>,
+                  <div
+                    className="p-filter__item"
+                  >
+                    <h5
+                      className="p-filter__i-title"
+                    >
+                      Оперативная память
+                    </h5>
+                    <div
+                      className="p-filter__options"
+                    >
+                      <div
+                        className="checkbox"
+                      >
+                        <label>
+                          <input
+                            className="cb-input"
+                            defaultChecked={false}
+                            name="coreMem"
+                            onChange={[Function]}
+                            type="checkbox"
+                            value="32GB"
+                          />
+                          <span
+                            className="cb-icon"
+                          />
+                          <span>
+                            32GB
+                          </span>
+                        </label>
+                      </div>
+                      <div
+                        className="checkbox"
+                      >
+                        <label>
+                          <input
+                            className="cb-input"
+                            defaultChecked={false}
+                            name="coreMem"
+                            onChange={[Function]}
+                            type="checkbox"
+                            value="16GB"
+                          />
+                          <span
+                            className="cb-icon"
+                          />
+                          <span>
+                            16GB
+                          </span>
+                        </label>
+                      </div>
+                      <div
+                        className="checkbox"
+                      >
+                        <label>
+                          <input
+                            className="cb-input"
+                            defaultChecked={false}
+                            name="coreMem"
+                            onChange={[Function]}
+                            type="checkbox"
+                            value="8GB"
+                          />
+                          <span
+                            className="cb-icon"
+                          />
+                          <span>
+                            8GB
+                          </span>
+                        </label>
+                      </div>
+                    </div>
+                  </div>,
+                ],
+                "className": "p-filter__list",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": "diskSize",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <h5
+                        className="p-filter__i-title"
+                      >
+                        Размер накопителя
+                      </h5>,
+                      <div
+                        className="p-filter__options"
+                      >
+                        <div
+                          className="checkbox"
+                        >
+                          <label>
+                            <input
+                              className="cb-input"
+                              defaultChecked={false}
+                              name="diskSize"
+                              onChange={[Function]}
+                              type="checkbox"
+                              value="2TB"
+                            />
+                            <span
+                              className="cb-icon"
+                            />
+                            <span>
+                              2TB
+                            </span>
+                          </label>
+                        </div>
+                        <div
+                          className="checkbox"
+                        >
+                          <label>
+                            <input
+                              className="cb-input"
+                              defaultChecked={false}
+                              name="diskSize"
+                              onChange={[Function]}
+                              type="checkbox"
+                              value="1TB"
+                            />
+                            <span
+                              className="cb-icon"
+                            />
+                            <span>
+                              1TB
+                            </span>
+                          </label>
+                        </div>
+                        <div
+                          className="checkbox"
+                        >
+                          <label>
+                            <input
+                              className="cb-input"
+                              defaultChecked={false}
+                              name="diskSize"
+                              onChange={[Function]}
+                              type="checkbox"
+                              value="512GB"
+                            />
+                            <span
+                              className="cb-icon"
+                            />
+                            <span>
+                              512GB
+                            </span>
+                          </label>
+                        </div>
+                        <div
+                          className="checkbox"
+                        >
+                          <label>
+                            <input
+                              className="cb-input"
+                              defaultChecked={false}
+                              name="diskSize"
+                              onChange={[Function]}
+                              type="checkbox"
+                              value="256GB"
+                            />
+                            <span
+                              className="cb-icon"
+                            />
+                            <span>
+                              256GB
+                            </span>
+                          </label>
+                        </div>
+                        <div
+                          className="checkbox"
+                        >
+                          <label>
+                            <input
+                              className="cb-input"
+                              defaultChecked={false}
+                              name="diskSize"
+                              onChange={[Function]}
+                              type="checkbox"
+                              value="128GB"
+                            />
+                            <span
+                              className="cb-icon"
+                            />
+                            <span>
+                              128GB
+                            </span>
+                          </label>
+                        </div>
+                      </div>,
+                    ],
+                    "className": "p-filter__item",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Размер накопителя",
+                        "className": "p-filter__i-title",
+                      },
+                      "ref": null,
+                      "rendered": "Размер накопителя",
+                      "type": "h5",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          <div
+                            className="checkbox"
+                          >
+                            <label>
+                              <input
+                                className="cb-input"
+                                defaultChecked={false}
+                                name="diskSize"
+                                onChange={[Function]}
+                                type="checkbox"
+                                value="2TB"
+                              />
+                              <span
+                                className="cb-icon"
+                              />
+                              <span>
+                                2TB
+                              </span>
+                            </label>
+                          </div>,
+                          <div
+                            className="checkbox"
+                          >
+                            <label>
+                              <input
+                                className="cb-input"
+                                defaultChecked={false}
+                                name="diskSize"
+                                onChange={[Function]}
+                                type="checkbox"
+                                value="1TB"
+                              />
+                              <span
+                                className="cb-icon"
+                              />
+                              <span>
+                                1TB
+                              </span>
+                            </label>
+                          </div>,
+                          <div
+                            className="checkbox"
+                          >
+                            <label>
+                              <input
+                                className="cb-input"
+                                defaultChecked={false}
+                                name="diskSize"
+                                onChange={[Function]}
+                                type="checkbox"
+                                value="512GB"
+                              />
+                              <span
+                                className="cb-icon"
+                              />
+                              <span>
+                                512GB
+                              </span>
+                            </label>
+                          </div>,
+                          <div
+                            className="checkbox"
+                          >
+                            <label>
+                              <input
+                                className="cb-input"
+                                defaultChecked={false}
+                                name="diskSize"
+                                onChange={[Function]}
+                                type="checkbox"
+                                value="256GB"
+                              />
+                              <span
+                                className="cb-icon"
+                              />
+                              <span>
+                                256GB
+                              </span>
+                            </label>
+                          </div>,
+                          <div
+                            className="checkbox"
+                          >
+                            <label>
+                              <input
+                                className="cb-input"
+                                defaultChecked={false}
+                                name="diskSize"
+                                onChange={[Function]}
+                                type="checkbox"
+                                value="128GB"
+                              />
+                              <span
+                                className="cb-icon"
+                              />
+                              <span>
+                                128GB
+                              </span>
+                            </label>
+                          </div>,
+                        ],
+                        "className": "p-filter__options",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": "2TB",
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": <label>
+                              <input
+                                className="cb-input"
+                                defaultChecked={false}
+                                name="diskSize"
+                                onChange={[Function]}
+                                type="checkbox"
+                                value="2TB"
+                              />
+                              <span
+                                className="cb-icon"
+                              />
+                              <span>
+                                2TB
+                              </span>
+                            </label>,
+                            "className": "checkbox",
+                          },
+                          "ref": null,
+                          "rendered": Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": Array [
+                                <input
+                                  className="cb-input"
+                                  defaultChecked={false}
+                                  name="diskSize"
+                                  onChange={[Function]}
+                                  type="checkbox"
+                                  value="2TB"
+                                />,
+                                <span
+                                  className="cb-icon"
+                                />,
+                                <span>
+                                  2TB
+                                </span>,
+                              ],
+                            },
+                            "ref": null,
+                            "rendered": Array [
+                              Object {
+                                "instance": null,
+                                "key": undefined,
+                                "nodeType": "host",
+                                "props": Object {
+                                  "className": "cb-input",
+                                  "defaultChecked": false,
+                                  "name": "diskSize",
+                                  "onChange": [Function],
+                                  "type": "checkbox",
+                                  "value": "2TB",
+                                },
+                                "ref": null,
+                                "rendered": null,
+                                "type": "input",
+                              },
+                              Object {
+                                "instance": null,
+                                "key": undefined,
+                                "nodeType": "host",
+                                "props": Object {
+                                  "className": "cb-icon",
+                                },
+                                "ref": null,
+                                "rendered": null,
+                                "type": "span",
+                              },
+                              Object {
+                                "instance": null,
+                                "key": undefined,
+                                "nodeType": "host",
+                                "props": Object {
+                                  "children": "2TB",
+                                },
+                                "ref": null,
+                                "rendered": "2TB",
+                                "type": "span",
+                              },
+                            ],
+                            "type": "label",
+                          },
+                          "type": "div",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": "1TB",
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": <label>
+                              <input
+                                className="cb-input"
+                                defaultChecked={false}
+                                name="diskSize"
+                                onChange={[Function]}
+                                type="checkbox"
+                                value="1TB"
+                              />
+                              <span
+                                className="cb-icon"
+                              />
+                              <span>
+                                1TB
+                              </span>
+                            </label>,
+                            "className": "checkbox",
+                          },
+                          "ref": null,
+                          "rendered": Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": Array [
+                                <input
+                                  className="cb-input"
+                                  defaultChecked={false}
+                                  name="diskSize"
+                                  onChange={[Function]}
+                                  type="checkbox"
+                                  value="1TB"
+                                />,
+                                <span
+                                  className="cb-icon"
+                                />,
+                                <span>
+                                  1TB
+                                </span>,
+                              ],
+                            },
+                            "ref": null,
+                            "rendered": Array [
+                              Object {
+                                "instance": null,
+                                "key": undefined,
+                                "nodeType": "host",
+                                "props": Object {
+                                  "className": "cb-input",
+                                  "defaultChecked": false,
+                                  "name": "diskSize",
+                                  "onChange": [Function],
+                                  "type": "checkbox",
+                                  "value": "1TB",
+                                },
+                                "ref": null,
+                                "rendered": null,
+                                "type": "input",
+                              },
+                              Object {
+                                "instance": null,
+                                "key": undefined,
+                                "nodeType": "host",
+                                "props": Object {
+                                  "className": "cb-icon",
+                                },
+                                "ref": null,
+                                "rendered": null,
+                                "type": "span",
+                              },
+                              Object {
+                                "instance": null,
+                                "key": undefined,
+                                "nodeType": "host",
+                                "props": Object {
+                                  "children": "1TB",
+                                },
+                                "ref": null,
+                                "rendered": "1TB",
+                                "type": "span",
+                              },
+                            ],
+                            "type": "label",
+                          },
+                          "type": "div",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": "512GB",
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": <label>
+                              <input
+                                className="cb-input"
+                                defaultChecked={false}
+                                name="diskSize"
+                                onChange={[Function]}
+                                type="checkbox"
+                                value="512GB"
+                              />
+                              <span
+                                className="cb-icon"
+                              />
+                              <span>
+                                512GB
+                              </span>
+                            </label>,
+                            "className": "checkbox",
+                          },
+                          "ref": null,
+                          "rendered": Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": Array [
+                                <input
+                                  className="cb-input"
+                                  defaultChecked={false}
+                                  name="diskSize"
+                                  onChange={[Function]}
+                                  type="checkbox"
+                                  value="512GB"
+                                />,
+                                <span
+                                  className="cb-icon"
+                                />,
+                                <span>
+                                  512GB
+                                </span>,
+                              ],
+                            },
+                            "ref": null,
+                            "rendered": Array [
+                              Object {
+                                "instance": null,
+                                "key": undefined,
+                                "nodeType": "host",
+                                "props": Object {
+                                  "className": "cb-input",
+                                  "defaultChecked": false,
+                                  "name": "diskSize",
+                                  "onChange": [Function],
+                                  "type": "checkbox",
+                                  "value": "512GB",
+                                },
+                                "ref": null,
+                                "rendered": null,
+                                "type": "input",
+                              },
+                              Object {
+                                "instance": null,
+                                "key": undefined,
+                                "nodeType": "host",
+                                "props": Object {
+                                  "className": "cb-icon",
+                                },
+                                "ref": null,
+                                "rendered": null,
+                                "type": "span",
+                              },
+                              Object {
+                                "instance": null,
+                                "key": undefined,
+                                "nodeType": "host",
+                                "props": Object {
+                                  "children": "512GB",
+                                },
+                                "ref": null,
+                                "rendered": "512GB",
+                                "type": "span",
+                              },
+                            ],
+                            "type": "label",
+                          },
+                          "type": "div",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": "256GB",
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": <label>
+                              <input
+                                className="cb-input"
+                                defaultChecked={false}
+                                name="diskSize"
+                                onChange={[Function]}
+                                type="checkbox"
+                                value="256GB"
+                              />
+                              <span
+                                className="cb-icon"
+                              />
+                              <span>
+                                256GB
+                              </span>
+                            </label>,
+                            "className": "checkbox",
+                          },
+                          "ref": null,
+                          "rendered": Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": Array [
+                                <input
+                                  className="cb-input"
+                                  defaultChecked={false}
+                                  name="diskSize"
+                                  onChange={[Function]}
+                                  type="checkbox"
+                                  value="256GB"
+                                />,
+                                <span
+                                  className="cb-icon"
+                                />,
+                                <span>
+                                  256GB
+                                </span>,
+                              ],
+                            },
+                            "ref": null,
+                            "rendered": Array [
+                              Object {
+                                "instance": null,
+                                "key": undefined,
+                                "nodeType": "host",
+                                "props": Object {
+                                  "className": "cb-input",
+                                  "defaultChecked": false,
+                                  "name": "diskSize",
+                                  "onChange": [Function],
+                                  "type": "checkbox",
+                                  "value": "256GB",
+                                },
+                                "ref": null,
+                                "rendered": null,
+                                "type": "input",
+                              },
+                              Object {
+                                "instance": null,
+                                "key": undefined,
+                                "nodeType": "host",
+                                "props": Object {
+                                  "className": "cb-icon",
+                                },
+                                "ref": null,
+                                "rendered": null,
+                                "type": "span",
+                              },
+                              Object {
+                                "instance": null,
+                                "key": undefined,
+                                "nodeType": "host",
+                                "props": Object {
+                                  "children": "256GB",
+                                },
+                                "ref": null,
+                                "rendered": "256GB",
+                                "type": "span",
+                              },
+                            ],
+                            "type": "label",
+                          },
+                          "type": "div",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": "128GB",
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": <label>
+                              <input
+                                className="cb-input"
+                                defaultChecked={false}
+                                name="diskSize"
+                                onChange={[Function]}
+                                type="checkbox"
+                                value="128GB"
+                              />
+                              <span
+                                className="cb-icon"
+                              />
+                              <span>
+                                128GB
+                              </span>
+                            </label>,
+                            "className": "checkbox",
+                          },
+                          "ref": null,
+                          "rendered": Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": Array [
+                                <input
+                                  className="cb-input"
+                                  defaultChecked={false}
+                                  name="diskSize"
+                                  onChange={[Function]}
+                                  type="checkbox"
+                                  value="128GB"
+                                />,
+                                <span
+                                  className="cb-icon"
+                                />,
+                                <span>
+                                  128GB
+                                </span>,
+                              ],
+                            },
+                            "ref": null,
+                            "rendered": Array [
+                              Object {
+                                "instance": null,
+                                "key": undefined,
+                                "nodeType": "host",
+                                "props": Object {
+                                  "className": "cb-input",
+                                  "defaultChecked": false,
+                                  "name": "diskSize",
+                                  "onChange": [Function],
+                                  "type": "checkbox",
+                                  "value": "128GB",
+                                },
+                                "ref": null,
+                                "rendered": null,
+                                "type": "input",
+                              },
+                              Object {
+                                "instance": null,
+                                "key": undefined,
+                                "nodeType": "host",
+                                "props": Object {
+                                  "className": "cb-icon",
+                                },
+                                "ref": null,
+                                "rendered": null,
+                                "type": "span",
+                              },
+                              Object {
+                                "instance": null,
+                                "key": undefined,
+                                "nodeType": "host",
+                                "props": Object {
+                                  "children": "128GB",
+                                },
+                                "ref": null,
+                                "rendered": "128GB",
+                                "type": "span",
+                              },
+                            ],
+                            "type": "label",
+                          },
+                          "type": "div",
+                        },
+                      ],
+                      "type": "div",
+                    },
+                  ],
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": "coreMem",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <h5
+                        className="p-filter__i-title"
+                      >
+                        Оперативная память
+                      </h5>,
+                      <div
+                        className="p-filter__options"
+                      >
+                        <div
+                          className="checkbox"
+                        >
+                          <label>
+                            <input
+                              className="cb-input"
+                              defaultChecked={false}
+                              name="coreMem"
+                              onChange={[Function]}
+                              type="checkbox"
+                              value="32GB"
+                            />
+                            <span
+                              className="cb-icon"
+                            />
+                            <span>
+                              32GB
+                            </span>
+                          </label>
+                        </div>
+                        <div
+                          className="checkbox"
+                        >
+                          <label>
+                            <input
+                              className="cb-input"
+                              defaultChecked={false}
+                              name="coreMem"
+                              onChange={[Function]}
+                              type="checkbox"
+                              value="16GB"
+                            />
+                            <span
+                              className="cb-icon"
+                            />
+                            <span>
+                              16GB
+                            </span>
+                          </label>
+                        </div>
+                        <div
+                          className="checkbox"
+                        >
+                          <label>
+                            <input
+                              className="cb-input"
+                              defaultChecked={false}
+                              name="coreMem"
+                              onChange={[Function]}
+                              type="checkbox"
+                              value="8GB"
+                            />
+                            <span
+                              className="cb-icon"
+                            />
+                            <span>
+                              8GB
+                            </span>
+                          </label>
+                        </div>
+                      </div>,
+                    ],
+                    "className": "p-filter__item",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Оперативная память",
+                        "className": "p-filter__i-title",
+                      },
+                      "ref": null,
+                      "rendered": "Оперативная память",
+                      "type": "h5",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          <div
+                            className="checkbox"
+                          >
+                            <label>
+                              <input
+                                className="cb-input"
+                                defaultChecked={false}
+                                name="coreMem"
+                                onChange={[Function]}
+                                type="checkbox"
+                                value="32GB"
+                              />
+                              <span
+                                className="cb-icon"
+                              />
+                              <span>
+                                32GB
+                              </span>
+                            </label>
+                          </div>,
+                          <div
+                            className="checkbox"
+                          >
+                            <label>
+                              <input
+                                className="cb-input"
+                                defaultChecked={false}
+                                name="coreMem"
+                                onChange={[Function]}
+                                type="checkbox"
+                                value="16GB"
+                              />
+                              <span
+                                className="cb-icon"
+                              />
+                              <span>
+                                16GB
+                              </span>
+                            </label>
+                          </div>,
+                          <div
+                            className="checkbox"
+                          >
+                            <label>
+                              <input
+                                className="cb-input"
+                                defaultChecked={false}
+                                name="coreMem"
+                                onChange={[Function]}
+                                type="checkbox"
+                                value="8GB"
+                              />
+                              <span
+                                className="cb-icon"
+                              />
+                              <span>
+                                8GB
+                              </span>
+                            </label>
+                          </div>,
+                        ],
+                        "className": "p-filter__options",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": "32GB",
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": <label>
+                              <input
+                                className="cb-input"
+                                defaultChecked={false}
+                                name="coreMem"
+                                onChange={[Function]}
+                                type="checkbox"
+                                value="32GB"
+                              />
+                              <span
+                                className="cb-icon"
+                              />
+                              <span>
+                                32GB
+                              </span>
+                            </label>,
+                            "className": "checkbox",
+                          },
+                          "ref": null,
+                          "rendered": Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": Array [
+                                <input
+                                  className="cb-input"
+                                  defaultChecked={false}
+                                  name="coreMem"
+                                  onChange={[Function]}
+                                  type="checkbox"
+                                  value="32GB"
+                                />,
+                                <span
+                                  className="cb-icon"
+                                />,
+                                <span>
+                                  32GB
+                                </span>,
+                              ],
+                            },
+                            "ref": null,
+                            "rendered": Array [
+                              Object {
+                                "instance": null,
+                                "key": undefined,
+                                "nodeType": "host",
+                                "props": Object {
+                                  "className": "cb-input",
+                                  "defaultChecked": false,
+                                  "name": "coreMem",
+                                  "onChange": [Function],
+                                  "type": "checkbox",
+                                  "value": "32GB",
+                                },
+                                "ref": null,
+                                "rendered": null,
+                                "type": "input",
+                              },
+                              Object {
+                                "instance": null,
+                                "key": undefined,
+                                "nodeType": "host",
+                                "props": Object {
+                                  "className": "cb-icon",
+                                },
+                                "ref": null,
+                                "rendered": null,
+                                "type": "span",
+                              },
+                              Object {
+                                "instance": null,
+                                "key": undefined,
+                                "nodeType": "host",
+                                "props": Object {
+                                  "children": "32GB",
+                                },
+                                "ref": null,
+                                "rendered": "32GB",
+                                "type": "span",
+                              },
+                            ],
+                            "type": "label",
+                          },
+                          "type": "div",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": "16GB",
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": <label>
+                              <input
+                                className="cb-input"
+                                defaultChecked={false}
+                                name="coreMem"
+                                onChange={[Function]}
+                                type="checkbox"
+                                value="16GB"
+                              />
+                              <span
+                                className="cb-icon"
+                              />
+                              <span>
+                                16GB
+                              </span>
+                            </label>,
+                            "className": "checkbox",
+                          },
+                          "ref": null,
+                          "rendered": Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": Array [
+                                <input
+                                  className="cb-input"
+                                  defaultChecked={false}
+                                  name="coreMem"
+                                  onChange={[Function]}
+                                  type="checkbox"
+                                  value="16GB"
+                                />,
+                                <span
+                                  className="cb-icon"
+                                />,
+                                <span>
+                                  16GB
+                                </span>,
+                              ],
+                            },
+                            "ref": null,
+                            "rendered": Array [
+                              Object {
+                                "instance": null,
+                                "key": undefined,
+                                "nodeType": "host",
+                                "props": Object {
+                                  "className": "cb-input",
+                                  "defaultChecked": false,
+                                  "name": "coreMem",
+                                  "onChange": [Function],
+                                  "type": "checkbox",
+                                  "value": "16GB",
+                                },
+                                "ref": null,
+                                "rendered": null,
+                                "type": "input",
+                              },
+                              Object {
+                                "instance": null,
+                                "key": undefined,
+                                "nodeType": "host",
+                                "props": Object {
+                                  "className": "cb-icon",
+                                },
+                                "ref": null,
+                                "rendered": null,
+                                "type": "span",
+                              },
+                              Object {
+                                "instance": null,
+                                "key": undefined,
+                                "nodeType": "host",
+                                "props": Object {
+                                  "children": "16GB",
+                                },
+                                "ref": null,
+                                "rendered": "16GB",
+                                "type": "span",
+                              },
+                            ],
+                            "type": "label",
+                          },
+                          "type": "div",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": "8GB",
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": <label>
+                              <input
+                                className="cb-input"
+                                defaultChecked={false}
+                                name="coreMem"
+                                onChange={[Function]}
+                                type="checkbox"
+                                value="8GB"
+                              />
+                              <span
+                                className="cb-icon"
+                              />
+                              <span>
+                                8GB
+                              </span>
+                            </label>,
+                            "className": "checkbox",
+                          },
+                          "ref": null,
+                          "rendered": Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": Array [
+                                <input
+                                  className="cb-input"
+                                  defaultChecked={false}
+                                  name="coreMem"
+                                  onChange={[Function]}
+                                  type="checkbox"
+                                  value="8GB"
+                                />,
+                                <span
+                                  className="cb-icon"
+                                />,
+                                <span>
+                                  8GB
+                                </span>,
+                              ],
+                            },
+                            "ref": null,
+                            "rendered": Array [
+                              Object {
+                                "instance": null,
+                                "key": undefined,
+                                "nodeType": "host",
+                                "props": Object {
+                                  "className": "cb-input",
+                                  "defaultChecked": false,
+                                  "name": "coreMem",
+                                  "onChange": [Function],
+                                  "type": "checkbox",
+                                  "value": "8GB",
+                                },
+                                "ref": null,
+                                "rendered": null,
+                                "type": "input",
+                              },
+                              Object {
+                                "instance": null,
+                                "key": undefined,
+                                "nodeType": "host",
+                                "props": Object {
+                                  "className": "cb-icon",
+                                },
+                                "ref": null,
+                                "rendered": null,
+                                "type": "span",
+                              },
+                              Object {
+                                "instance": null,
+                                "key": undefined,
+                                "nodeType": "host",
+                                "props": Object {
+                                  "children": "8GB",
+                                },
+                                "ref": null,
+                                "rendered": "8GB",
+                                "type": "span",
+                              },
+                            ],
+                            "type": "label",
+                          },
+                          "type": "div",
+                        },
+                      ],
+                      "type": "div",
+                    },
+                  ],
+                  "type": "div",
+                },
+              ],
+              "type": "div",
+            },
+            "type": [Function],
+          },
+        ],
+        "type": "div",
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

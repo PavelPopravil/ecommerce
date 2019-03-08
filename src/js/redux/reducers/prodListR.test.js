@@ -9,6 +9,8 @@ import {
   SET_ACTIVE_CATALOG
 } from '../actions/prodListA'
 
+import {FETCH_PRODUCT_SUCCESS} from '../actions/productA';
+
 describe('Prod-list Reducers tests', () => {
 
   it('SET_ACTIVE_CATALOG', () => {
@@ -44,6 +46,31 @@ describe('Prod-list Reducers tests', () => {
         isLoading: true
       }
     })
+  });
+
+  it('FETCH_PRODUCT_SUCCESS', () => {
+
+    const state = {...initialState};
+
+    const action = {
+      type: FETCH_PRODUCT_SUCCESS,
+      payload: {
+        product: {id: 2, catalogPath: 'mac'}
+      }
+    };
+
+    const product = action.payload.product;
+
+    expect(prodListR(state, action)).toEqual({
+      ...state,
+      [product.catalogPath]: {
+        ...state[product.catalogPath],
+        byId: {
+         2: product
+        },
+        ids: [2]
+      }
+    });
   });
 
   it('FETCH_PRODLIST_SUCCESS', () => {
