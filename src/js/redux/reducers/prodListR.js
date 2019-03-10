@@ -61,6 +61,7 @@ export const prodListR = (state = initialState, action) => {
       };
     case FETCH_PRODUCT_SUCCESS:
       const product = action.payload.product;
+      const ids = state[product.catalogPath].ids.includes(product.id) ? state[product.catalogPath].ids : [...state[product.catalogPath].ids, product.id];
       return {
         ...state,
         [product.catalogPath]: {
@@ -69,7 +70,7 @@ export const prodListR = (state = initialState, action) => {
             ...state[product.catalogPath].byId,
             [product.id]: product
           },
-          ids: [...state[product.catalogPath].ids, product.id]
+          ids: ids
         }
       };
     case FETCH_PRODLIST_FAILURE:
